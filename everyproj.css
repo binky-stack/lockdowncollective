@@ -73,7 +73,7 @@ color: #29346F;
 }
 
 h4{
-  position: absolute;
+position: absolute;
 width: 810px;
 height: 50px;
 left: 90px;
@@ -98,7 +98,7 @@ position: absolute;
 width: 564px;
 height: 319px;
 left: 95px;
-top: 690px;
+top: 670px;
 border: 2px solid #BE4144;
 box-sizing: border-box;
 }
@@ -120,6 +120,9 @@ letter-spacing: 0.05em;
 color: #29346F;
 }
 
+p a{
+color: #BE4144;
+}
 
 #secondside {
   position: absolute;
@@ -169,4 +172,33 @@ h6{
   font-size: 20pt;
   color:#29346F;
 
+}
+
+#page{
+ 
+  width: 50%;
+}
+#pageone{
+
+  width: 50%;
+}
+
+#pagetwo{
+
+  width: 50%;
+}
+
+#pagethree{
+
+  width: 50%;
+}
+
+#pagefour{
+ 
+  width: 50%;
+}
+
+#pagefive{
+
+  width: 50%;
 }
