@@ -1,0 +1,523 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+header,body {
+  background: #FFE3DD;
+  width: 1440px;
+  height: 4696px;
+  position: relative;
+}
+
+
+#side
+{
+width: 238px;
+height: 97.77px;
+margin-left: 90px;
+margin-top: 50px;
+
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 900;
+font-size: 31.0389px;
+line-height: 109.9%;
+/* or 34px */
+
+letter-spacing: 0.1em;
+
+color: #29346F;
+}
+
+.main-nav
+{
+  position: fixed;
+  list-style: none;
+  top:0px;
+  width: 100%;
+
+}
+
+.main-nav ul
+{
+float: right;
+right: 52;
+left: 748;
+margin-top: -130px;
+}
+
+.main-nav ul li{
+  display: inline-block;
+  padding: 200px 34px;
+  letter-spacing: 0.1em;
+  
+
+}
+
+.main-nav ul li a
+{
+  color: #29346F;
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  font-size:25px;
+  
+}
+
+
+h2{
+position: absolute;
+width: 989px;
+height: 61px;
+left: 90px;
+top: 218px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 60px;
+line-height: 73px;
+letter-spacing: 0.05em;
+
+color: #29346F;
+}
+
+h4{
+position: absolute;
+width: 1118px;
+height: 131px;
+left: 90px;
+top: 300px;
+
+font-family: "Sentinel"
+font-style: normal;
+font-weight: 325;
+font-size: 15px;
+line-height: 30px;
+letter-spacing: 0.05em;
+
+color: #29346F;
+}
+
+h6
+{
+  position: absolute;
+width: 123px;
+height: 30px;
+left: 1164px;
+top: 537px;
+
+font-family: Sentinel;
+font-style: normal;
+font-weight: 375;
+font-size: 25px;
+line-height: 30px;
+/* identical to box height */
+
+letter-spacing: 0.05em;
+
+color: #FF48F8;
+}
+
+
+
+
+
+
+
+
+.bev h3
+{
+position: absolute;
+width: 502px;
+height:50px;
+left: 90px;
+top: 527px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 45px;
+line-height: 10px;
+/* identical to box height, or 49px */
+
+
+color: #29346F;
+}
+
+#ab{
+position: absolute;
+width: 1089px;
+height: 492px;
+left: 351px;
+top: 601px;
+border: 2px solid #FF48F8;
+box-sizing: border-box;
+
+}
+#ac{
+position: absolute;
+width: 351px;
+height: 492px;
+left: 0px;
+top: 601px;
+}
+
+.dan h3{
+  position: absolute;
+width: 502px;
+height: 50px;
+left: 90px;
+top: 1173px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 45px;
+line-height: 109.9%;
+/* identical to box height, or 49px */
+
+
+color: #29346F;
+}
+
+#face2{
+position: absolute;
+width: 351px;
+height: 492px;
+left: 0px;
+top: 1247px;
+}
+
+#work2{
+position: absolute;
+width: 1089px;
+height: 492px;
+left: 351px;
+top: 1247px;
+
+background: url(image.png);
+border: 2px solid #FF48F8;
+box-sizing: border-box;
+}
+
+.dan h6{
+position: absolute;
+width: 123px;
+height: 30px;
+left: 1164px;
+top: 1183px;
+
+font-family: Sentinel;
+font-style: normal;
+font-weight: 375;
+font-size: 25px;
+line-height: 30px;
+/* identical to box height */
+
+letter-spacing: 0.05em;
+
+color: #FF48F8;
+}
+
+/*josh*/
+.josh h3{
+  
+position: absolute;
+width: 502px;
+height: 50px;
+left: 90px;
+top: 1819px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 45px;
+line-height: 109.9%;
+/* identical to box height, or 49px */
+
+
+color: #29346F;
+}
+
+
+#face3{
+position: absolute;
+width: 351px;
+height: 492px;
+left: 0px;
+top: 1893px;
+
+}
+
+#work3{
+position: absolute;
+width: 1089px;
+height: 492px;
+left: 351px;
+top: 1893px;
+
+background: url(image.png);
+border: 2px solid #FF48F8;
+box-sizing: border-box;
+}
+
+.josh h6{
+position: absolute;
+width: 123px;
+height: 30px;
+left: 1164px;
+top: 1829px;
+
+font-family: Sentinel;
+font-style: normal;
+font-weight: 375;
+font-size: 25px;
+line-height: 30px;
+/* identical to box height */
+
+letter-spacing: 0.05em;
+
+color: #FF48F8;
+}
+
+
+/*kate*/
+
+.kate h3
+{
+  position: absolute;
+width: 502px;
+height: 50px;
+left: 90px;
+top: 2490px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 45px;
+line-height: 109.9%;
+/* identical to box height, or 49px */
+
+
+color: #29346F;
+}
+
+#face4
+{
+position: absolute;
+width: 351px;
+height: 492px;
+left: 0px;
+top: 2564px;
+}
+
+#work4{
+  position: absolute;
+width: 1089px;
+height: 492px;
+left: 351px;
+top: 2564px;
+
+background: url(image.png);
+border: 2px solid #FF48F8;
+box-sizing: border-box;
+}
+
+.kate h6{
+  position: absolute;
+width: 123px;
+height: 30px;
+left: 1164px;
+top: 2500px;
+
+font-family: Sentinel;
+font-style: normal;
+font-weight: 375;
+font-size: 25px;
+line-height: 30px;
+/* identical to box height */
+
+letter-spacing: 0.05em;
+
+color: #FF48F8;
+}
+/*michael*/
+
+.michael h3{
+ position: absolute;
+width: 502px;
+height: 50px;
+left: 90px;
+top: 3136px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 45px;
+line-height: 109.9%;
+/* identical to box height, or 49px */
+
+
+color: #29346F;
+}
+
+#face5{
+
+position: absolute;
+width: 351px;
+height: 492px;
+left: 0px;
+top: 3210px;
+}
+
+#work5{
+  position: absolute;
+width: 1089px;
+height: 492px;
+left: 351px;
+top: 3210px;
+border: 2px solid #FF48F8;
+box-sizing: border-box;
+}
+
+.michael h6
+{
+  position: absolute;
+width: 123px;
+height: 30px;
+left: 1164px;
+top: 3146px;
+
+font-family: Sentinel;
+font-style: normal;
+font-weight: 375;
+font-size: 25px;
+line-height: 30px;
+/* identical to box height */
+
+letter-spacing: 0.05em;
+
+color: #FF48F8;
+}
+
+.shikha h3
+{
+position: absolute;
+width: 502px;
+height: 50px;
+left: 90px;
+top: 3768px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 45px;
+line-height: 109.9%;
+/* identical to box height, or 49px */
+
+
+color: #29346F;
+}
+
+#face6{
+  position: absolute;
+width: 351px;
+height: 492px;
+left: 0px;
+top: 3872px;
+}
+
+#work6{
+  position: absolute;
+width: 1089px;
+height: 492px;
+left: 351px;
+top: 3872px;
+
+background: url(image.png);
+border: 2px solid #FF48F8;
+box-sizing: border-box;
+}
+
+.shikha h6{
+  position: absolute;
+width: 123px;
+height: 30px;
+left: 1164px;
+top: 3808px;
+
+font-family: Sentinel;
+font-style: normal;
+font-weight: 375;
+font-size: 25px;
+line-height: 30px;
+/* identical to box height */
+
+letter-spacing: 0.05em;
+
+color: #FF48F8;
+}
+
+
+.olivia h3{
+  position: absolute;
+width: 502px;
+height: 50px;
+left: 90px;
+top: 4444px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 45px;
+line-height: 109.9%;
+/* identical to box height, or 49px */
+
+
+color: #29346F;
+}
+
+#face7
+{
+  position: absolute;
+width: 351px;
+height: 492px;
+left: 0px;
+top: 4518px;
+}
+
+#work7{
+  position: absolute;
+width: 1089px;
+height: 492px;
+left: 351px;
+top: 4518px;
+
+background: url(image.png);
+border: 2px solid #FF48F8;
+box-sizing: border-box;
+}
+
+.olivia h6{
+  position: absolute;
+width: 123px;
+height: 30px;
+left: 1164px;
+top: 4454px;
+
+font-family: Sentinel;
+font-style: normal;
+font-weight: 375;
+font-size: 25px;
+line-height: 30px;
+/* identical to box height */
+
+letter-spacing: 0.05em;
+
+color: #FF48F8;
+}
+
+
+
