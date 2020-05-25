@@ -1,0 +1,225 @@
+header,body
+{
+position: relative;
+width: 1440px;
+height: 1149px;
+background-color:#FBEDB9;
+
+
+}
+
+
+.main-nav
+{
+	position: fixed;
+	list-style: none;
+	top:20px;
+	width: 100%;
+
+}
+
+.main-nav ul
+{
+	float: right;
+
+}
+
+.main-nav ul li{
+	display: inline-block;
+	padding: 5px 15px;
+
+}
+
+.main-nav ul li a
+{
+	color:#29346F;;
+	text-decoration: none;
+	font-family: "Montserrat", sans-serif;
+	font-size:25px;
+	padding: 5px 15px;
+}
+
+#side{
+position: absolute;
+width: 238px;
+height: 97.77px;
+left: 90px;
+top: 20px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 900;
+font-size: 30px;
+line-height: 109.9%;
+/* or 34px */
+
+letter-spacing: 0.1em;
+
+color: #29346F;
+}
+
+hr{
+display: block;
+
+width: 300px;
+line-height: 0px;
+left:500px;
+top: 800px;
+margin-left: -15%;
+margin-top: -2%;
+border: 1px solid #BE4144;
+} 
+
+
+ h1{
+position: absolute;
+width: 989px;
+height: 61px;
+left: 90px;
+top: 218px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 60px;
+line-height: 40px;
+letter-spacing: 0.05em;
+
+color: #BE4144;
+
+
+}
+
+h4 a
+{
+position: absolute;
+width: 810px;
+height: 50px;
+left: 90px;
+top: 289px;
+
+font-family: Sentinel;
+text-decoration: none;
+font-style: italic;
+font-weight: 325;
+font-size: 42px;
+line-height: 85px;
+letter-spacing: 0.05em;
+
+color: #29346F;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 30px;
+}
+
+
+#poem1{
+width: 300px;
+height: 400px;
+left: 90px;
+top: 437px;
+border: 2px solid #BE4144;
+box-sizing: border-box;
+}
+
+
+#poem2{
+width: 300px;
+height: 400px;
+left: 738px;
+top: 437px;
+ border: 2px solid #BE4144;
+box-sizing: border-box;
+}
+
+
+
+#poem3{
+width: 300px;
+height: 400px;
+left: 1400px;
+top: 437px;
+border: 2px solid #BE4144;
+box-sizing: border-box;
+}
+
+
+#poem4{
+width: 300px;
+height: 400px;
+left: 2000px;
+top: 437px;
+border: 2px solid#DE4E50;
+box-sizing: border-box;
+}
+
+.slide-date{
+position: absolute;
+width: 315.64px;
+height: 40.4px;
+left: -40px;
+top: 10px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 22px;
+/* or 22px */
+
+
+color: #29346F
+}
+
+.slide-title{
+position: absolute;
+width: 227px;
+height: 40px;
+left: -40px;
+top: 30px;
+
+font-family: "Montserrat", sans-serif;
+font-weight: 300;
+font-size: 35px;
+line-height: 109.9%;
+/* or 38px */
+
+
+color: #29346F;
+}
+
+.slide-text{
+position: absolute;
+width: 250px;
+height: 198px;
+left: -40px;
+top: 60px;
+
+font-family: Sentinel;
+font-style: italic;
+font-weight: 325;
+font-size: 18px;
+line-height: 22px;
+letter-spacing: 0.05em;
+
+color: #29346F;
+}
+
+
+.flex { display: -webkit-flex; display: flex; -webkit-flex-direction: row;  
+flex-direction: row; -webkit-justify-content: flex-start; 
+justify-content: flex-start;}
+
+.slider-wrapper div {position: relative;}
+.slider-wrapper {margin-top: -900px;  margin-left:30px}
+.slide-image {height: 400px;}
+.slide-image img {width: 300px; cursor: pointer;}
+.slide-content {width: 300px; color: #fff; padding:0vw 5vw 0vw 5vw;}
+.slide-bullet {width: 0.5vw; height: 0.5vw; border-radius: 200%; position: relative; margin-left: 1.2vw;}
+.slide-nav {margin-left: 64vw; margin-top: -5.5vw;}
