@@ -1,0 +1,172 @@
+html, body {
+position: relative;
+width: 1440px;
+height: 1701px;
+background-color: #FBEDB9;
+}
+
+#side{
+position: absolute;
+width: 238px;
+height: 97.77px;
+left: 90px;
+top: 50px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 900;
+font-size: 31.0389px;
+line-height: 109.9%;
+/* or 34px */
+
+letter-spacing: 0.1em;
+
+color: #29346F;
+
+}
+
+.main-nav
+{
+  position: fixed;
+  list-style: none;
+  top:20px;
+  width: 100%;
+
+}
+
+.main-nav ul
+{
+  float: right;
+
+}
+
+.main-nav ul li{
+  display: inline-block;
+  padding: 5px 15px;
+
+}
+
+.main-nav ul li a
+{
+  color:#29346F;;
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  font-size:25px;
+  padding: 5px 15px;
+}
+
+h1{
+ position: absolute;
+width: 989px;
+height: 61px;
+left: 90px;
+top: 314px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 60px;
+line-height: 73px;
+letter-spacing: 0.05em;
+
+color: #29346F;
+}
+
+h4{
+  position: absolute;
+width: 810px;
+height: 50px;
+left: 90px;
+top: 385px;
+
+font-family: Sentinel;
+font-style: italic;
+font-weight: 325;
+font-size: 42px;
+line-height: 50px;
+letter-spacing: 0.05em;
+
+color: #29346F;
+}
+
+h4 a{
+  color: #BE4144;
+}
+
+.smallsong{
+position: absolute;
+width: 564px;
+height: 319px;
+left: 95px;
+top: 690px;
+border: 2px solid #BE4144;
+box-sizing: border-box;
+}
+
+p{
+  position: absolute;
+width: 1073px;
+height: 60px;
+left: 95px;
+top: 485px;
+
+font-family: Sentinel;
+font-style: italic;
+font-weight: 325;
+font-size: 25px;
+line-height: 30px;
+letter-spacing: 0.05em;
+
+color: #29346F;
+}
+
+
+#secondside {
+  position: absolute;
+width: 251px;
+height: 30px;
+left: 245px;
+top: 216px;
+
+font-family: Sentinel;
+font-style: normal;
+font-weight: 375;
+font-size: 25px;
+line-height: 30px;
+/* identical to box height */
+
+letter-spacing: 0.05em;
+
+color: #BE4144;
+}
+#secondside a {
+  text-decoration: none;
+  color: #BE4144;
+}
+
+.arrowright
+{
+position: absolute;
+font-size: 30pt;
+line-height: 0px;
+margin-left: 190px;
+top: 231px;
+
+color: #BE4144;
+transform: rotate(0deg);
+}
+
+h5{
+  margin-left: 97px;
+  font-family: "Sentinel";
+  font-size: 30pt;
+  color:#29346F;
+}
+
+h6{
+   margin-left: 97px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20pt;
+  color:#29346F;
+
+}
