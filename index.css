@@ -121,12 +121,6 @@ color: #FF48F8;
 }
 
 
-
-
-
-
-
-
 .bev h3
 {
 position: absolute;
@@ -405,10 +399,10 @@ color: #FF48F8;
 .shikha h3
 {
 position: absolute;
-width: 502px;
+width: 600px;
 height: 50px;
 left: 90px;
-top: 3768px;
+top: 3798px;
 
 font-family: Montserrat;
 font-style: normal;
@@ -518,6 +512,3 @@ letter-spacing: 0.05em;
 
 color: #FF48F8;
 }
-
-
-
