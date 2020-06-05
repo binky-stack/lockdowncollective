@@ -1,5 +1,4 @@
 * {
-  padding: 0;
   margin: 0;
 }
 
@@ -71,7 +70,7 @@ position: absolute;
 width: 989px;
 height: 61px;
 left: 90px;
-top: 218px;
+top: 180px;
 
 font-family: Montserrat;
 font-style: normal;
@@ -88,12 +87,12 @@ position: absolute;
 width: 1118px;
 height: 131px;
 left: 90px;
-top: 300px;
+top: 270px;
 
 font-family: "Sentinel"
 font-style: normal;
 font-weight: 325;
-font-size: 15px;
+font-size: 25px;
 line-height: 30px;
 letter-spacing: 0.05em;
 
@@ -112,7 +111,7 @@ font-family: Sentinel;
 font-style: normal;
 font-weight: 375;
 font-size: 25px;
-line-height: 30px;
+line-height: 50px;
 /* identical to box height */
 
 letter-spacing: 0.05em;
@@ -133,7 +132,7 @@ font-family: Montserrat;
 font-style: normal;
 font-weight: bold;
 font-size: 45px;
-line-height: 10px;
+line-height: 49px;
 /* identical to box height, or 49px */
 
 
@@ -207,7 +206,7 @@ font-family: Sentinel;
 font-style: normal;
 font-weight: 375;
 font-size: 25px;
-line-height: 30px;
+line-height: 50px;
 /* identical to box height */
 
 letter-spacing: 0.05em;
@@ -268,7 +267,7 @@ font-family: Sentinel;
 font-style: normal;
 font-weight: 375;
 font-size: 25px;
-line-height: 30px;
+line-height: 50px;
 /* identical to box height */
 
 letter-spacing: 0.05em;
@@ -330,7 +329,7 @@ font-family: Sentinel;
 font-style: normal;
 font-weight: 375;
 font-size: 25px;
-line-height: 30px;
+line-height: 50px;
 /* identical to box height */
 
 letter-spacing: 0.05em;
@@ -388,7 +387,7 @@ font-family: Sentinel;
 font-style: normal;
 font-weight: 375;
 font-size: 25px;
-line-height: 30px;
+line-height: 50px;
 /* identical to box height */
 
 letter-spacing: 0.05em;
@@ -446,7 +445,7 @@ font-family: Sentinel;
 font-style: normal;
 font-weight: 375;
 font-size: 25px;
-line-height: 30px;
+line-height: 50px;
 /* identical to box height */
 
 letter-spacing: 0.05em;
@@ -505,10 +504,182 @@ font-family: Sentinel;
 font-style: normal;
 font-weight: 375;
 font-size: 25px;
-line-height: 30px;
+line-height: 50px;
 /* identical to box height */
 
 letter-spacing: 0.05em;
 
 color: #FF48F8;
+}
+/*arrows*/
+.beva {
+  font-size: 25px;
+  color: #FF48F8;
+}
+.beva td:nth-child(1) {
+  color: #FF48F8;
+  font-size: 20px;
+}
+.beva td {
+ position: absolute;
+width: 52.24px;
+height: 37px;
+left: 1317px;
+top: 533px;
+}
+.beva td a{
+color: #FF48F8;
+text-decoration: none;
+}
+
+/*DAN*/
+.dana {
+  font-size: 25px;
+  color: #FF48F8;
+}
+.dana td:nth-child(1) {
+  color: #FF48F8;
+  font-size: 20px;
+}
+.dana td {
+position: absolute;
+width: 52.24px;
+height: 37px;
+left: 1317px;
+top: 1179px;
+}
+.dana td a{
+color: #FF48F8;
+text-decoration: none;
+}
+
+/*JOSH*/
+.josha {
+  font-size: 25px;
+  color: #FF48F8;
+}
+.josha td:nth-child(1) {
+  color: #FF48F8;
+  font-size: 20px;
+}
+.josha td {
+position: absolute;
+width: 52.24px;
+height: 37px;
+left: 1317px;
+top: 1825px;
+}
+.josha td a{
+color: #FF48F8;
+text-decoration: none;
+}
+
+/*KATE*/
+.katea {
+  font-size: 25px;
+  color: #FF48F8;
+}
+.katea td:nth-child(1) {
+  color: #FF48F8;
+  font-size: 20px;
+}
+.katea td {
+position: absolute;
+width: 52.24px;
+height: 37px;
+left: 1317px;
+top: 2496px;
+}
+.katea td a{
+color: #FF48F8;
+text-decoration: none;
+}
+
+/*MIKE*/
+.mikea {
+  font-size: 25px;
+  color: #FF48F8;
+}
+.mikea td:nth-child(1) {
+  color: #FF48F8;
+  font-size: 20px;
+}
+.mikea td {
+position: absolute;
+width: 52.24px;
+height: 37px;
+left: 1317px;
+top: 3142px;
+}
+.mikea td a{
+color: #FF48F8;
+text-decoration: none;
+}
+
+
+/*SHIKHA*/
+.shika {
+  font-size: 25px;
+  color: #FF48F8;
+}
+.shika td:nth-child(1) {
+  color: #FF48F8;
+  font-size: 20px;
+}
+.shika td {
+position: absolute;
+width: 52.24px;
+height: 37px;
+left: 1317px;
+top: 3804px;
+
+}
+.shika td a{
+color: #FF48F8;
+text-decoration: none;
+}
+
+
+/*OLIVIA*/
+.olia {
+  font-size: 25px;
+  color: #FF48F8;
+}
+.olia td:nth-child(1) {
+  color: #FF48F8;
+  font-size: 20px;
+}
+.olia td {
+position: absolute;
+width: 52.24px;
+height: 37px;
+left: 1317px;
+top: 4450px;
+
+}
+.olia td a{
+color: #FF48F8;
+text-decoration: none;
+}
+
+.bevv
+{
+  
+  background-color:#FFE3DD;
+  border: 1px solid;
+  color: #29346F;
+  padding: 10px 24px;
+  text-decoration: none;
+  margin-top: 30px;
+  display: inline-block;
+  font-size: 20px;
+
+
+}
+
+.bevv a{
+text-decoration: none;
+color: #29346F;
+font-family: "Sentinel";
+
 }
