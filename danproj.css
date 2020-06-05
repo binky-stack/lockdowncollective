@@ -1,3 +1,47 @@
+* 
+
+html, body {
+position: relative;
+width: 1440px;
+height: 1701px;
+background-color:#E1F2EB;
+}
+
+#side{
+position: absolute;
+width: 238px;
+height: 97.77px;
+left: 90px;
+top: 50px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 900;
+font-size: 31.0389px;
+line-height: 109.9%;
+/* or 34px */
+
+letter-spacing: 0.1em;
+
+color: #29346F;
+}
+
+.main-nav
+{
+  position: absolute;
+  list-style: none;
+  top:-150px;
+  width: 1400px;
+
+}
+
+.main-nav ul
+{
+float: right;
+right: 52;
+left: 748;
+}
+
 .main-nav ul li{
   display: inline-block;
   padding: 200px 34px;
