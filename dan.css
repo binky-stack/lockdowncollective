@@ -3,11 +3,9 @@ header,body
 position: relative;
 width: 1440px;
 height: 1010px;
-background-color: #BFD0DC;
-
+background-color:#E1F2EB;
 
 }
-
 
 html{
 	top:9082px
@@ -26,32 +24,36 @@ html{
 
 .main-nav ul
 {
-	float: right;
-	right: 52;
-	left: 748;
-	margin-top: -130px;
-
+float: right;
+right: 52;
+left: 748;
+margin-top: -130px;
 }
 
 .main-nav ul li{
-	display: inline-block;
-	padding: 200px 34px;
-	letter-spacing: 0.1em;
+  display: inline-block;
+  padding: 200px 34px;
+  letter-spacing: 0.1em;
+  
 
 }
 
 .main-nav ul li a
 {
-	color:#29346F;;
-	text-decoration: none;
-	font-family: "Montserrat", sans-serif;
-	font-size:25px;
+  color: #29346F;
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  font-size:25px;
+  
 }
+/*aaaaaaaaaaaaaaa*/
+
+
 
 #side{
 position: absolute;
 width: 238px;
-height: 97.77px;
+height: 100px;
 left: 90px;
 top: 20px;
 
@@ -66,10 +68,6 @@ letter-spacing: 0.1em;
 
 color: #29346F;
 }
-#side a{
-	text-decoration: none;
-	color:#29346F;
-}
 
 hr{
 display: block;
@@ -80,7 +78,7 @@ left:390px;
 top: 437px;
 margin-left: -15%;
 margin-top: -1%;
-border: 2px solid #FFFFFF;
+border: 2px solid #215036;
 } 
 
 
@@ -98,8 +96,7 @@ font-size: 45px;
 line-height: 40px;
 letter-spacing: 0.05em;
 
-color: #FFFFFF;
-
+color: #215036;
 
 }
 
@@ -137,7 +134,7 @@ width: 300px;
 height: 400px;
 left: 60px;
 top: 437px;
-border: 2px solid #FFFFFF;
+border: 2px solid #215036;
 box-sizing: border-box;
 }
 
@@ -147,7 +144,7 @@ width: 300px;
 height: 400px;
 left: 738px;
 top: 437px;
- border: 2px solid #FFFFFF;
+ border: 2px solid #215036;
 box-sizing: border-box;
 }
 
@@ -158,7 +155,7 @@ width: 300px;
 height: 400px;
 left: 1416px;
 top: 437px;
-border: 2px solid #FFFFFF;
+border: 2px solid #215036;
 box-sizing: border-box;
 }
 
@@ -168,9 +165,37 @@ width: 300px;
 height: 400px;
 left: 2094px;
 top: 437px;
-border: 2px solid #FFFFFF;
+border: 2px solid #215036;
 box-sizing: border-box;
 }
+
+#poem5{
+width: 300px;
+height: 400px;
+left: 2772px;
+top: 437px;
+border: 2px solid #215036;
+box-sizing: border-box;
+}
+
+#poem6{
+width: 300px;
+height: 400px;
+left: 3450px;
+top: 437px;
+border: 2px solid #215036;
+box-sizing: border-box;
+}
+
+#poem7{
+width: 300px;
+height: 400px;
+left: 4128px;
+top: 437px;
+border: 2px solid #215036;
+box-sizing: border-box;
+}
+
 
 .slide-date{
 position: absolute;
