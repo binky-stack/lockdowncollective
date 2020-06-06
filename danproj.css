@@ -28,35 +28,33 @@ color: #29346F;
 
 .main-nav
 {
-  position: absolute;
+  position: fixed;
   list-style: none;
-  top:-150px;
-  width: 1400px;
+  top:47px;
+  width: 99%;
 
 }
 
 .main-nav ul
 {
-float: right;
-right: 52;
-left: 748;
+  float: right;
+
 }
 
 .main-nav ul li{
   display: inline-block;
-  padding: 200px 34px;
-  letter-spacing: 0.1em;
-  
-
+  padding: 5px 15px;
+letter-spacing: 0.1em;
 }
 
 .main-nav ul li a
 {
-  color: #29346F;
+  color:#29346F;;
   text-decoration: none;
   font-family: "Montserrat", sans-serif;
   font-size:25px;
-  
+  padding: 5px 15px;
+
 }
 
 h1{
@@ -105,7 +103,7 @@ left: 95px;
 top: 500px;
 
 font-family: Sentinel;
-font-style: italic;
+
 font-weight: 325;
 font-size: 25px;
 line-height: 50px;
@@ -121,7 +119,7 @@ color: #215036;
 
 .secondsidea {
 position: absolute;
-width: 251px;
+width: 300px;
 height: 30px;
 left: 245px;
 top: 216px;
@@ -149,7 +147,7 @@ position: absolute;
 width: 126px;
 height: 0px;
 margin-left: -30px;
-margin-top: -310px;
+margin-top: -312px;
 
 }
 
