@@ -215,6 +215,27 @@ border: 3px solid #DE4E50;
 box-sizing: border-box;
 }
 
+#imgz {
+  position: absolute;
+width: 700px;
+height: 700px;
+left: 95px;
+top: 520px;
+border: 3px solid #DE4E50;
+box-sizing: border-box;
+}
+
+.bottom{
+position: absolute;
+height: 700px;
+left: 10px;
+top: 1500px;
+
+}
+
+#btm{
+  width: 1400px;
+}
 
 #page{
  
