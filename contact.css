@@ -1,0 +1,94 @@
+header,body {
+  background: #FFE3DD;
+  width: 1300px;
+  height: 400px;
+  position: relative;
+}
+
+
+#side
+{
+width: 238px;
+height: 97.77px;
+margin-left: 90px;
+margin-top: 50px;
+
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 900;
+font-size: 31.0389px;
+line-height: 109.9%;
+/* or 34px */
+
+letter-spacing: 0.1em;
+
+color: #29346F;
+}
+
+.main-nav
+{
+  position: fixed;
+  list-style: none;
+  top:0px;
+  width: 100%;
+
+}
+
+.main-nav ul
+{
+float: right;
+right: 52;
+left: 748;
+margin-top: -130px;
+}
+
+.main-nav ul li{
+  display: inline-block;
+  padding: 200px 34px;
+  letter-spacing: 0.1em;
+  
+
+}
+
+.main-nav ul li a
+{
+  color: #29346F;
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  font-size:25px;
+  
+}
+
+h4 {
+position: absolute;
+width: 1000px;
+height: 231px;
+left: 90px;
+top: 270px;
+
+font-family: "Sentinel"
+font-weight: 325;
+font-size: 25px;
+line-height: 30px;
+letter-spacing: 0.05em;
+
+color: #29346F;
+
+}
+
+h4 a{
+text-decoration: none;
+font-family: "Monserrat", sans-serif;
+font-size: 15pt;
+color: #FF48F8;
+}
+
+p {
+position: absolute;
+width: 1000px;
+height: 231px;
+left: 90px;
+top: 270px;
+}
+
