@@ -2,7 +2,7 @@ header,body
 {
 position: relative;
 width: 1440px;
-height: 1149px;
+height: 1010px;
 background-color: #EBDBFF;
 
 
@@ -13,21 +13,24 @@ background-color: #EBDBFF;
 {
 	position: fixed;
 	list-style: none;
-	top:20px;
+	top:0px;
 	width: 100%;
 
 }
 
 .main-nav ul
 {
-	float: right;
+float: right;
+right: 52;
+left: 748;
+margin-top: -130px;
 
 }
 
 .main-nav ul li{
 	display: inline-block;
-	padding: 5px 15px;
-
+  padding: 200px 34px;
+  letter-spacing: 0.1em;
 }
 
 .main-nav ul li a
@@ -36,7 +39,6 @@ background-color: #EBDBFF;
 	text-decoration: none;
 	font-family: "Montserrat", sans-serif;
 	font-size:25px;
-	padding: 5px 15px;
 }
 
 #side{
@@ -49,7 +51,7 @@ top: 20px;
 font-family: Montserrat;
 font-style: normal;
 font-weight: 900;
-font-size: 30px;
+font-size: 31.5px;
 line-height: 109.9%;
 /* or 34px */
 
@@ -61,13 +63,13 @@ color: #29346F;
 hr{
 display: block;
 
-width: 300px;
+width: 250px;
 line-height: 0px;
-left:500px;
-top: 800px;
+left:390px;
+top: 437px;
 margin-left: -15%;
-margin-top: -2%;
-border: 1px solid #FF6B00;
+margin-top: -1%;
+border: 2px solid #FF6B00;
 } 
 
 
@@ -76,12 +78,12 @@ position: absolute;
 width: 989px;
 height: 61px;
 left: 90px;
-top: 218px;
+top: 160px;
 
 font-family: Montserrat;
 font-style: normal;
 font-weight: normal;
-font-size: 60px;
+font-size: 45px;
 line-height: 40px;
 letter-spacing: 0.05em;
 
@@ -96,13 +98,13 @@ position: absolute;
 width: 810px;
 height: 50px;
 left: 90px;
-top: 289px;
+top: 210px;
 
 font-family: Sentinel;
 text-decoration: none;
 font-style: italic;
 font-weight: 325;
-font-size: 42px;
+font-size: 30px;
 line-height: 85px;
 letter-spacing: 0.05em;
 
@@ -143,7 +145,7 @@ box-sizing: border-box;
 #poem3{
 width: 300px;
 height: 400px;
-left: 1400px;
+left: 1416px;
 top: 437px;
 border: 2px solid #FF6B00;
 box-sizing: border-box;
@@ -153,7 +155,7 @@ box-sizing: border-box;
 #poem4{
 width: 300px;
 height: 400px;
-left: 2000px;
+left: 2094px;
 top: 437px;
 border: 2px solid#FF6B00;
 box-sizing: border-box;
@@ -164,7 +166,7 @@ position: absolute;
 width: 315.64px;
 height: 40.4px;
 left: -40px;
-top: 10px;
+top: 5px;
 
 font-family: Montserrat;
 font-style: normal;
@@ -179,14 +181,14 @@ color: #29346F
 
 .slide-title{
 position: absolute;
-width: 227px;
+width: 350px;
 height: 40px;
 left: -40px;
-top: 30px;
+top: 14px;
 
 font-family: "Montserrat", sans-serif;
-font-weight: 300;
-font-size: 35px;
+font-weight: 600;
+font-size: 30px;
 line-height: 109.9%;
 /* or 38px */
 
@@ -197,9 +199,9 @@ color: #29346F;
 .slide-text{
 position: absolute;
 width: 250px;
-height: 198px;
+height: 154px;
 left: -40px;
-top: 60px;
+top: 30px;
 
 font-family: Sentinel;
 font-style: italic;
@@ -211,6 +213,12 @@ letter-spacing: 0.05em;
 color: #29346F;
 }
 
+.copy{
+width: 300px;
+color: #29346F;
+margin-top: 400px;
+font-family: "Sentinel"
+}
 
 .flex { display: -webkit-flex; display: flex; -webkit-flex-direction: row;  
 flex-direction: row; -webkit-justify-content: flex-start; 
