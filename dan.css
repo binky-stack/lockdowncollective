@@ -249,6 +249,13 @@ letter-spacing: 0.05em;
 color: #29346F;
 }
 
+.copy{
+width: 300px;
+color: #29346F;
+margin-top: 400px;
+font-family: "Sentinel"
+}
+
 
 .flex { display: -webkit-flex; display: flex; -webkit-flex-direction: row;  
 flex-direction: row; -webkit-justify-content: flex-start; 
