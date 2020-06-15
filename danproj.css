@@ -157,6 +157,19 @@ text-decoration: none;
 
 }
 
+#shik{
+position: absolute;
+width: 839px;
+height: 537px;
+left: 95px;
+}
+#dankshik{
+position: absolute;
+width: 839px;
+height: 537px;
+left: 95px;
+}
+
 #pageone{
 
   width: 50%;
