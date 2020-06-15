@@ -272,6 +272,10 @@ color: #29346F;
 
   width: 50%;
 }
+#emails{
+  margin-top: -1000px;
+ color:29346F }
 
-.emails {
- margin-top: -2000px }
+#emails a{
+text-decoration: none;
+color: 9B1E13}
