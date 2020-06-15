@@ -116,33 +116,7 @@ color: #29346F;
 p a{
 color: #215036;
 }
-#dan{
-position: absolute;
-width: 700px;
-height:800px;
-left: 95px;
-top: 520px;
-border: 3px solid #215036;
-box-sizing: border-box;
-}
-#shik{
-position: absolute;
-width: 850px;
-height:600px;
-left: 95px;
-top: 1350px;
-border: 3px solid #215036;
-box-sizing: border-box;
-}
-#danshik{
-position: absolute;
-width: 850px;
-height:600px;
-left: 95px;
-top: 1980px;
-border: 3px solid #215036;
-box-sizing: border-box;
-}
+
 
 .secondsidea {
 position: absolute;
