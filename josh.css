@@ -134,6 +134,8 @@ left: 90px;
 top: 437px;
 border: 2px solid #BE4144;
 box-sizing: border-box;
+max-width: 100%;
+ display: block;
 }
 
 
@@ -144,6 +146,8 @@ left: 738px;
 top: 437px;
  border: 2px solid #BE4144;
 box-sizing: border-box;
+ max-width: 100%;
+ display: block;
 }
 
 
@@ -155,6 +159,8 @@ left: 1416px;
 top: 437px;
 border: 2px solid #BE4144;
 box-sizing: border-box;
+ max-width: 100%;
+ display: block;
 }
 
 
@@ -165,6 +171,8 @@ left: 2094px;
 top: 437px;
 border: 2px solid#DE4E50;
 box-sizing: border-box;
+ max-width: 100%;
+ display: block;
 }
 
 #poem5
@@ -175,6 +183,8 @@ left: 2772px;
 top: 437px;
 border: 2px solid#DE4E50;
 box-sizing: border-box;
+ max-width: 100%;
+ display: block;
 }
 
 .slide-date{
