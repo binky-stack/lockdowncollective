@@ -1,8 +1,9 @@
-body, html{
+body, header, html{
 width:100%; padding:0; margin:25pt; 
 background-color:#EDCDBA;
 }
 
+	
 
 .main-nav
 {
