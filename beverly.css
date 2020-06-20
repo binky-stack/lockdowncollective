@@ -1,4 +1,9 @@
-header,body
+body{
+margin: 0px;
+padding: 0px;
+}
+
+header
 {
 position: relative;
 width: 1440px;
