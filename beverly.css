@@ -1,15 +1,13 @@
 body{
-margin: 0px;
-padding: 0px;
-width: 100%;
+width:100%; padding:0; margin:25pt; 
 background-color:#EDCDBA;
 }
 
 
 .main-nav
 {
-	position: fixed;
-	list-style: none;
+position: fixed;
+list-style: none;
 	top:0px;
 	width: 100%;
 
