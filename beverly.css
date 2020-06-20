@@ -49,7 +49,7 @@ position: absolute;
 width: 238px;
 height: 97.77px;
 left: 90px;
-top: 20px;
+top: 40px;
 
 font-family: Montserrat;
 font-style: normal;
@@ -85,7 +85,7 @@ position: absolute;
 width: 989px;
 height: 61px;
 left: 90px;
-top: 160px;
+top: 190px;
 
 font-family: Montserrat;
 font-style: normal;
@@ -199,7 +199,7 @@ position: absolute;
 width: 315.64px;
 height: 40.4px;
 left: -40px;
-top: 5px;
+top: 10px;
 
 font-family: Montserrat;
 font-style: normal;
@@ -248,7 +248,7 @@ color: #29346F;
 .copy{
 width: 300px;
 color: #29346F;
-margin-top: 400px;
+margin-top: 300px;
 font-family: "Sentinel"
 }
 
