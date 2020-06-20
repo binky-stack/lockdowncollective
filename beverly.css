@@ -1,6 +1,10 @@
-body, header, html{
-width:100%; padding:0; margin:25pt; 
+header,body
+{
+position: relative;
+width: 1440px;
+height: 1010px;
 background-color:#EDCDBA;
+
 }
 
 	
