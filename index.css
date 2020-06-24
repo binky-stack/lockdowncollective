@@ -162,7 +162,7 @@ nav {
 }
 
 .dan-work {
-    background-image: url('.d.images/danw.jpg');
+    background-image: url('d.images/danw.jpg');
 }
 
 .josh-work {
@@ -189,14 +189,12 @@ nav {
     .gallery-img {
         height: 400px;
     }
-
 }
 
 @media screen and (max-width: 1100px) {
     .gallery-img {
         height: 300px;
     }
-
 }
 
 @media screen and (max-width: 800px) {
@@ -213,5 +211,8 @@ nav {
     }
     .navbar li:first-child {
         margin-left: 0;
+    }
+  .gallery-work{
+    width:100%;
     }
 }
