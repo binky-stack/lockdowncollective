@@ -215,9 +215,9 @@ nav {
     }
     .gallery-img {
         height: 250px;
-         width:auto;
+         width:100%;
     }
   .gallery-work{
-    width:170%;
+    width:200%;
     }
 }
