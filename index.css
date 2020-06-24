@@ -213,11 +213,12 @@ nav {
     .navbar li:first-child {
         margin-left: 0;
     }
+}
+@media screen and (max-width: 300px) {
     .gallery-img {
         height: 250px;
-         width:100%;
     }
-  .gallery-work{
-    width:200%;
-    }
+    .gallery-work{
+    width:100%}
+
 }
