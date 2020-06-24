@@ -213,7 +213,11 @@ nav {
     .navbar li:first-child {
         margin-left: 0;
     }
+    .gallery-img {
+        height: 250px;
+         width:auto;
+    }
   .gallery-work{
-    width:150%;
+    width:170%;
     }
 }
