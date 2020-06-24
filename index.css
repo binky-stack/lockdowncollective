@@ -1,686 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;800&display=swap');
+
 * {
-  margin: 0;
-  padding: 0;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
 
-header,body {
-  background: #FFE3DD;
-  width: 1440px;
-  height: 4696px;
-  position: relative;
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: #29346F;
+    background-color: #FFE3DD;
 }
 
+/* NAV */
 
-#side
-{
-width: 238px;
-height: 97.77px;
-margin-left: 90px;
-margin-top: 50px;
-
-
-font-family: Montserrat;
-font-style: normal;
-font-weight: 900;
-font-size: 31.0389px;
-line-height: 109.9%;
-/* or 34px */
-
-letter-spacing: 0.1em;
-
-color: #29346F;
-}
-
-.main-nav
-{
-  position: fixed;
-  list-style: none;
-  top:0px;
-  width: 100%;
-
-}
-
-.main-nav ul
-{
-float: right;
-right: 52;
-left: 748;
-margin-top: -130px;
-}
-
-.main-nav ul li{
-  display: inline-block;
-  padding: 200px 34px;
-  letter-spacing: 0.1em;
-  
-
-}
-
-.main-nav ul li a
-{
-  color: #29346F;
-  text-decoration: none;
-  font-family: "Montserrat", sans-serif;
-  font-size:25px;
-  
-}
-
-
-h2{
-position: absolute;
-width: 989px;
-height: 61px;
-left: 90px;
-top: 180px;
-
-font-family: Montserrat;
-font-style: normal;
-font-weight: normal;
-font-size: 60px;
-line-height: 73px;
-letter-spacing: 0.05em;
-
-color: #29346F;
-}
-
-h4{
-position: absolute;
-width: 1118px;
-height: 131px;
-left: 90px;
-top: 270px;
-
-font-family: "Sentinel"
-font-style: normal;
-font-weight: 325;
-font-size: 25px;
-line-height: 30px;
-letter-spacing: 0.05em;
-
-color: #29346F;
-}
-
-h6
-{
-  position: absolute;
-width: 123px;
-height: 30px;
-left: 1164px;
-top: 537px;
-
-font-family: Sentinel;
-font-style: normal;
-font-weight: 375;
-font-size: 25px;
-line-height: 50px;
-/* identical to box height */
-
-letter-spacing: 0.05em;
-
-color: #FF48F8;
-}
-
-
-.bev h3
-{
-position: absolute;
-width: 502px;
-height:50px;
-left: 90px;
-top: 527px;
-
-font-family: Montserrat;
-font-style: normal;
-font-weight: bold;
-font-size: 45px;
-line-height: 49px;
-/* identical to box height, or 49px */
-
-
-color: #29346F;
+nav {
+   display: flex; 
+   justify-content: space-between;
+   align-items: center;
+   text-transform: uppercase;
+   padding: 50px 5% 0 5%; /* top right bottom left */
 }
 
-#ab{
-position: absolute;
-width: 1089px;
-height: 492px;
-left: 351px;
-top: 601px;
-border: 2px solid #FF48F8;
-box-sizing: border-box;
-
+.navbar {
+    list-style: none;
+    display: flex;
 }
-#ac{
-position: absolute;
-width: 351px;
-height: 492px;
-left: 0px;
-top: 601px;
-}
-
-.dan h3{
-  position: absolute;
-width: 502px;
-height: 50px;
-left: 90px;
-top: 1173px;
 
-font-family: Montserrat;
-font-style: normal;
-font-weight: bold;
-font-size: 45px;
-line-height: 109.9%;
-/* identical to box height, or 49px */
 
-
-color: #29346F;
+.navbar li {
+    margin-left: 34px;
 }
 
-#face2{
-position: absolute;
-width: 351px;
-height: 492px;
-left: 0px;
-top: 1247px;
+.navbar li a {
+    text-decoration: none;
+    color: #29346F;  
+    font-size: 25px;
 }
-
-#work2{
-position: absolute;
-width: 1089px;
-height: 492px;
-left: 351px;
-top: 1247px;
 
-background: url(image.png);
-border: 2px solid #FF48F8;
-box-sizing: border-box;
+.nav-title {
+    font-size: 32px;
+    font-weight: 800;
+    letter-spacing: 0.1em;
+    line-height: 109%; 
 }
-
-.dan h6{
-position: absolute;
-width: 123px;
-height: 30px;
-left: 1164px;
-top: 1183px;
-
-font-family: Sentinel;
-font-style: normal;
-font-weight: 375;
-font-size: 25px;
-line-height: 50px;
-/* identical to box height */
 
-letter-spacing: 0.05em;
+/* HERO */
 
-color: #FF48F8;
+#hero {
+    padding: 10% 5%;
 }
 
-/*josh*/
-.josh h3{
-  
-position: absolute;
-width: 502px;
-height: 50px;
-left: 90px;
-top: 1819px;
-
-font-family: Montserrat;
-font-style: normal;
-font-weight: bold;
-font-size: 45px;
-line-height: 109.9%;
-/* identical to box height, or 49px */
-
-
-color: #29346F;
+.hero-title {
+    font-size: 60px;
+    font-weight: normal;
+    line-height: 75px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
 }
 
-
-#face3{
-position: absolute;
-width: 351px;
-height: 492px;
-left: 0px;
-top: 1893px;
-
+.hero-description {
+    font-size: 25px;
+    line-height: 40px;
+    font-weight: 325;
+    letter-spacing: 0.05em;
+    font-family: 'Sentinel';
 }
 
-#work3{
-position: absolute;
-width: 1089px;
-height: 492px;
-left: 351px;
-top: 1893px;
 
-background: url(image.png);
-border: 2px solid #FF48F8;
-box-sizing: border-box;
+.btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 10px;
+    text-decoration: none;
+    font-family: 'Sentinel';
+    font-size: 15pt;
+    color: #29346F; 
+    border: 1px solid #29346F;
 }
-
-.josh h6{
-position: absolute;
-width: 123px;
-height: 30px;
-left: 1164px;
-top: 1829px;
-
-font-family: Sentinel;
-font-style: normal;
-font-weight: 375;
-font-size: 25px;
-line-height: 50px;
-/* identical to box height */
 
-letter-spacing: 0.05em;
 
-color: #FF48F8;
+/*  GALLERY */
+.gallery-entry {
+    margin-bottom: 60px;
 }
-
-
-/*kate*/
-
-.kate h3
-{
-  position: absolute;
-width: 502px;
-height: 50px;
-left: 90px;
-top: 2490px;
-
-font-family: Montserrat;
-font-style: normal;
-font-weight: bold;
-font-size: 45px;
-line-height: 109.9%;
-/* identical to box height, or 49px */
-
-
-color: #29346F;
+.gallery-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5%;
 }
-
-#face4
-{
-position: absolute;
-width: 351px;
-height: 492px;
-left: 0px;
-top: 2564px;
+.gallery-title {
+    font-weight: 800;
+    font-size: 48px;
+    margin: 20px 0;
+    text-transform: uppercase;
 }
-
-#work4{
-  position: absolute;
-width: 1089px;
-height: 492px;
-left: 351px;
-top: 2564px;
-
-background: url(image.png);
-border: 2px solid #FF48F8;
-box-sizing: border-box;
+.gallery-link {
+    text-decoration: none;
+    color: #FF48F8;
+   font-size: 20px;
 }
-
-.kate h6{
-  position: absolute;
-width: 123px;
-height: 30px;
-left: 1164px;
-top: 2500px;
 
-font-family: Sentinel;
-font-style: normal;
-font-weight: 375;
-font-size: 25px;
-line-height: 50px;
-/* identical to box height */
-
-letter-spacing: 0.05em;
-
-color: #FF48F8;
+.gallery-img {
+  height: 490px;
+  display: flex;
 }
-/*michael*/
-
-.michael h3{
- position: absolute;
-width: 502px;
-height: 50px;
-left: 90px;
-top: 3136px;
 
-font-family: Montserrat;
-font-style: normal;
-font-weight: bold;
-font-size: 45px;
-line-height: 109.9%;
-/* identical to box height, or 49px */
-
-
-color: #29346F;
+.gallery-artist {
+    width: 25%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
 }
-
-#face5{
-
-position: absolute;
-width: 351px;
-height: 492px;
-left: 0px;
-top: 3210px;
+.bev-artist {
+    background-image: url("/images/bev.jpg");
 }
 
-#work5{
-  position: absolute;
-width: 1089px;
-height: 492px;
-left: 351px;
-top: 3210px;
-border: 2px solid #FF48F8;
-box-sizing: border-box;
+.dan-artist {
+    background-image: url("/images/dan.jpg");
+    background-position: 50% 20%;
 }
-
-.michael h6
-{
-  position: absolute;
-width: 123px;
-height: 30px;
-left: 1164px;
-top: 3146px;
-
-font-family: Sentinel;
-font-style: normal;
-font-weight: 375;
-font-size: 25px;
-line-height: 50px;
-/* identical to box height */
-
-letter-spacing: 0.05em;
 
-color: #FF48F8;
+.josh-artist {
+    background-image: url("/images/cute.png");
+    background-position: 50% 20%; 
 }
-
-.shikha h3
-{
-position: absolute;
-width: 600px;
-height: 50px;
-left: 90px;
-top: 3798px;
-
-font-family: Montserrat;
-font-style: normal;
-font-weight: bold;
-font-size: 45px;
-line-height: 109.9%;
-/* identical to box height, or 49px */
-
-
-color: #29346F;
+.kate-artist {
+    background-image: url("/kate/kate.jpg");
+    background-position: 50% 20%; 
 }
 
-#face6{
-  position: absolute;
-width: 351px;
-height: 492px;
-left: 0px;
-top: 3872px;
+.mike-artist {
+    background-image: url("images/mike.jpg");
+    background-position: 50% 20%; 
 }
-
-#work6{
-  position: absolute;
-width: 1089px;
-height: 492px;
-left: 351px;
-top: 3872px;
 
-background: url(image.png);
-border: 2px solid #FF48F8;
-box-sizing: border-box;
+.shikha-artist {
+    background-image: url("/images/shik.jpg");
+    background-position: 50% 20%; 
 }
-
-.shikha h6{
-  position: absolute;
-width: 123px;
-height: 30px;
-left: 1164px;
-top: 3808px;
-
-font-family: Sentinel;
-font-style: normal;
-font-weight: 375;
-font-size: 25px;
-line-height: 50px;
-/* identical to box height */
 
-letter-spacing: 0.05em;
-
-color: #FF48F8;
+.oli-artist {
+    background-image: url("images/0-1.jpg");
+    background-position: 50% 20%; 
 }
-
-
-.olivia h3{
-  position: absolute;
-width: 502px;
-height: 50px;
-left: 90px;
-top: 4444px;
 
-font-family: Montserrat;
-font-style: normal;
-font-weight: bold;
-font-size: 45px;
-line-height: 109.9%;
-/* identical to box height, or 49px */
-
-
-color: #29346F;
+.gallery-work {
+    width: 75%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border: 2px solid #FF48F8;
+    height: 100%;
 }
 
-#face7
-{
-  position: absolute;
-width: 351px;
-height: 492px;
-left: 0px;
-top: 4518px;
+.bev-work {
+    background-image: url('/b.images/bevw.jpg');
 }
 
-#work7{
-  position: absolute;
-width: 1089px;
-height: 492px;
-left: 351px;
-top: 4518px;
-
-background: url(image.png);
-border: 2px solid #FF48F8;
-box-sizing: border-box;
+.dan-work {
+    background-image: url('.d.images/danw.jpg');
 }
-
-.olivia h6{
-  position: absolute;
-width: 123px;
-height: 30px;
-left: 1164px;
-top: 4454px;
 
-font-family: Sentinel;
-font-style: normal;
-font-weight: 375;
-font-size: 25px;
-line-height: 50px;
-/* identical to box height */
-
-letter-spacing: 0.05em;
-
-color: #FF48F8;
-}
-/*arrows*/
-.beva {
-  font-size: 25px;
-  color: #FF48F8;
+.josh-work {
+    background-image: url('/josh/scanj.jpg');
 }
-.beva td:nth-child(1) {
-  color: #FF48F8;
-  font-size: 20px;
-}
-.beva td {
- position: absolute;
-width: 52.24px;
-height: 37px;
-left: 1350px;
-top: 455px;
-}
-.beva td a{
-color: #FF48F8;
-text-decoration: none;
-}
 
-/*DAN*/
-.dana {
-  font-size: 25px;
-  color: #FF48F8;
-}
-.dana td:nth-child(1) {
-  color: #FF48F8;
-  font-size: 20px;
+.kate-work {
+    background-image: url('/kate/katew.jpg');
 }
-.dana td {
-position: absolute;
-width: 52.24px;
-height: 37px;
-left: 1350px;
-top: 1101px;
-}
-.dana td a{
-color: #FF48F8;
-text-decoration: none;
-}
 
-/*JOSH*/
-.josha {
-  font-size: 25px;
-  color: #FF48F8;
-}
-.josha td:nth-child(1) {
-  color: #FF48F8;
-  font-size: 20px;
+.mike-work {
+    background-image: url('/michael/mikeee.jpg');
 }
-.josha td {
-position: absolute;
-width: 52.24px;
-height: 37px;
-left: 1350px;
-top: 1747px;
-}
-.josha td a{
-color: #FF48F8;
-text-decoration: none;
-}
 
-/*KATE*/
-.katea {
-  font-size: 25px;
-  color: #FF48F8;
-}
-.katea td:nth-child(1) {
-  color: #FF48F8;
-  font-size: 20px;
-}
-.katea td {
-position: absolute;
-width: 52.24px;
-height: 37px;
-left: 1350px;
-top: 2418px;
+.shikha-work {
+    background-image: url('/shikha/shikha.jpg');
 }
-.katea td a{
-color: #FF48F8;
-text-decoration: none;
-}
 
-/*MIKE*/
-.mikea {
-  font-size: 25px;
-  color: #FF48F8;
-}
-.mikea td:nth-child(1) {
-  color: #FF48F8;
-  font-size: 20px;
-}
-.mikea td {
-position: absolute;
-width: 52.24px;
-height: 37px;
-left: 1350px;
-top: 3064px;
+.oli-work {
+    background-image: url('/olivia/oliboli.jpg');
 }
-.mikea td a{
-color: #FF48F8;
-text-decoration: none;
-}
-
 
-/*SHIKHA*/
-.shika {
-  font-size: 25px;
-  color: #FF48F8;
-}
-.shika td:nth-child(1) {
-  color: #FF48F8;
-  font-size: 20px;
-}
-.shika td {
-position: absolute;
-width: 52.24px;
-height: 37px;
-left: 1350px;
-top: 3726px;
+@media screen and (max-width: 1300px) {
+    .gallery-img {
+        height: 400px;
+    }
 
 }
-.shika td a{
-color: #FF48F8;
-text-decoration: none;
-}
 
-
-/*OLIVIA*/
-.olia {
-  font-size: 25px;
-  color: #FF48F8;
-}
-.olia td:nth-child(1) {
-  color: #FF48F8;
-  font-size: 20px;
-}
-.olia td {
-position: absolute;
-width: 52.24px;
-height: 37px;
-left: 1350px;
-top: 4372px;
+@media screen and (max-width: 1100px) {
+    .gallery-img {
+        height: 300px;
+    }
 
-}
-.olia td a{
-color: #FF48F8;
-text-decoration: none;
 }
 
-.bevv
-{
-  
-  background-color:#FFE3DD;
-  border: 1px solid;
-  color: #29346F;
-  padding: 10px 24px;
-  text-decoration: none;
-  margin-top: 30px;
-  display: inline-block;
-  font-size: 20px;
+@media screen and (max-width: 800px) {
+    .gallery-img {
+        height: 250px;
+    }
 
-
 }
-
-.bevv a{
-text-decoration: none;
-color: #29346F;
-font-family: "Sentinel";
 
+@media screen and (max-width: 600px) {
+    nav {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .navbar li:first-child {
+        margin-left: 0;
+    }
 }
