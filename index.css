@@ -115,20 +115,20 @@ nav {
     height: 100%;
 }
 .bev-artist {
-    background-image: url("/images/bev.jpg");
+    background-image: url("images/bev.jpg");
 }
 
 .dan-artist {
-    background-image: url("/images/dan.jpg");
+    background-image: url("images/dan.jpg");
     background-position: 50% 20%;
 }
 
 .josh-artist {
-    background-image: url("/images/cute.png");
+    background-image: url("images/cute.png");
     background-position: 50% 20%; 
 }
 .kate-artist {
-    background-image: url("/kate/kate.jpg");
+    background-image: url("kate/kate.jpg");
     background-position: 50% 20%; 
 }
 
@@ -138,7 +138,7 @@ nav {
 }
 
 .shikha-artist {
-    background-image: url("/images/shik.jpg");
+    background-image: url("images/shik.jpg");
     background-position: 50% 20%; 
 }
 
@@ -157,7 +157,7 @@ nav {
 }
 
 .bev-work {
-    background-image: url('/b.images/bevw.jpg');
+    background-image: url('b.images/bevw.jpg');
 }
 
 .dan-work {
@@ -165,23 +165,23 @@ nav {
 }
 
 .josh-work {
-    background-image: url('/josh/scanj.jpg');
+    background-image: url('josh/scanj.jpg');
 }
 
 .kate-work {
-    background-image: url('/kate/katew.jpg');
+    background-image: url('kate/katew.jpg');
 }
 
 .mike-work {
-    background-image: url('/michael/mikeee.jpg');
+    background-image: url('michael/mikeee.jpg');
 }
 
 .shikha-work {
-    background-image: url('/shikha/shikha.jpg');
+    background-image: url('shikha/shikha.jpg');
 }
 
 .oli-work {
-    background-image: url('/olivia/oliboli.jpg');
+    background-image: url('olivia/oliboli.jpg');
 }
 
 @media screen and (max-width: 1300px) {
