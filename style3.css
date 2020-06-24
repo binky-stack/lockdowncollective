@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;800&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: #29346F;
+    background-color: #FFE3DD;
+}
+
+/* NAV */
+
+nav {
+   display: flex; 
+   justify-content: space-between;
+   align-items: center;
+   text-transform: uppercase;
+   padding: 50px 5% 0 5%; /* top right bottom left */
+}
+
+.navbar {
+    list-style: none;
+    display: flex;
+}
+
+
+.navbar li {
+    margin-left: 34px;
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: #29346F;  
+    font-size: 25px;
+}
+
+.nav-title {
+    font-size: 32px;
+    font-weight: 800;
+    letter-spacing: 0.1em;
+    line-height: 109%; 
+}
+
+/* HERO */
+
+#hero {
+    padding: 10% 5%;
+}
+
+.hero-title {
+    font-size: 60px;
+    font-weight: normal;
+    line-height: 73px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+}
+
+.hero-description {
+    font-size: 25px;
+    line-height: 40px;
+    font-weight: 325;
+    letter-spacing: 0.05em;
+    font-family: 'Sentinel';
+}
+
+
+.btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 10px;
+    text-decoration: none;
+    font-family: 'Sentinel';
+    font-size: 15pt;
+    color: #29346F; 
+    border: 1px solid #29346F;
+}
+
+
+/*  GALLERY */
+.gallery-entry {
+    margin-bottom: 60px;
+}
+.gallery-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5%;
+}
+.gallery-title {
+    font-weight: 800;
+    font-size: 48px;
+    margin: 20px 0;
+    text-transform: uppercase;
+}
+.gallery-link {
+    text-decoration: none;
+    color: #FF48F8;
+   font-size: 20px;
+}
+
+.gallery-img {
+  height: 490px;
+  display: flex;
+}
+
+.gallery-artist {
+    width: 25%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+}
+.bev-artist {
+    background-image: url("/images/bev.jpg");
+}
+
+.dan-artist {
+    background-image: url("/images/dan.jpg");
+    background-position: 50% 20%;
+}
+
+.josh-artist {
+    background-image: url("/images/cute.png");
+    background-position: 50% 20%; 
+}
+.kate-artist {
+    background-image: url("/kate/kate.jpg");
+    background-position: 50% 20%; 
+}
+
+.mike-artist {
+    background-image: url("images/mike.jpg");
+    background-position: 50% 20%; 
+}
+
+.shikha-artist {
+    background-image: url("/images/shik.jpg");
+    background-position: 50% 20%; 
+}
+
+.oli-artist {
+    background-image: url("images/0-1.jpg");
+    background-position: 50% 20%; 
+}
+
+.gallery-work {
+    width: 75%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border: 2px solid #FF48F8;
+    height: 100%;
+}
+
+.bev-work {
+    background-image: url('/b.images/bevw.jpg');
+}
+
+.dan-work {
+    background-image: url('.d.images/danw.jpg');
+}
+
+.josh-work {
+    background-image: url('/josh/scanj.jpg');
+}
+
+.kate-work {
+    background-image: url('/kate/katew.jpg');
+}
+
+.mike-work {
+    background-image: url('/michael/mikeee.jpg');
+}
+
+.shikha-work {
+    background-image: url('/shikha/shikha.jpg');
+}
+
+.oli-work {
+    background-image: url('/olivia/oliboli.jpg');
+}
+
+@media screen and (max-width: 1300px) {
+    .gallery-img {
+        height: 400px;
+    }
+
+}
+
+@media screen and (max-width: 1100px) {
+    .gallery-img {
+        height: 300px;
+    }
+
+}
+
+@media screen and (max-width: 800px) {
+    .gallery-img {
+        height: 250px;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+    nav {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .navbar li:first-child {
+        margin-left: 0;
+    }
+}
