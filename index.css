@@ -19,7 +19,7 @@ nav {
    justify-content: space-between;
    align-items: center;
    text-transform: uppercase;
-   padding: 50px 3% 0 5%; /* top right bottom left */
+   padding: 50px 5% 0 5%; /* top right bottom left */
 }
 
 .navbar {
