@@ -101,7 +101,8 @@ nav {
 .gallery-link {
     text-decoration: none;
     color: #FF48F8;
-   font-size: 20px;
+   font-size: 25px;
+   font-family: 'Sentinel';
 }
 
 .gallery-img {
