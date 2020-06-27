@@ -216,6 +216,9 @@ nav {
     .navbar li:first-child {
         margin-left: 0;
     }
+   .navbar li a{
+		font-size: 10pt;
+	}
 }
 @media screen and (max-width: 300px) {
     .gallery-img {
@@ -223,5 +226,8 @@ nav {
     }
     .gallery-work{
     width:100%}
+    .navbar li a{
+		font-size: 10pt;
+	}
 
 }
