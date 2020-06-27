@@ -1,250 +1,158 @@
-*{padding:0;margin:0}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;800&display=swap');
 
-header,body
-{
-position: relative;
-width: 1440px;
-height: 1010px;
-background-color:#EDCDBA;
-
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
 
-	
-
-.main-nav
-{
-position: fixed;
-list-style: none;
-top:0px;
-width: 100%;
-
+body {
+    background-color: #EDCDBA;
+    color: #29346F;
 }
 
-.main-nav ul
-{
-float: right;
-right: 52;
-left: 748;
-margin-top: -130px;
-
+nav {
+   display: flex; 
+   justify-content: space-between;
+   align-items: center;
+   text-transform: uppercase;
+   padding: 50px 5% 0 5%; /* top right bottom left */
 }
 
-.main-nav ul li{
-display: inline-block;
-  padding: 200px 34px;
-  letter-spacing: 0.1em;
-
-}
-
-.main-nav ul li a
-{
-color: #29346F;
-  text-decoration: none;
-  font-family: "Montserrat", sans-serif;
-  font-size:25px;
-}
-
-#side{
-position: absolute;
-width: 238px;
-height: 97.77px;
-left: 90px;
-top: 40px;
-
-font-family: Montserrat;
-font-style: normal;
-font-weight: 900;
-font-size: 31.5px;
-line-height: 109.9%;
-/* or 34px */
-
-letter-spacing: 0.1em;
-
-color: #29346F;
-}
-
-#side a{
-	text-decoration: none;
-	color:#29346F;
-}
-hr{
-display: block;
-
-width: 250px;
-line-height: 0px;
-left:390px;
-top: 437px;
-margin-left: -15%;
-margin-top: -1%;
-border: 2px solid #9B1E13;
-} 
-
-
- h1{
-position: absolute;
-width: 989px;
-height: 61px;
-left: 90px;
-top: 180px;
-
-font-family: Montserrat;
-font-style: normal;
-font-weight: normal;
-font-size: 45px;
-line-height: 40px;
-letter-spacing: 0.05em;
-
-color: #9B1E13;
-
-}
-
-h4 a
-{
-position: absolute;
-width: 810px;
-height: 50px;
-left: 90px;
-top: 200px;
-
-font-family: Sentinel;
-text-decoration: none;
-font-style: italic;
-font-weight: 325;
-font-size: 30px;
-line-height: 85px;
-letter-spacing: 0.05em;
-
-color: #29346F;
-}
-
-.row {
-  display: flex;
-}
-
-.column {
-  flex: 33.33%;
-  padding: 30px;
+.navbar {
+    list-style: none;
+    display: flex;
 }
 
 
-#poem1{
-width: 300px;
-height: 400px;
-left: 60px;
-top: 437px;
-border: 2px solid #9B1E13;
-box-sizing: border-box;
+.navbar li {
+    margin-left: 34px;
+    font-family: "Montserrat", sans-serif;
 }
 
 
-#poem2{
-width: 300px;
-height: 400px;
-left: 738px;
-top: 437px;
- border: 2px solid #9B1E13;
-box-sizing: border-box;
+.navbar li a {
+    text-decoration: none;
+    color: #29346F;  
+    font-size: 25px;
+}
+
+.nav-title {
+	font-family: "Montserrat", sans-serif;
+    font-size: 32px;
+    font-weight: 800;
+    letter-spacing: 0.1em;
+    line-height: 109%; 
+    
+}
+
+a{
+	text-decoration: none; 
+	color: #29346F; 
 }
 
 
 
-#poem3{
-width: 300px;
-height: 400px;
-left: 1416px;
-top: 437px;
-border: 2px solid #9B1E13;
-box-sizing: border-box;
+
+/** ARTIST PAGE **/
+#artist {
+    padding: 0 5%;
+}
+.artist-title {
+	font-family: "Montserrat", sans-serif;
+    color: #9B1E13;
+    font-size: 3rem;
+    font-weight: 325;
+    margin-top: 3rem;
+}
+.artist-subtitle {
+    margin: 1rem 0 2rem;
+}
+.artist-subtitle a {
+	font-family: 'Sentinel';
+    font-style: italic;
+    font-weight: 325;
+    font-size: 30px;
+}
+.works-index {
+    display: flex;
+    flex-wrap: wrap;
+}
+.entry {
+    display: flex;
+    max-height: 400px;
+    width: 45%;
+    margin: 2.4rem 1rem;
+}
+
+.entry-img {
+    width: 50%;
+}
+
+.entry-info {
+    width: 50%;
+    border-top: 2px solid #9B1E13;
+    padding-left: 1rem;
+}
+
+.entry-img img {
+    height: auto;
+    width: 100%;
+    border: 2px solid #9B1E13;
+}
+
+.entry-date {
+	font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+    margin-top: 0.5rem;
+}
+
+.entry-title {
+	font-family: "Montserrat", sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    margin: 1.5rem 0;
+}
+
+.entry-description {
+	font-family: 'Sentinel';
+    font-style: italic;
+}
+
+@media screen and (max-width: 900px) {
+    .entry-title {
+        font-size: 26px;
+        margin: 1rem 0;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .works-index {
+        justify-content: center;
+    }
+    .entry {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .entry {
+        width: 90%;
+    }
+    .entry-date {
+        font-size: 15px;
+    }
+    .entry-title {
+        margin: 0.5rem 0;
+        font-size: 20px;
+    }
+    .entry-description {
+        font-size: 15px;
+    }
 }
 
 
-#poem4{
-width: 300px;
-height: 400px;
-left: 2094px;
-top: 437px;
-border: 2px solid #9B1E13;
-box-sizing: border-box;
-}
 
-#poem5{
-width: 300px;
-height: 400px;
-left: 2772px;
-top: 437px;
-border: 2px solid #9B1E13;
-box-sizing: border-box;
-}
-
-#poem6{
-width: 300px;
-height: 400px;
-left: 3450px;
-top: 437px;
-border: 2px solid #9B1E13;
-box-sizing: border-box;
-}
-
-#poem7{
-width: 300px;
-height: 400px;
-left: 4128px;
-top: 437px;
-border: 2px solid #9B1E13;
-box-sizing: border-box;
-}
-
-.slide-date{
-position: absolute;
-width: 315.64px;
-height: 40.4px;
-left: -40px;
-top: 10px;
-
-font-family: Montserrat;
-font-style: normal;
-font-weight: normal;
-font-size: 20px;
-line-height: 22px;
-/* or 22px */
-
-
-color: #29346F
-}
-
-.slide-title{
-position: absolute;
-width: 350px;
-height: 40px;
-left: -40px;
-top: 14px;
-
-font-family: "Montserrat", sans-serif;
-font-weight: 600;
-font-size: 30px;
-line-height: 109.9%;
-/* or 38px */
-
-
-color: #29346F;
-}
-
-.slide-text{
-position: absolute;
-width: 250px;
-height: 154px;
-left: -40px;
-top: 30px;
-
-font-family: Sentinel;
-font-style: italic;
-font-weight: 325;
-font-size: 18px;
-line-height: 22px;
-letter-spacing: 0.05em;
-
-color: #29346F;
-}
 .copy{
 width: 300px;
 color: #29346F;
@@ -252,15 +160,3 @@ margin-top: 300px;
 font-family: "Sentinel"
 }
 
-
-.flex { display: -webkit-flex; display: flex; -webkit-flex-direction: row;  
-flex-direction: row; -webkit-justify-content: flex-start; 
-justify-content: flex-start;}
-
-.slider-wrapper div {position: relative;}
-.slider-wrapper {margin-top: -900px;  margin-left:30px}
-.slide-image {height: 400px;}
-.slide-image img {width: 300px; cursor: pointer;}
-.slide-content {width: 300px; color: #fff; padding:0vw 5vw 0vw 5vw;}
-.slide-bullet {width: 0.5vw; height: 0.5vw; border-radius: 200%; position: relative; margin-left: 1.2vw;}
-.slide-nav {margin-left: 64vw; margin-top: -5.5vw;}
