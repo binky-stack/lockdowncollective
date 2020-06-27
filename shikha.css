@@ -138,7 +138,8 @@ color: #29346F;
         width: 70%;
     }
 	
-	.artist-title{ width: 100%}
+	.artist-title{ 
+	font-size:2rem;}
 }
 
 @media screen and (max-width: 500px) {
@@ -166,8 +167,9 @@ color: #29346F;
     .entry-description {
         font-size: 15px;
     }
-	.artist-title{
-		width: 100%}
+	.artist-title{ 
+	font-size:1.5rem;
+	}
 }
 @media screen and (max-width: 400px) {
 
@@ -180,8 +182,9 @@ color: #29346F;
 	.navbar li a{
 		font-size: 10pt;
 	}
-.artist-title{
-	width: 100%}
+	.artist-title{ 
+	font-size:1.5rem;
+	}
 	
     .entry {
         width: 90%;
@@ -210,7 +213,8 @@ color: #29346F;
 		font-size: 10pt;
 	}
 	.artist-title{ 
-		width: 100%}
+	font-size:1.5rem;
+	}
 	}
 
 
