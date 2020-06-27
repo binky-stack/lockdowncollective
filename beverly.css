@@ -1,8 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;800&display=swap');
-@font-face{
-font-family:Sentinel-Light;
-src: url("Sentinel-Light.ttf")type ("truetype");
-}
+@import url('https://fonts.googleapis.com/css2?family=Domine&display=swap');
 
 * {
     padding: 0;
@@ -73,7 +70,7 @@ a{
     margin: 1rem 0 2rem;
 }
 .artist-subtitle a {
-   font-family: Sentinel-Light;
+   font-family: "Domine", sans-serif;
     font-style: italic;
     font-weight: 325;
     font-size: 30px;
@@ -119,7 +116,7 @@ a{
 }
 
 .entry-description {
-	font-family: Sentinel-Light;
+	font-family:"Domine", sans-serif;
     font-style: italic;
 }
 
@@ -211,6 +208,6 @@ a{
 width: 300px;
 color: #29346F;
 margin-top: 300px;
-font-family: Sentinel-Light;
+font-family: "Domine", sans-serif;
 }
 
