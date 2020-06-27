@@ -136,6 +136,44 @@ a{
 }
 
 @media screen and (max-width: 500px) {
+	nav{
+	flex-direction: column;
+        justify-content: center;
+        margin-left: 0;
+
+	}
+
+	.navbar li a{
+		 font-size: 10pt;
+	}
+
+    .entry {
+        width: 90%;
+    }
+    .entry-date {
+        font-size: 15px;
+    }
+    .entry-title {
+        margin: 0.5rem 0;
+        font-size: 20px;
+    }
+    .entry-description {
+        font-size: 15px;
+    }
+}
+@media screen and (max-width: 400px) {
+
+	nav{
+	flex-direction: column;
+        justify-content: center;
+        margin-left: 0;
+	}
+
+	.navbar li a{
+		font-size: 10pt;
+	}
+
+	
     .entry {
         width: 90%;
     }
@@ -151,6 +189,18 @@ a{
     }
 }
 
+@media screen and (max-width: 600px) {
+
+	nav{
+	flex-direction: column;
+        justify-content: center;
+        margin-left: 0;
+	}
+
+	.navbar li a{
+		font-size: 10pt;
+	}
+	}
 
 
 .copy{
