@@ -72,7 +72,7 @@ a{
     margin: 1rem 0 2rem;
 }
 .artist-subtitle a {
-	font-family: 'Sentinel';
+   font-family: Sentinel;
     font-style: italic;
     font-weight: 325;
     font-size: 30px;
@@ -210,6 +210,6 @@ a{
 width: 300px;
 color: #29346F;
 margin-top: 300px;
-font-family: "Sentinel"
+font-family: Sentinel;
 }
 
