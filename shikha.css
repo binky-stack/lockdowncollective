@@ -168,7 +168,7 @@ color: #29346F;
         font-size: 15px;
     }
 	.artist-title{ 
-	font-size:1.5rem;
+	font-size:2rem;
 	}
 }
 @media screen and (max-width: 400px) {
@@ -183,7 +183,7 @@ color: #29346F;
 		font-size: 10pt;
 	}
 	.artist-title{ 
-	font-size:1.5rem;
+	font-size:2rem;
 	}
 	
     .entry {
@@ -213,7 +213,7 @@ color: #29346F;
 		font-size: 10pt;
 	}
 	.artist-title{ 
-	font-size:1.5rem;
+	font-size:2rem;
 	}
 	}
 
