@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;800&display=swap');
+@font-face { font-family: Sentinel; src: url('Sentinel-Light.otf'); } 
+@font-face { font-family: Sentinel; font-style: italic; src: url('Sentinel-LightItalic.otf');}
 
 * {
     padding: 0;
@@ -38,7 +40,7 @@ nav {
 }
 
 .nav-title {
-	font-family: "Montserrat", sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-size: 32px;
     font-weight: 800;
     letter-spacing: 0.1em;
@@ -47,8 +49,8 @@ nav {
 }
 
 a{
-	text-decoration: none; 
-	color: #29346F; 
+text-decoration: none; 
+color: #29346F; 
 }
 
 
@@ -69,7 +71,7 @@ a{
     margin: 1rem 0 2rem;
 }
 .artist-subtitle a {
-   font-family: "Domine", sans-serif;
+   font-family: 'Sentinel';
     font-style: italic;
     font-weight: 325;
     font-size: 30px;
@@ -115,7 +117,7 @@ a{
 }
 
 .entry-description {
-	font-family:"Domine", sans-serif;
+    font-family: 'Sentinel';
     font-style: italic;
 }
 
@@ -207,6 +209,6 @@ a{
 width: 300px;
 color: #29346F;
 margin-top: 300px;
-font-family: "Domine", sans-serif;
+font-family: 'Sentinel';
 }
 
