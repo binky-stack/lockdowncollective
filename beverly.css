@@ -1,8 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;800&display=swap');
-@font-face {
-    font-family: Sentinel-Light;
-    src: url("path/Sentinel-Light.otf") format("opentype");
-}
+
 * {
     padding: 0;
     margin: 0;
@@ -62,7 +59,7 @@ a{
     padding: 0 5%;
 }
 .artist-title {
-	font-family: "Montserrat", sans-serif;
+    font-family: "Montserrat", sans-serif;
     color: #9B1E13;
     font-size: 3rem;
     font-weight: 325;
@@ -72,7 +69,7 @@ a{
     margin: 1rem 0 2rem;
 }
 .artist-subtitle a {
-   font-family: Sentinel-Light;
+   font-family: Sentinel;
     font-style: italic;
     font-weight: 325;
     font-size: 30px;
@@ -118,7 +115,7 @@ a{
 }
 
 .entry-description {
-	font-family: Sentinel-Light;
+	font-family: Sentinel;
     font-style: italic;
 }
 
