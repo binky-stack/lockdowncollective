@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;800&display=swap');
-
+@font-face {
+    font-family: Sentinel;
+    src: url("path/sentinel.otf") format("opentype");
+}
 * {
     padding: 0;
     margin: 0;
