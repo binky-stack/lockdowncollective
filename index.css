@@ -239,9 +239,12 @@ nav {
 @media screen and (max-width: 300px) {
     .gallery-img {
         height: 250px;
+	 width:70%;
     }
     .gallery-work{
-    width:100%}
+    width:100%;
+	overflow-x:hidden;}
+	
     .navbar li a{
 		font-size: 10pt;
 	}
