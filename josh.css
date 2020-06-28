@@ -206,9 +206,10 @@ color: #29346F;
 
 
 .copy{
-width: 300px;
+width: 100%;
 color: #29346F;
-margin-top: 300px;
+margin-bottom: 5%;
+margin-left: 5%;
 font-family: 'Sentinel';
 }
 
