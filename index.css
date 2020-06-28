@@ -219,6 +219,12 @@ nav {
    .navbar li a{
 		font-size: 10pt;
 	}
+  .hero-title{
+	  font-size:15pt;
+	}
+ .hero-description{
+	  font-size:15pt;
+	}
 }
 @media screen and (max-width: 300px) {
     .gallery-img {
@@ -229,5 +235,12 @@ nav {
     .navbar li a{
 		font-size: 10pt;
 	}
+	 .hero-title{
+	  font-size:15pt;
+	}
+ .hero-description{
+	  font-size:15pt;
+	}
+}
 
 }
