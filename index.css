@@ -225,6 +225,14 @@ nav {
  .hero-description{
 	  font-size:15pt;
 	}
+	 .btn{
+	 font-size:15pt; }
+	
+	.gallery title{
+	font-size:15px;  }
+	
+	.gallery-link{
+		font-size:15px;}
 }
 @media screen and (max-width: 300px) {
     .gallery-img {
@@ -241,6 +249,12 @@ nav {
  .hero-description{
 	  font-size:15pt;
 	}
-}
+ .btn{
+	 font-size:15pt; }
+	
+.gallery-link{
+		font-size:15px;}
+.gallery title{
+	font-size:15px;  }
 
 }
