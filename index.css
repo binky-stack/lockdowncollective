@@ -228,12 +228,14 @@ nav {
 	 .btn{
 	 font-size:15pt; }
 	
-	.gallery title{
-	font-size:15px;  }
+	.gallery-title{
+	font-size:20px;  }
 	
 	.gallery-link{
-		font-size:15px;}
+		font-size:15px;
+		width:80%;}
 }
+
 @media screen and (max-width: 300px) {
     .gallery-img {
         height: 250px;
@@ -253,8 +255,9 @@ nav {
 	 font-size:15pt; }
 	
 .gallery-link{
-		font-size:15px;}
-.gallery title{
-	font-size:15px;  }
+		font-size:15px;
+		width:80%;}
+.gallery-title{
+	font-size:20px;  }
 
 }
