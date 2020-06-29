@@ -10,6 +10,7 @@
 
 body {
     background-color: :#E1F2EB;
+   color: #29346F;
 }
 
 nav {
@@ -201,10 +202,10 @@ color: #29346F;
 	.navbar li a{
 		font-size: 10pt;
 	}
-	}
+	
 
 
-.copy{
+.copy {
 width: 100%;
 color: #29346F;
 margin-bottom: 5%;
