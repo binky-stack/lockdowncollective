@@ -1,184 +1,219 @@
-* 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;800&display=swap');
+@font-face { font-family: Sentinel; src: url('Sentinel-Light.otf'); } 
+@font-face { font-family: Sentinel; font-style: italic; src: url('Sentinel-LightItalic.otf');}
 
-html, body {
-position: relative;
-width: 1440px;
-height: 1701px;
-background-color:#E1F2EB;
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
 
-#side{
-position: absolute;
-width: 238px;
-height: 97.77px;
-left: 90px;
-top: 50px;
-
-font-family: Montserrat;
-font-style: normal;
-font-weight: 900;
-font-size: 31.0389px;
-line-height: 109.9%;
-/* or 34px */
-
-letter-spacing: 0.1em;
-
-color: #29346F;
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: #29346F;
+    background-color: #E1F2EB;
 }
 
-.main-nav
-{
-  position: fixed;
-  list-style: none;
-  top:47px;
-  width: 99%;
+/* NAV */
+
+nav {
+   display: flex; 
+   justify-content: space-between;
+   align-items: center;
+   text-transform: uppercase;
+   padding: 50px 5% 0 5%; /* top right bottom left */
+}
+
+.navbar {
+    list-style: none;
+    display: flex;
+}
+
+
+.navbar li {
+    margin-left: 34px;
+    padding: 5%;
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: #29346F;  
+    font-size: 25px;
+    padding: 5%;
+}
+
+.nav-title {
+    font-size: 32px;
+    font-weight: 800;
+    letter-spacing: 0.1em;
+    line-height: 109%; 
+}
+
+.back{
+    font-weight: 325;
+    font-family:'Sentinel';
+}
+
+.back i{
+padding: 5% 5%;
+margin-top: 2%;
+font-size: 25px;
+color: #215036;
 
 }
 
-.main-nav ul
-{
-  float: right;
+.back a{
+  font-family: 'Sentinel';
+  font-style: normal;
+  font-weight: 325;
 
 }
 
-.main-nav ul li{
-  display: inline-block;
-  padding: 5px 15px;
-letter-spacing: 0.1em;
+.hero{
+    font-family:'Sentinel';}
+
+
+.work-title{
+  font-family: "Montserrat";
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 300;
+  color:#29346F;
+
+  padding: 5%;
+  margin-top: -2%;
+
 }
 
-.main-nav ul li a
-{
-  color:#29346F;;
-  text-decoration: none;
-  font-family: "Montserrat", sans-serif;
-  font-size:25px;
-  padding: 5px 15px;
+.work-author{
+  font-family: 'Sentinel';
+  font-style: normal;
+  font-size: 42px;
+  font-style: italic;
+  font-weight: 325;
+
+
+  margin-top: -9%;
+  padding: 5%;
+  letter-spacing: 0.05em;
 
 }
 
-h1{
-position: absolute;
-width: 989px;
-height: 61px;
-left: 90px;
-top: 314px;
+.work-text {
 
-font-family: Montserrat;
-font-style: normal;
-font-weight: normal;
-font-size: 60px;
-line-height: 73px;
-letter-spacing: 0.05em;
-
-color: #29346F;
-}
-
-h4{
-position: absolute;
-width: 830px;
-height: 50px;
-left: 90px;
-top: 387px;
+margin-left:5%;
 
 font-family: Sentinel;
-font-style: italic;
+
 font-weight: 325;
-font-size: 42px;
-line-height: 50px;
+line-height: 40px;
+font-size: 25px;
 letter-spacing: 0.05em;
 
 color: #29346F;
 }
-
-h4 a{
+.work-text a{
   color: #215036;
   text-decoration: none;
 }
 
-p{
-  position: absolute;
-width: 1073px;
-height: 60px;
-left: 95px;
-top: 500px;
-
-font-family: Sentinel;
-
-font-weight: 325;
-font-size: 25px;
-line-height: 50px;
-letter-spacing: 0.05em;
-
-color: #29346F;
-}
-
-p a{
-color: #215036;
+.work-text img{
+  width: 70%;
 }
 
 
-.secondsidea {
-position: absolute;
-width: 300px;
-height: 30px;
-left: 245px;
-top: 216px;
 
-font-family: Sentinel;
-font-style: normal;
-font-weight: 375;
-font-size: 25px;
-line-height: 50px;
-/* identical to box height */
+@media screen and (max-width: 750px) {
+    nav{
+    flex-direction: column;
+        justify-content: center;
+        margin-left: 0;
 
-letter-spacing: 0.05em;
-
-color: #215036;
-}
-
-.secondsidea a {
-  text-decoration: none;
-  color: #215036;
-}
-
-span  {
-content: "\2190";   
-position: absolute;
-width: 126px;
-height: 0px;
-margin-left: -30px;
-margin-top: -312px;
+  }
 
 }
 
-.abc a{
-text-decoration: none;
+@media screen and (max-width: 500px) {
+  nav{
+  flex-direction: column;
+        justify-content: center;
+        margin-left: 0;
+
+  }
+
+  .navbar li a{
+     font-size: 10pt;
+  }
+
+    .back i {
+      font-size: 20px;
+    }
+
+  .work-title{
+    font-size: 40px;
+  }
+
+  .work-author{
+    font-size: 30px;
+  }
+
+  .work-text{
+    font-size: 20px;
+  }
+  .work-text img{
+  width: 95%;
+}
+}
+@media screen and (max-width: 400px) {
+
+  nav{
+  flex-direction: column;
+        justify-content: center;
+        margin-left: 0;
+  }
+
+  .navbar li a{
+    font-size: 10pt;
+  }
+
+  .back i {
+      font-size: 20px;
+    }
+     .work-title{
+    font-size: 30px;
+  }
+  .work-author{
+    font-size: 20px;
+  }
+    
+    
+.work-text img{
+  width: 90%;
+}
 
 }
 
-#pageone{
+@media screen and (max-width: 600px) {
 
-  width: 50%;
-}
+  nav{
+  flex-direction: column;
+   justify-content: center;
+    margin-left: 0;
+  }
 
-#pagetwo{
+  .navbar li a{
+    font-size: 10pt;
+  }
 
-  width: 50%;
-}
-
-#pagethree{
-
-  width: 50%;
-}
-
-#pagefour{
- 
-  width: 50%;
-}
-
-#pagefive{
-
-  width: 50%;
+  .back i {
+      font-size: 20px;
+    }
+  
+   .work-title{
+    font-size: 40px;
+  }
+  .work-author{
+    font-size: 30px;
+  }
 }
 
