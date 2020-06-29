@@ -9,8 +9,8 @@
 }
 
 body {
-    background-color: :#E1F2EB;
-   color: #29346F;
+    background-color: #E1F2EB;
+    color: #29346F;
 }
 
 nav {
@@ -29,14 +29,16 @@ nav {
 
 .navbar li {
     margin-left: 34px;
+    padding: 5%;
     font-family: "Montserrat", sans-serif;
 }
 
 
 .navbar li a {
     text-decoration: none;
-    color: #29346F;  
+    color: #29346F;
     font-size: 25px;
+    padding: 5%;
 }
 
 .nav-title {
@@ -202,10 +204,10 @@ color: #29346F;
 	.navbar li a{
 		font-size: 10pt;
 	}
-	
+	}
 
 
-.copy {
+.copy{
 width: 100%;
 color: #29346F;
 margin-bottom: 5%;
