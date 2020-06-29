@@ -1,94 +1,142 @@
-header,body {
-  background: #FFE3DD;
-  width: 1300px;
-  height: 400px;
-  position: relative;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;800&display=swap');
+@font-face { font-family: Sentinel; src: url('Sentinel-Light.otf'); } 
+@font-face { font-family: Sentinel; font-style: italic; src: url('Sentinel-LightItalic.otf');}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: #29346F;
+    background-color: #FFE3DD;
+}
+
+/* NAV */
+
+nav {
+   display: flex; 
+   justify-content: space-between;
+   align-items: center;
+   text-transform: uppercase;
+   padding: 50px 5% 0 5%; /* top right bottom left */
+}
+
+.navbar {
+    list-style: none;
+    display: flex;
 }
 
 
-#side
-{
-width: 238px;
-height: 97.77px;
-margin-left: 90px;
-margin-top: 50px;
-
-
-font-family: Montserrat;
-font-style: normal;
-font-weight: 900;
-font-size: 31.0389px;
-line-height: 109.9%;
-/* or 34px */
-
-letter-spacing: 0.1em;
-
-color: #29346F;
+.navbar li {
+    margin-left: 34px;
+    padding: 5%;
 }
 
-.main-nav
-{
-  position: fixed;
-  list-style: none;
-  top:0px;
-  width: 100%;
-
+.navbar li a {
+    text-decoration: none;
+    color: #29346F;  
+    font-size: 25px;
+    padding: 5%;
 }
 
-.main-nav ul
-{
-float: right;
-right: 52;
-left: 748;
-margin-top: -130px;
+.nav-title {
+    font-size: 32px;
+    font-weight: 800;
+    letter-spacing: 0.1em;
+    line-height: 109%; 
 }
 
-.main-nav ul li{
-  display: inline-block;
-  padding: 200px 34px;
-  letter-spacing: 0.1em;
-  
+.info-title{
+    font-family: "Montserrat";
+    padding: 7% 7%;
+  margin-top: 2%;
+  font-size: 25px;
+color: #29346F; 
 
 }
 
-.main-nav ul li a
-{
-  color: #29346F;
-  text-decoration: none;
-  font-family: "Montserrat", sans-serif;
-  font-size:25px;
-  
-}
 
-h4 {
-position: absolute;
-width: 1000px;
-height: 231px;
-left: 90px;
-top: 270px;
 
-font-family: "Sentinel"
-font-weight: 325;
-font-size: 25px;
-line-height: 30px;
-letter-spacing: 0.05em;
-
-color: #29346F;
+.text{
+  font-family: 'Sentinel';
+  font-style: normal;
+  font-weight: 325;
+  padding: 0 7%;
+  font-size: 25px;
 
 }
 
-h4 a{
-text-decoration: none;
-font-family: "Monserrat", sans-serif;
-font-size: 15pt;
-color: #FF48F8;
+
+
+
+
+@media screen and (max-width: 750px) {
+    nav{
+    flex-direction: column;
+        justify-content: center;
+        margin-left: 0;
+
+  }
+
 }
 
-p {
-position: absolute;
-width: 1000px;
-height: 231px;
-left: 90px;
-top: 270px;
+@media screen and (max-width: 500px) {
+  nav{
+  flex-direction: column;
+        justify-content: center;
+        margin-left: 0;
+
+  }
+
+  .navbar li a{
+     font-size: 10pt;
+  }
+
+    .text{
+      font-size: 20px;
+    }
+
+    body{ 
+    overflow-y: hidden; }
+
 }
 
+@media screen and (max-width: 400px) {
+
+  nav{
+  flex-direction: column;
+        justify-content: center;
+        margin-left: 0;
+  }
+
+  .navbar li a{
+    font-size: 10pt;
+  }
+
+  .text{
+      font-size: 20px;
+    }
+    body{ 
+    overflow-y: hidden; }
+
+
+}
+
+@media screen and (max-width: 600px) {
+
+  nav{
+  flex-direction: column;
+   justify-content: center;
+    margin-left: 0;
+  }
+
+  .text{
+      font-size: 20px;
+    }
+    body{ 
+    overflow-y: hidden; }
+
+}
