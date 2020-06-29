@@ -108,6 +108,14 @@ letter-spacing: 0.05em;
 
 color: #29346F;
 }
+.work-text a{
+  color: #9B1E13;
+  text-decoration: none;
+}
+
+.work-text img{
+  width: 70%;
+}
 
 
 
@@ -148,6 +156,9 @@ color: #29346F;
   .work-text{
     font-size: 20px;
   }
+  .work-text img{
+  width: 95%;
+}
 }
 @media screen and (max-width: 400px) {
 
@@ -170,7 +181,11 @@ color: #29346F;
   .work-author{
     font-size: 20px;
   }
-
+    
+    
+.work-text img{
+  width: 90%;
+}
 
 }
 
