@@ -49,9 +49,10 @@ nav {
     line-height: 109%; 
 }
 
-.back{font-weight: 325;
+.back{
+    font-weight: 325;
+    font-family:'Sentinel';
 }
-
 
 .back i{
 padding: 5% 5%;
