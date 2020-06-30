@@ -120,11 +120,11 @@ nav {
     height: 100%;
 }
 .bev-artist {
-    background-image: url("images/bev.jpg");
+    background-image: url("images/bev.png");
 }
 
 .dan-artist {
-    background-image: url("images/dan.jpg");
+    background-image: url("images/dan.png");
     background-position: 50% 20%;
 }
 
@@ -133,22 +133,22 @@ nav {
     background-position: 50% 20%; 
 }
 .kate-artist {
-    background-image: url("kate/kate.jpg");
+    background-image: url("images/kate.png");
     background-position: 50% 20%; 
 }
 
 .mike-artist {
-    background-image: url("images/mike.jpg");
+    background-image: url("images/mike.png");
     background-position: 50% 20%; 
 }
 
 .shikha-artist {
-    background-image: url("images/shik.jpg");
+    background-image: url("images/shik.png");
     background-position: 50% 20%; 
 }
 
 .oli-artist {
-    background-image: url("images/0-1.jpg");
+    background-image: url("images/0-1.png");
     background-position: 50% 20%; 
 }
 
