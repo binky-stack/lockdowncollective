@@ -204,6 +204,7 @@ nav {
 @media screen and (max-width: 800px) {
     .gallery-img {
         height: 250px;
+	width: 100%;
     }
 
 }
