@@ -234,6 +234,8 @@ nav {
 	.gallery-link{
 		font-size:15px;
 		width:80%;}
+	.gallery-img{
+	width: 100%;}
 }
 
 @media screen and (max-width: 300px) {
