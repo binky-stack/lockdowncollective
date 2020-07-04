@@ -150,7 +150,10 @@ color: #29346F;
   text-decoration: none;
   color: #FF6B00;
 }
-
+.work-cap img{
+   padding: 0 5%;
+  width: 100%;
+}
 
 @media screen and (max-width: 750px) {
     nav{
