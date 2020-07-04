@@ -162,7 +162,10 @@ color: #29346F;
         margin-left: 0;
 
   }
-
+ .work-cap img{
+  padding: 5%;
+  width: 100%;
+}
 
 }
 
@@ -205,6 +208,11 @@ color: #29346F;
 font-size: 15pt;
 padding:5%;
 }
+    
+ .work-cap img{
+  padding: 5%;
+  width: 100%;
+}
 }
 @media screen and (max-width: 400px) {
 
@@ -246,6 +254,10 @@ padding:5%;
   padding: 5%;
   width: 100%;
 }
+ .work-cap img{
+  padding: 5%;
+  width: 100%;
+}
 
 }
 
@@ -279,6 +291,10 @@ padding:5%;
 font-size: 15pt;
 padding:5%;
 }
+ .work-cap img{
+  padding: 5%;
+  width: 100%;
+}
 
 }
 
@@ -308,6 +324,10 @@ padding:5%;
 .work-cap{
 padding:5%;
 font-size: 15pt;
+}
+ .work-cap img{
+  padding: 5%;
+  width: 100%;
 }
 
 }
