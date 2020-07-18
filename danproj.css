@@ -128,6 +128,11 @@ color: #29346F;
   width: 70%;
 }
 
+.collage img{
+  width: 90%;
+  padding: 5%;
+}
+
 .work-author a{
 color:#215036;
 text-decoration: none;
