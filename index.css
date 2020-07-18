@@ -71,6 +71,10 @@ nav {
     font-family: 'Sentinel';
 }
 
+.hero-description a{
+text-decoration:none;
+color:#29346F;}
+
 
 .btn {
     display: inline-block;
