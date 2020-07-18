@@ -105,14 +105,16 @@ color: #215036;
 }
 
 .work-text {
-
 margin-left:5%;
+padding-right: 7%;
+display: flex;
+flex-wrap: nowrap;
 
 font-family: Sentinel;
 
 font-weight: 325;
-line-height: 40px;
-font-size: 25px;
+line-height: 60px;
+font-size: 24px;
 letter-spacing: 0.05em;
 
 color: #29346F;
