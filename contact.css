@@ -49,6 +49,11 @@ nav {
     line-height: 109%; 
 }
 
+.nav-title a{
+    text-decoration: none;
+    color: #29346F;
+}
+
 .info-title{
     font-family: "Montserrat";
     padding: 7% 7%;
