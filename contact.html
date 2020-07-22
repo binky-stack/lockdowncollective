@@ -12,7 +12,7 @@
 <body>
     <!-- NAV SECTION -->
     <nav id="top">
-        <h1 class="nav-title">Lockdown<br />Collective</h1>
+        <h1 class="nav-title"><a href="index.html">Lockdown<br />Collective</a></h1>
         <ul class="navbar">
             <li><a href="index.html">Home</a></li>
             <li><a href="info.html">About</a></li>
@@ -26,8 +26,24 @@
 <h1 class="info-title">Get in touch.</h1>
 
 <p class="text">
-For further inquiries or to get in touch with another member in the group, contact Olivia:&nbsp; <i>olivia.mevorach@gmail.com</i>. 
+For further inquiries or to get in touch with another member in the group, please fill out the form below and one of us will get back to you shortly. 
 
+<div class="container">
+  <form action="action_page.php">
+
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="John">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Smith">
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Hello!" style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+
+  </form>
+</div>
 </p>
 &nbsp;&nbsp;
     </section>
