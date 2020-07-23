@@ -215,3 +215,21 @@ margin-left: 5%;
 font-family: 'Sentinel';
 }
 
+
+
+#myBtn {
+  text-align: center;
+  display: none;
+  position: fixed;
+  bottom: 5%;
+  right: 3%;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: #9B1E13;
+  color: white;
+  cursor: pointer;
+  padding: 1%;
+  font-family: 'Sentinel';
+}
