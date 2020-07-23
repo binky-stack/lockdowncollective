@@ -129,7 +129,17 @@ color: #29346F;
         margin: 1rem 0;
     }
 }
-
+@media screen and (max-width: 800px) {
+    .works-index {
+        justify-content: center;
+    }
+    .entry {
+        width: 70%;
+    }
+	#myBtn{
+	display: none;
+	}
+}
 @media screen and (max-width: 750px) {
     .works-index {
         justify-content: center;
@@ -137,6 +147,9 @@ color: #29346F;
     .entry {
         width: 70%;
     }
+#myBtn{
+	display: none;
+	}
 }
 
 @media screen and (max-width: 500px) {
@@ -164,6 +177,9 @@ color: #29346F;
     .entry-description {
         font-size: 15px;
     }
+	#myBtn{
+	display: none;
+	}
 }
 @media screen and (max-width: 400px) {
 
@@ -191,6 +207,9 @@ color: #29346F;
     .entry-description {
         font-size: 15px;
     }
+	#myBtn{
+	display: none;
+	}
 }
 
 @media screen and (max-width: 600px) {
@@ -203,6 +222,9 @@ color: #29346F;
 
 	.navbar li a{
 		font-size: 10pt;
+	}
+	#myBtn{
+	display: none;
 	}
 	}
 
