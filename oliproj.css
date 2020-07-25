@@ -160,7 +160,10 @@ color: #29346F;
   width: 50%;
   height: auto;
 }
-
+.postcards img{
+  padding: 5%;
+  width: 50%;
+}
 @media screen and (max-width: 750px) {
     nav{
     flex-direction: column;
@@ -172,6 +175,11 @@ color: #29346F;
   padding: 5%;
   width: 100%;
   height: auto;
+}
+    
+    .postcards img{
+  padding: 5%;
+  width: 100%;
 }
 
 }
@@ -221,6 +229,10 @@ padding:5%;
    width: 100%;
   height: auto;
 }
+    .postcards img{
+  padding: 5%;
+  width: 100%;
+}
 }
 @media screen and (max-width: 400px) {
 
@@ -267,6 +279,10 @@ padding:5%;
    width: 100%;
   height: auto;
 }
+    .postcards img{
+  padding: 5%;
+  width: 100%;
+}
 
 }
 
@@ -305,6 +321,10 @@ padding:5%;
    width: 100%;
   height: auto;
 }
+    .postcards img{
+  padding: 5%;
+  width: 100%;
+}
 
 }
 
@@ -340,5 +360,8 @@ font-size: 15pt;
    width: 100%;
   height: auto;
 }
-
+.postcards img{
+  padding: 5%;
+  width: 100%;
+}
 }
