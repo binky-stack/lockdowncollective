@@ -162,7 +162,7 @@ color: #29346F;
 }
 .postcards img{
   padding: 5%;
-  width: 50%;
+  width: 90%;
 }
 @media screen and (max-width: 750px) {
     nav{
