@@ -257,7 +257,7 @@ font-family: 'Sentinel';
   font-size: 18px;
   border: none;
   outline: none;
-  background-color: #BDDFE4;
+  background-color: transparent;
   color: #29346F;
   cursor: pointer;
   padding: 1%;
