@@ -17,8 +17,8 @@ body {
 .menu-btn {
   position: absolute;
   z-index: 1;
-  right: 2rem;
-  top: 2rem;
+  right: 5%;
+  top: 3.125rem;
   height: 20px;
   width: 28px;
   cursor: pointer;
