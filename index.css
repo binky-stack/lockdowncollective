@@ -356,8 +356,21 @@ color:#29346F;}
 	.gallery-img{
 	width: 100%;}
 }
-
+@media screen and (max-width: 500px){
+	nav .menu-nav__link {
+		font-size:0.9rem;
+	}
+}
+@media screen and (max-width: 400px){
+	nav .menu-nav__link {
+		font-size:0.9rem;
+	}
+}
 @media screen and (max-width: 300px) {
+	
+	nav .menu-nav__link {
+		font-size:0.9rem;
+	}
     .gallery-img {
         height: 250px;
 	 width:70%;
