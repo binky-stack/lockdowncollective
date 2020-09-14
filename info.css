@@ -84,8 +84,18 @@ color: #29346F;
   width: 100%;
 }
 
+h2 a{
+    text-decoration:none;
+    color:#29346F;
+}
 
-
+h2{
+    padding-left:7%;
+    font-family: 'Sentinel';
+  font-style: normal;
+  font-weight: 325;
+    font-size: 25px;
+}
 
 
 
