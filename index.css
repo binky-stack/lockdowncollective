@@ -17,8 +17,8 @@ body {
 .menu-btn {
   position: absolute;
   z-index: 1;
-  right: 1rem;
-  top: 1rem;
+  right: 2rem;
+  top: 2rem;
   height: 20px;
   width: 28px;
   cursor: pointer;
@@ -112,13 +112,19 @@ body {
 
 .nav .menu-nav__link {
   display: inline-block;
-  font-size: 2rem;
+  font-size: 1.5rem;
   text-transform: uppercase;
   padding: 2rem 0;
   font-weight: 300;
-  transition: all 0.5 ease-in-out;
+ text-decoration:none;
+    font-family: 'Montserrat', sans-serif;
+    color: #29346F;
 }
-
+.menu-nav__link a{
+	text-decoration:none;
+    font-family: 'Montserrat', sans-serif;
+    color: #29346F;
+}
 .nav .menu-nav__link:hover {
   color:#66697C;
 }
