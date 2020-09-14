@@ -127,6 +127,11 @@ color: #29346F;
   text-decoration: none;
 }
 
+.work-capt{
+   margin-left:5%;
+   padding-right:7%;
+}
+
 .work-text img{
   width: 70%;
 }
