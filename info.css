@@ -84,10 +84,11 @@ color: #29346F;
   width: 100%;
 }
 
-imgy img{
+.imgy img{
    width:90% ;
+   padding:5%;
 }
-imgy{
+.imgy{
     height:400px;
 }
 
