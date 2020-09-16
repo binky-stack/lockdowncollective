@@ -65,7 +65,7 @@ body {
 }
 
 .menu-btn__burger.open::after {
-  width: 50px;
+  width: 80px;
   transform: rotate(-45deg) translate(3px, -7px);
 }
 
