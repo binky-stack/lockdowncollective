@@ -29,7 +29,7 @@ body {
   position: absolute;
   right: 0;
   top: 0.5rem;
-  width: 88px;
+  width: 68px;
   height: 3px;
   background: #29346F;
   transition: all 0.5 ease-in-out;
@@ -39,7 +39,7 @@ body {
   content: '';
   position: absolute;
   top: -8px;
-  width: 88px;
+  width: 68px;
   height: 3px;
   background: #29346F;
   transition: all 0.5 ease-in-out;
@@ -49,7 +49,7 @@ body {
   content: '';
   position: absolute;
   top: 8px;
-  width: 80px;
+  width: 60px;
   height: 3px;
   background: #29346F;
   transition: all 0.5 ease-in-out;
@@ -65,7 +65,7 @@ body {
 }
 
 .menu-btn__burger.open::after {
-  width: 75px;
+  width: 55px;
   transform: rotate(-45deg) translate(3px, -7px);
 }
 
