@@ -30,7 +30,7 @@ body {
   right: 0;
   top: 0.5rem;
   width: 88px;
-  height: 3px;
+  height: 4px;
   background: #29346F;
   transition: all 0.5 ease-in-out;
 }
@@ -50,7 +50,7 @@ body {
   position: absolute;
   top: 8px;
   width: 80px;
-  height: 3px;
+  height: 2px;
   background: #29346F;
   transition: all 0.5 ease-in-out;
 }
