@@ -18,7 +18,7 @@ nav {
    display: flex; 
    justify-content: space-between;
    align-items: flex-start;
-   padding: 50px 5% 0 5%; /* top right bottom left */
+   padding: 50px 10% 0 5%; /* top right bottom left */
 }
 
 .navbar {
