@@ -25,14 +25,15 @@ nav {
     list-style: none;
     display: flex;
 margin-left: 25px;
-	width:80%;
+
 }
 
 
 .navbar li {
-padding: 2%;
+padding: 3%;
 font-size: 20px;
-    font-family: "Montserrat", sans-serif;
+width:80%;
+font-family: "Montserrat", sans-serif;
 }
 
 
