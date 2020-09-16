@@ -18,19 +18,18 @@ nav {
    display: flex; 
    justify-content: space-between;
    align-items: center;
-   text-transform: uppercase;
    padding: 50px 5% 0 5%; /* top right bottom left */
 }
 
 .navbar {
     list-style: none;
     display: flex;
+margin-left: 25px;
 }
 
 
 .navbar li {
-    margin-left: 34px;
-    padding: 5%;
+padding: 2%;
 font-size: 20px;
     font-family: "Montserrat", sans-serif;
 }
@@ -39,7 +38,7 @@ font-size: 20px;
 .navbar li a {
     text-decoration: none;
     color: #29346F;
-    padding: 5%;
+	padding: 3%;
 }
 
 .nav-title {
