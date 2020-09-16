@@ -17,16 +17,14 @@ body {
 nav {
    display: flex; 
    justify-content: space-between;
-   align-items: center;
+   align-items: flex-start;
    padding: 50px 5% 0 5%; /* top right bottom left */
 }
 
 .navbar {
 list-style: none;
 display: flex;
-margin-left: 20px;
-
-
+margin-left: 15px;
 }
 
 
