@@ -17,9 +17,9 @@ body {
 .menu-btn {
   position: absolute;
   z-index: 1;
-  right: 5%;
+  right: 7%;
   top: 3.125rem;
-  height: 30px;
+  height: 20px;
   width: 28px;
   cursor: pointer;
   transition: all 0.5 ease-in-out;
@@ -65,7 +65,7 @@ body {
 }
 
 .menu-btn__burger.open::after {
-  width: 55px;
+  width: 50px;
   transform: rotate(-45deg) translate(3px, -7px);
 }
 
