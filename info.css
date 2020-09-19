@@ -119,6 +119,10 @@ text-decoration:underline;}
 
     .imgy img{
     width:100%}
+    
+    h2 a{
+    border:none;
+    }
 }
 
 @media screen and (max-width: 500px) {
@@ -146,6 +150,9 @@ text-decoration:underline;}
 
     .imgy img{
     width:100%}
+      h2 a{
+    border:none;
+    }
 }
 
 @media screen and (max-width: 400px) {
@@ -172,6 +179,9 @@ text-decoration:underline;}
 
     .imgy img{
     width:100%}
+      h2 a{
+    border:none;
+    }
 }
 
 @media screen and (max-width: 600px) {
@@ -191,5 +201,8 @@ text-decoration:underline;}
 }
     .imgy img{
     width:100%}
+      h2 a{
+    border:none;
+    }
 
 }
