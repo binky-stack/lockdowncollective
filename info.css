@@ -65,7 +65,9 @@ color: #29346F;
 
 h2{
 font-family:Sentinel;
-margin-left:3%;
+margin-left:7%;
+  font-size: 25px;
+    border:2px solid black;
 }
 
 h2 a{
@@ -77,7 +79,7 @@ color:black;
 text-decoration:underline;}
 
 .text{
-  font-family: 'Sentinel';
+  font-family: Sentinel;
   font-style: normal;
   font-weight: 325;
   padding: 0 7%;
