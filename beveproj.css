@@ -108,6 +108,7 @@ color: #9B1E13;
 .work-text {
 
 margin-left:5%;
+padding-right:3%;
 
 font-family: Sentinel;
 
@@ -117,6 +118,7 @@ font-size: 25px;
 letter-spacing: 0.05em;
 
 color: #29346F;
+
 }
 .work-text a{
   color: #9B1E13;
