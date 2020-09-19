@@ -66,13 +66,14 @@ color: #29346F;
 h2{
 font-family:Sentinel;
 margin-left:7%;
-  font-size: 25px;
-    border:2px solid black;
+font-size: 25px;
+    
 }
 
 h2 a{
 text-decoration:none;
-color: #29346F;}
+color: #29346F;
+border:2px solid black;}
 
 h2 a:hover{
 color:black;
