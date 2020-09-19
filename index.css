@@ -18,13 +18,14 @@ nav {
    display: flex; 
    justify-content: space-between;
    align-items: flex-start;
-   padding: 50px 10% 0 5%; /* top right bottom left */
+   padding: 50px 8% 0 5%; /* top right bottom left */
 }
 
 .navbar {
 list-style: none;
 display: flex;
 margin-left: 15px;
+text-transform:uppercase;
 }
 
 
