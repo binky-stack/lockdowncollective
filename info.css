@@ -64,8 +64,9 @@ color: #29346F;
 }
 
 h2{
+ display:flex;
 font-family:Sentinel;
-margin-left:20%;
+align-items:right;
 font-size: 25px;
 padding-right:5%;
     
