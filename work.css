@@ -13,6 +13,7 @@ body {
     color: #29346F;
     background-color: #FFE3DD;
 }
+
 nav {
    display: flex; 
    justify-content: space-between;
@@ -81,7 +82,7 @@ opacity:50%;
 }
 
 .header {
-  padding: 30px;
+   margin-left:5%;
   font-size: 40px;
   font-weight:600;
   text-align: center;
