@@ -91,14 +91,14 @@ opacity:50%;
 .rightcolumn {
   float: left;
   width: 25%;
-  padding-left: 10%;
+  padding-right:10%;
 }
 
 
 .card {
    background-color:transparent;
-   padding: 5%;
-   margin-top: 10%;
+   padding: 2%;
+   margin-top: 5%;
 }
 
 .row:after {
