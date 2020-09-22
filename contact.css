@@ -122,44 +122,10 @@ color: #29346F;
 
 }
 
-
-
-
-
-
-
-input[type=text], select, textarea {
+.text img{
   width: 100%;
-  padding: 3%;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
-  margin-top: 2%;
-  margin-bottom: 5%;
-  resize: vertical;
+
 }
-
-input[type=submit] {
-  background-color: #4CAF50;
-  color: #29346F;
-  padding: 5%px 10%;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-}
-
-input[type=submit]:hover {
-  background-color: #45a049;
-}
-
-.container {
-  border-radius: 5px;
-  background-color: #f2f2f2;
-  padding: 4%;
-}
-
-
-
 
 @media screen and (max-width: 750px) {
     nav{
