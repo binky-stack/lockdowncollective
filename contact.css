@@ -112,13 +112,17 @@ color: #29346F;
 }
 
 
-
 .text{
   font-family: 'Sentinel';
   font-style: normal;
   font-weight: 325;
   padding: 0 7%;
   font-size: 25px;
+    
+   position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 
 }
 
