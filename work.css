@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;800&display=swap');
+@font-face { font-family: Sentinel; src: url('Sentinel-Light.otf'); } 
+@font-face { font-family: Sentinel; font-style: italic; src: url('Sentinel-LightItalic.otf');}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: #29346F;
+    background-color: #FFE3DD;
+}
+nav {
+   display: flex; 
+   justify-content: space-between;
+   align-items: flex-start;
+   padding: 50px 8% 0 5%; /* top right bottom left */
+}
+
+.navbar {
+list-style: none;
+display: flex;
+margin-left: 15px;
+text-transform:uppercase;
+}
+
+
+.navbar li {
+padding: 3%;
+font-size: 20px;
+font-weight:normal;
+font-family: "Montserrat", sans-serif;
+}
+
+
+.navbar li a {
+    text-decoration: none;
+    color: #29346F;
+    padding: 3%;
+}
+
+.nav-title {
+    font-family: "Montserrat", sans-serif;
+    font-size: 32px;
+    font-weight: 800;
+    letter-spacing: 0.1em;
+    line-height: 109%; 
+text-transform:uppercase;
+    
+}
+
+a{
+text-decoration: none; 
+color: #29346F; 
+}
+
+.navbar li a:hover{
+color:#FF48F8;
+}
+
+
+body {
+  font-family: Montserrat, sans-serif;
+  padding: 20px;
+}
+
+.header {
+  padding: 30px;
+  font-size: 40px;
+  text-align: center;
+}
+
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+
+
+.rightcolumn {
+  float: left;
+  width: 25%;
+  padding-left: 20px;
+}
+
+
+.listen{
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+.card {
+   background-color:transparent;
+   padding: 20px;
+   margin-top: 20px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+.footer {
+  padding: 20px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
