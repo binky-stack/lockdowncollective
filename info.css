@@ -98,6 +98,11 @@ text-decoration:underline;}
   font-size: 27px;
 }
 
+.text a:hover {
+color:#29346F;
+text-decoration:line-through;
+
+}
 .text img{
   width: 100%;
 }
