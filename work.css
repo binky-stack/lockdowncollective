@@ -67,9 +67,23 @@ body {
   padding: 20px;
 }
 
+h2{
+    font-family: Montserrat, sans-serif;
+    font-weigh:600;
+}
+
+h5{
+    font-family:'Sentinel';
+}
+
+h2 a:hover{
+opacity:50%;
+}
+
 .header {
   padding: 30px;
   font-size: 40px;
+  font-weight:600;
   text-align: center;
 }
 
@@ -111,10 +125,11 @@ body {
 }
 
 
-.footer {
+footer {
   padding: 20px;
   text-align: center;
   margin-top: 20px;
+   font-weight:500;
 }
 
 @media screen and (max-width: 800px) {
