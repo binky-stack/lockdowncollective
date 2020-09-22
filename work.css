@@ -85,14 +85,13 @@ opacity:50%;
 .leftcolumn { 
   float: left;
   width: 75%;
-   padding-left: 2%;
 }
 
 
 .rightcolumn {
   float: left;
   width: 25%;
-  padding-left: 20px;
+  padding-left: 10px;
 }
 
 
@@ -105,7 +104,7 @@ opacity:50%;
 .card {
    background-color:transparent;
    padding: 20px;
-   margin-top: 20%;
+   margin-top: 10%;
 }
 
 .row:after {
