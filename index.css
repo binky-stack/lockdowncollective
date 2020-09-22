@@ -127,6 +127,9 @@ color:#29346F;}
 .gallery-link a:hover {
    opacity:50%;
 }
+.gallery-link:hover {
+   opacity:50%;
+}
 
 .gallery-img {
   height: 490px;
