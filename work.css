@@ -91,19 +91,13 @@ opacity:50%;
 .rightcolumn {
   float: left;
   width: 25%;
-  padding-left: 10px;
+  padding-left: 10%;
 }
 
-
-.listen{
-  background-color: #aaa;
-  width: 100%;
-  padding: 20px;
-}
 
 .card {
    background-color:transparent;
-   padding: 20px;
+   padding: 5%;
    margin-top: 10%;
 }
 
@@ -118,7 +112,7 @@ footer {
   padding: 20px;
   text-align: center;
   margin-top: 20px;
-   font-weight:500;
+   font-weight:600;
 }
 
 @media screen and (max-width: 800px) {
