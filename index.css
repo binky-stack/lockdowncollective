@@ -124,6 +124,10 @@ color:#29346F;}
    font-family: 'Sentinel';
 }
 
+.gallery-link a:hover {
+   opacity:50%;
+}
+
 .gallery-img {
   height: 490px;
   display: flex;
