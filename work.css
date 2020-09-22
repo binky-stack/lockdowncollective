@@ -73,6 +73,12 @@ body {
   text-align: center;
 }
 
+.img {
+  width: 100%;
+  padding: 20px;
+    
+}
+
 .leftcolumn {   
   float: left;
   width: 75%;
