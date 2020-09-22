@@ -76,13 +76,6 @@ h2 a:hover{
 opacity:50%;
 }
 
-.header {
-   margin-left:5%;
-  font-size: 40px;
-  font-weight:600;
-  text-align: center;
-}
-
 .img {
   width: 100%;
   padding: 20px;
@@ -90,10 +83,9 @@ opacity:50%;
 }
 
 .leftcolumn { 
-   margin-top:7%;
-    margin-left:7%;
   float: left;
   width: 75%;
+   padding-left: 2%;
 }
 
 
