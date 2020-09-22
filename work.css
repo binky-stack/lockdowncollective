@@ -85,13 +85,14 @@ opacity:50%;
 .leftcolumn { 
   float: left;
   width: 50%;
+ padding-left:7%;
 }
 
 
 .rightcolumn {
   float: left;
   width: 50%;
-  padding-right:20%;
+  padding-right:15%;
 }
 
 
@@ -109,10 +110,12 @@ opacity:50%;
 
 
 footer {
+    
   padding: 20px;
   text-align: center;
   margin-top: 20px;
-   font-weight:600;
+   font-family:Montserrat, sans-serif;
+   font-weight:500;
 }
 
 @media screen and (max-width: 800px) {
