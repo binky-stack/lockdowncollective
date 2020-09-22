@@ -62,13 +62,8 @@ color: #29346F;
 color:#FF48F8;
 }
 
-
-body {
-  font-family: Montserrat, sans-serif;
-  padding: 20px;
-}
-
 h2{
+   
     font-family: Montserrat, sans-serif;
     font-weigh:600;
 }
@@ -94,7 +89,8 @@ opacity:50%;
     
 }
 
-.leftcolumn {   
+.leftcolumn { 
+   margin-top:20%;
   float: left;
   width: 75%;
 }
@@ -116,7 +112,7 @@ opacity:50%;
 .card {
    background-color:transparent;
    padding: 20px;
-   margin-top: 20px;
+   margin-top: 20%;
 }
 
 .row:after {
