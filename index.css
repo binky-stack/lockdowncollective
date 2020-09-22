@@ -91,17 +91,11 @@ text-decoration:none;
 color:#29346F;}
 
 
-.btn {
-    display: inline-block;
-    margin-top: 20px;
-    padding: 10px 10px;
-    text-decoration: none;
-    font-family: 'Sentinel';
-    font-size: 15pt;
-    color: #29346F; 
-    border: 1px solid #29346F;
+footer{
+left:15%;
+bottom:-3%;
+scroll-behavior: smooth;
 }
-
 
 /*  GALLERY */
 .gallery-entry {
