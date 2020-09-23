@@ -79,7 +79,7 @@ opacity:50%;
 
 
 .leftcolumn {
-    
+    background-color:#d2e9e3;
    margin-top:2%;
   float: left;
   width: 60%;
@@ -90,7 +90,7 @@ opacity:50%;
 
 .rightcolumn {
     background-color:#d2e9e3;
-    opacity:50%;
+    background-color-opacity:50%;
    margin-top:2%;
   float: left;
   width: 40%;
