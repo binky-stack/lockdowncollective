@@ -112,11 +112,11 @@ opacity:50%;
 }
 
 
-footer {
+.footer {
     font-family:'Montserrat', sans-serif;
    font-weight:500;
-  padding: 20px;
-  text-align: center;
+  padding: 5px;
+  text-align: left;
   margin-top: 23px;
 }
 
@@ -134,6 +134,10 @@ footer {
         justify-content: center;
         margin-left: 0;
 
+  }
+    .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
   }
 }
 
@@ -157,6 +161,10 @@ footer {
      .navbar li a{
      font-size: 10pt;
   }
+    .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
 }
 
 @media screen and (max-width: 600px) {
@@ -165,6 +173,10 @@ footer {
   flex-direction: column;
    justify-content: center;
     margin-left: 0;
+  }
+    .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
   }
 
  }
