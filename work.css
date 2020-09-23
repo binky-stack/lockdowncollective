@@ -84,6 +84,7 @@ opacity:50%;
   float: left;
   width: 50%;
  padding-left:7%;
+    
 
 }
 
@@ -97,8 +98,6 @@ opacity:50%;
 
 
 .card {
-   border:2px solid 
-#c6d7c7;
    padding: 2%;
    margin-top: 9%;
 }
