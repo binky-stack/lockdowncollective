@@ -79,8 +79,7 @@ opacity:50%;
 
 
 .leftcolumn {
-    background-color:#d2e9e3;
-   margin-top:2%;
+     margin-top:2%;
   float: left;
   width: 60%;
  padding-left:7%;
@@ -89,9 +88,7 @@ opacity:50%;
 
 
 .rightcolumn {
-    background-color:#d2e9e3;
-    background-color-opacity:50%;
-   margin-top:2%;
+  margin-top:2%;
   float: left;
   width: 40%;
   padding-right:10%;
@@ -99,6 +96,8 @@ opacity:50%;
 
 
 .card {
+   border:2px solid 
+#c6d7c7;
    padding: 2%;
    margin-top: 9%;
 }
