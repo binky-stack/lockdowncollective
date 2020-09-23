@@ -85,7 +85,7 @@ opacity:50%;
 .leftcolumn {
    margin-top:2%;
   float: left;
-  width: 50%;
+  width: 60%;
  padding-left:7%;
 }
 
@@ -93,8 +93,8 @@ opacity:50%;
 .rightcolumn {
    margin-top:2%;
   float: left;
-  width: 50%;
-  padding-right:15%;
+  width: 40%;
+  padding-right:10%;
 }
 
 
@@ -112,11 +112,11 @@ opacity:50%;
 
 
 footer {
+    font-family:'Montserrat', sans-serif;
+   font-weight:500;
   padding: 20px;
   text-align: center;
-  margin-top: 20px;
-   font-family:'Montserrat', sans-serif;
-   font-weight:500;
+  margin-top: 23px;
 }
 
 
