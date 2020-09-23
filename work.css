@@ -115,7 +115,7 @@ opacity:50%;
 .footer {
     font-family:'Montserrat', sans-serif;
    font-weight:500;
-  padding: 5px;
+  padding-left: 7%;
   text-align: left;
   margin-top: 23px;
 }
@@ -124,7 +124,7 @@ opacity:50%;
 @media screen and (max-width: 800px) {
   .leftcolumn, .rightcolumn {   
     width: 100%;
-    padding: 0;
+    padding: 2%;
   }
 }
 
@@ -137,7 +137,7 @@ opacity:50%;
   }
     .leftcolumn, .rightcolumn {   
     width: 100%;
-    padding: 0;
+    padding: 2%;
   }
 }
 
@@ -147,6 +147,10 @@ opacity:50%;
         justify-content: center;
         margin-left: 0;
 
+  }
+    .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 2%;
   }
 
 }
@@ -161,9 +165,9 @@ opacity:50%;
      .navbar li a{
      font-size: 10pt;
   }
-    .leftcolumn, .rightcolumn {   
+   .leftcolumn, .rightcolumn {   
     width: 100%;
-    padding: 0;
+    padding: 2%;
   }
 }
 
@@ -176,7 +180,7 @@ opacity:50%;
   }
     .leftcolumn, .rightcolumn {   
     width: 100%;
-    padding: 0;
+    padding: 2%;
   }
 
  }
