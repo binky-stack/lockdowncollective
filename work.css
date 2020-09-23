@@ -14,10 +14,6 @@ body {
     background-color:#ffe3dd;
 }
 
-.row{
-background-image:url(/images/arrow.png);
-}
-
 nav {
    display: flex; 
    justify-content: space-between;
