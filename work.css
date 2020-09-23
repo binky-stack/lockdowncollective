@@ -11,7 +11,7 @@
 body {
     font-family: 'Montserrat', sans-serif;
     color: #29346F;
-    background-image:url(/images/arrow.png) no-repeat absolute;
+    background-image:url(/images/arrow.png);
 }
 
 nav {
@@ -97,7 +97,7 @@ opacity:50%;
 
 
 .card {
-   padding: 2%;
+   padding: 3%;
    margin-top: 9%;
 }
 
