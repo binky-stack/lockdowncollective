@@ -12,7 +12,8 @@ body {
     font-family: 'Montserrat', sans-serif;
     color: #29346F;
     background-color:#ffe3dd;
-    background-image:url(/images/arrow.png), z-index: -9;
+    background-image:url(/images/arrow.png);
+    z-index:-1;
 }
 
 nav {
