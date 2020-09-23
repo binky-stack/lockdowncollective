@@ -66,12 +66,12 @@ h2{
    
     font-family: Montserrat, sans-serif;
     font-weigh:600;
-    z-index:999;
+    z-index:9999999;
    
 }
 
 h2 a{
-z-index:999;
+ z-index:9999999;
 }
 
 
@@ -82,6 +82,7 @@ h5{
 
 h2 a:hover{
 opacity:50%;
+ z-index:9999999;
 }
 
 
@@ -90,7 +91,7 @@ opacity:50%;
   float: left;
   width: 50%;
  padding-left:7%;
-    z-index:999999;
+ z-index:9999999;
     
 
 }
@@ -114,7 +115,7 @@ width:100%;
 margin-top:-45%;
  transform: rotate(10deg);
   opacity:70%;
-     z-index: -999;
+ z-index:-9999999;
 }
 
 .two img {
