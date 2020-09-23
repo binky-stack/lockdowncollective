@@ -13,8 +13,7 @@ body {
     color: #29346F;
     background-color:#ffe3dd;
     background-image:url(/images/arrow.png);
-   background-repeat:repeat;
-  background-blend-mode: lighten;
+    background-blend-mode: lighten;
 }
 
 nav {
