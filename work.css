@@ -112,12 +112,8 @@ opacity:50%;
 }
 
 
-.footer {
-    font-family:'Montserrat', sans-serif;
-   font-weight:500;
-  padding-left: 7%;
-  text-align: left;
-  margin-top: 23px;
+.footer img {
+width:100%;
 }
 
 
