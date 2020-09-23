@@ -83,8 +83,7 @@ opacity:50%;
   float: left;
   width: 60%;
  padding-left:7%;
-background:#d2e9e3;
-    background-opacity:50%;
+
 }
 
 
@@ -97,7 +96,8 @@ background:#d2e9e3;
 
 
 .card {
-   background-color:transparent;
+   background-color:#d2e9e3;
+   background-opacity:50%;;
    padding: 2%;
    margin-top: 9%;
 }
