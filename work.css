@@ -110,10 +110,10 @@ margin-top:-45%;
 
 .two img {
 width:100%;
-transform: rotate(130deg);
+transform: rotate(180deg);
  opacity:70%;
  margin-top:-95%;
- margin-left:10%;
+ padding-left:5%;
 }
 
 .row:after {
