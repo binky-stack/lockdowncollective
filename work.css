@@ -86,12 +86,7 @@ opacity:50%;
     
 
 }
-.card img{
-width:100%;
-margin-top:-45%;
- transform: rotate(20deg);
-   opacity:80%;
-}
+
 
 .rightcolumn {
   margin-top:2%;
@@ -104,6 +99,13 @@ margin-top:-45%;
 .card {
    padding: 3%;
    margin-top: 9%;
+}
+
+.card img{
+width:100%;
+margin-top:-45%;
+ transform: rotate(10deg);
+  opacity:70%;
 }
 
 .row:after {
