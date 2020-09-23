@@ -108,6 +108,12 @@ margin-top:-45%;
   opacity:70%;
 }
 
+.two img {
+width:100%;
+transform: rotate(-90deg);
+    opacity:70%;
+}
+
 .row:after {
   content: "";
   display: table;
