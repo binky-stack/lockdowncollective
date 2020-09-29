@@ -131,9 +131,8 @@ color: #29346F;
 }
 
 .work-text {
-  border: 1px solid black;
 
-margin-left:5%;
+ margin-left:5%;
 padding-right: 5%;
 display: flex;
 flex-wrap: nowrap;
