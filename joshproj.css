@@ -7,12 +7,14 @@
     margin: 0;
     box-sizing: border-box;
 }
+html{
+border:3px solid #BE4144;}
 
 body {
     font-family: 'Montserrat', sans-serif;
     color: #29346F;
-    background-color: #BE4144;
-    border:3px solid #BE4144;
+    background-color:#FBEDB9;
+    
 }
 
 #work{
