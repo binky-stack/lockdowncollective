@@ -11,6 +11,11 @@
 body {
     font-family: 'Montserrat', sans-serif;
     color: #29346F;
+    background-color: #BE4144;
+    border:3px solid #BE4144;
+}
+
+#work{
     background-color: #FBEDB9;
 }
 
