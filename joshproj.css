@@ -154,6 +154,7 @@ color: #29346F;
   text-decoration: none;
   color: #BE4144;
 }
+/* MEDIA QUERIES */
 @media screen and (max-width: 750px) {
     nav{
     flex-direction: column;
@@ -203,12 +204,7 @@ color: #29346F;
 font-size: 15pt;
 padding:5%;
 }
-     .work-text{
-  overflow-y: scroll;
-   scroll-behavior: smooth;
-  height:500px;
- 
-}
+    
 
 }
 @media screen and (max-width: 400px) {
@@ -243,12 +239,6 @@ padding:5%;
 
 font-size: 15pt;
 padding:5%;
-}
-     .work-text{
-  overflow-y: scroll;
-   scroll-behavior: smooth;
-  height:400px;
- 
 }
 
 
@@ -285,12 +275,7 @@ font-size: 15pt;
 padding:5%;
 
 }
-.work-text{
-  overflow-y: scroll;
-   scroll-behavior: smooth;
-  height:550px;
- 
-}
+
 
 
 }
