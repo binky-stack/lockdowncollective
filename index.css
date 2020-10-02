@@ -186,11 +186,11 @@ opacity:50%;}
 }
 
 .bev-work {
-    background-image: url('emails/colorone.jpg');
+    background-image: url('/beverly/colorone.jpg');
 }
 
 .dan-work {
-    background-image: url('d.images/danlaptop.png');
+    background-image: url('/dan/danlaptop.png');
 }
 
 .josh-work {
