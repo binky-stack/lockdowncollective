@@ -54,24 +54,20 @@ text-decoration:none;
 color:#29346F;
 }
 
-#hero{
-text-align:baseline;
-float:left;
-}
 
 .back {
-margin-left: 3%;
+margin-left: 5%;
 font-size: 20px;
 color: #FF6B00;
 font-weight: 325;
 font-family:Sentinel;
     
-text-align:baseline;
+text-align:left
 }
 
 .back img {
     
-margin-top: 3%;
+margin-top: 5%;
 
 }
 
