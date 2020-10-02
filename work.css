@@ -137,6 +137,11 @@ footer img{
 width:100%;  
 }
 
+audio { 
+background-color:#29346F;
+border-radius:90px;
+transform: scale(1.05);
+}
 
 @media screen and (max-width: 800px) {
   .leftcolumn, .rightcolumn {   
