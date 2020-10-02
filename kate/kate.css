@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;800&display=swap');
+@font-face { font-family: Sentinel; src: url('Sentinel-Light.otf'); } 
+@font-face { font-family: Sentinel; font-style: italic; src: url('Sentinel-LightItalic.otf');}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #BDDFE4;
+    color: #29346F;
+}
+
+nav {
+   display: flex; 
+   justify-content: space-between;
+   align-items: center;
+   text-transform: uppercase;
+   padding: 50px 5% 0 5%; /* top right bottom left */
+}
+
+.navbar {
+    list-style: none;
+    display: flex;
+}
+
+
+.navbar li {
+    margin-left: 34px;
+    padding: 5%;
+    font-family: "Montserrat", sans-serif;
+}
+
+
+.navbar li a {
+    text-decoration: none;
+    color: #29346F;
+    font-size: 25px;
+    padding: 5%;
+}
+
+.nav-title {
+    font-family: "Montserrat", sans-serif;
+    font-size: 32px;
+    font-weight: 800;
+    letter-spacing: 0.1em;
+    line-height: 109%; 
+    
+}
+
+a{
+text-decoration: none; 
+color: #29346F; 
+}
+
+
+
+
+/** ARTIST PAGE **/
+#artist {
+    padding: 0 5%;
+}
+.artist-title {
+    font-family: "Montserrat", sans-serif;
+    color: #DE4E50;
+    font-size: 3rem;
+    font-weight: 325;
+    margin-top: 3rem;
+}
+.artist-subtitle {
+    margin: 1rem 0 2rem;
+}
+.artist-subtitle a {
+   font-family: 'Sentinel';
+    font-style: italic;
+    font-weight: 325;
+    font-size: 30px;
+}
+.works-index {
+    display: flex;
+    flex-wrap: wrap;
+}
+.entry {
+    display: flex;
+    max-height: 400px;
+    width: 45%;
+    margin: 2.4rem 1rem;
+}
+
+.entry-img {
+    width: 50%;
+}
+
+.entry-info {
+    width: 50%;
+    border-top: 2px solid #DE4E50;
+    padding-left: 1rem;
+}
+
+.entry-img img {
+    height: auto;
+    width: 100%;
+    border: 2px solid #DE4E50;
+}
+
+.entry-date {
+	font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+    margin-top: 0.5rem;
+}
+
+.entry-title {
+	font-family: "Montserrat", sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    margin: 1.5rem 0;
+}
+
+.entry-description {
+    font-family: 'Sentinel';
+    font-style: italic;
+}
+
+@media screen and (max-width: 900px) {
+    .entry-title {
+        font-size: 26px;
+        margin: 1rem 0;
+    }
+#myBtn{
+	display:none !important;
+	}
+}
+
+@media screen and (max-width: 800px) {
+	.entry-title {
+        font-size: 26px;
+        margin: 1rem 0;
+    }
+#myBtn{
+	display:none !important;
+	}
+}
+
+@media screen and (max-width: 750px) {
+    .works-index {
+        justify-content: center;
+    }
+    .entry {
+        width: 70%;
+    }
+#myBtn{
+	display:none !important;
+	}
+}
+
+@media screen and (max-width: 500px) {
+	nav{
+	flex-direction: column;
+        justify-content: center;
+        margin-left: 0;
+
+	}
+
+	.navbar li a{
+		 font-size: 10pt;
+	}
+
+    .entry {
+        width: 90%;
+    }
+    .entry-date {
+        font-size: 15px;
+    }
+    .entry-title {
+        margin: 0.5rem 0;
+        font-size: 20px;
+    }
+    .entry-description {
+        font-size: 15px;
+    }
+	
+	#myBtn{
+	display:none !important;
+	}
+}
+@media screen and (max-width: 400px) {
+
+	nav{
+	flex-direction: column;
+        justify-content: center;
+        margin-left: 0;
+	}
+
+	.navbar li a{
+		font-size: 10pt;
+	}
+
+	
+    .entry {
+        width: 90%;
+    }
+    .entry-date {
+        font-size: 15px;
+    }
+    .entry-title {
+        margin: 0.5rem 0;
+        font-size: 20px;
+    }
+    .entry-description {
+        font-size: 15px;
+    }
+	
+	#myBtn{
+	display:none !important;
+	}
+}
+
+@media screen and (max-width: 600px) {
+
+	nav{
+	flex-direction: column;
+        justify-content: center;
+        margin-left: 0;
+	}
+
+	.navbar li a{
+		font-size: 10pt;
+	}
+	
+	#myBtn{
+	display:none !important;
+	}
+	}
+@media screen and (max-width: 300px){
+	#myBtn{
+	display:none !important;
+	}
+}
+
+footer{
+width: 100%;
+color: #29346F;
+margin-bottom: 5%;
+margin-left: 5%;
+font-family: 'Sentinel';
+}
+
+#myBtn {
+  text-align: center;
+  display: none;
+  position: fixed;
+  bottom: 5%;
+  right: 3%;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  color: #29346F;
+  cursor: pointer;
+  padding: 1%;
+  font-family: 'Montserrat', sans-serif;
+}
+
