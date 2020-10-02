@@ -58,11 +58,12 @@ color:#29346F;
 }
 
 
-.back img{
+.back img, .back a{
 padding: 5% 5%;
 margin-top: 2%;
 font-size: 25px;
 color: #FF6B00;
+
 }
 
 
@@ -71,6 +72,7 @@ color: #FF6B00;
   font-family: 'Sentinel';
   font-style: normal;
   font-weight: 325;
+    text-decoration:none;
 
 }
 
