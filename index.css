@@ -144,30 +144,30 @@ opacity:50%;}
     height: 100%;
 }
 .bev-artist {
-    background-image: url("images/bev.png");
+    background-image: url("/bev/bevface.png");
 }
 
 .dan-artist {
-    background-image: url("images/dan.png");
+    background-image: url("/dan/danface.png");
     background-position: 50% 20%;
 }
 
 .josh-artist {
-    background-image: url("images/cute.png");
+    background-image: url("/josh/joshface.png");
     background-position: 50% 20%; 
 }
 .kate-artist {
-    background-image: url("images/kate.png");
+    background-image: url("/kate/kateface.png");
     background-position: 50% 20%; 
 }
 
 .mike-artist {
-    background-image: url("images/mike.png");
+    background-image: url("/mike/mikeface.png");
     background-position: 50% 20%; 
 }
 
 .shikha-artist {
-    background-image: url("images/shik.png");
+    background-image: url("/shikha/shikhaface.png");
     background-position: 50% 20%; 
 }
 
