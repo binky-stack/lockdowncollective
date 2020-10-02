@@ -59,14 +59,13 @@ color:#29346F;
 margin-left: 3%;
 font-size: 20px;
 color: #FF6B00;
-    font-weight: 325;
-    font-family:Sentinel;
+font-weight: 325;
+font-family:Sentinel;
 }
 
-.back img{
+.back img a{
     
 margin-top: 3%;
-font-size: 15px;
 
 }
 
