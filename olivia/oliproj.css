@@ -58,9 +58,9 @@ color:#29346F;
 }
 
 
-.back img, a{
-padding-left: 5%;
-margin-top: 2%;
+.back img, .back a{
+
+    margin-top: 2%;
 font-size: 15px;
 color: #FF6B00;
 
