@@ -54,8 +54,12 @@ text-decoration:none;
 color:#29346F;
 }
 
+#hero{
+text-align:baseline;
+float:left;
+}
 
-.back{
+.back {
 margin-left: 3%;
 font-size: 20px;
 color: #FF6B00;
@@ -65,7 +69,7 @@ font-family:Sentinel;
 text-align:baseline;
 }
 
-.back img a{
+.back img {
     
 margin-top: 3%;
 
