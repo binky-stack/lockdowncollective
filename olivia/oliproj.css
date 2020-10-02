@@ -57,6 +57,8 @@ color:#29346F;
 .back{font-weight: 325;
 }
 
+.back{
+margin-left: 3%;}
 
 .back img, .back a{
 
@@ -72,7 +74,8 @@ color: #FF6B00;
   font-family: 'Sentinel';
   font-style: normal;
   font-weight: 325;
-    text-decoration:none;
+text-decoration:none;
+   margin-top:-2%;
 
 }
 
