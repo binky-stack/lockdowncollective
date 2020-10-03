@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;900&display=swap');
+@font-face { font-family: Sentinel; src: url('Sentinel-Light.otf'); } 
+@font-face { font-family: Sentinel; font-style: italic; src: url('Sentinel-LightItalic.otf');}
+@font-face { font-family: Sentinel; font-style: Semibold; src: url('Sentinel-Semibold.otf');}
+@font-face { font-family: Sentinel; font-style: BookItalic; src: url('Sentinel-BookItalic.otf');}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: #29346F;
+    background-color:#BDDFE4;
+}
+
+/* NAV */
+
+nav {
+   display: flex; 
+   justify-content: space-between;
+   align-items: center;
+   text-transform: uppercase;
+   padding: 50px 5% 0 2.5%; /* top right bottom left */
+}
+
+.navbar {
+    list-style: none;
+    display: flex;
+    flex-wrap: nowrap;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+}
+
+
+.navbar li {
+    margin-left: 34px;
+    padding: 3%;
+    font-size: 22px;
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: #29346F;  
+}
+
+.nav-title {
+  font-family: "Montserrat", sans-serif;
+  font-size: 31.5px;
+  font-weight: 900;
+  letter-spacing: 0.1em;
+  line-height: 109%; 
+}
+
+.nav-title a{
+text-decoration:none;
+color:#29346F;
+}
+
+
+/* back to link */
+
+#hero{
+  margin-top: 7%;
+  padding-left: 6.5%;
+}
+
+span{
+  text-decoration: none;
+  color: :#DE4E50;
+  font-family: Sentinel;
+  font-weight: 600;
+  font-size: 25px;
+  letter-spacing: 0.09em;
+}
+
+/* work section */
+
+.titles
+{
+display: inline-block;
+margin-left: 6.5%;
+
+margin-top: 4%;
+}
+
+h2{
+  font-family: "Montserrat", sans-serif;
+  font-size: 60px;
+  font-weight: 500;
+  color:#29346F;
+  letter-spacing:0.03em;
+
+  text-transform:uppercase;
+}
+
+h3{
+  font-family: Sentinel;
+  font-style: italic;
+  font-weight: lighter;
+  font-size: 42px;
+  letter-spacing: 0.05em;
+  line-height: 100%;
+}
+
+h2 a{
+  color::#DE4E50;
+  text-decoration: none;
+}
+
+h3 a{
+color::#DE4E50;
+}
+
+video 
+{
+  width: 100% !important;
+  height: auto !important;
+}
+
+
+@media screen and (min-width: 50rem) {
+  .border{
+ 	   border: .3rem solid :#DE4E50;
+	  margin: 5rem auto ; 
+	padding: 5rem;
+    max-width: 38rem; // min-width - 2(padding + border)
+  }
+	
+  body {
+    background-color: #BDDFE4;
+  }
+}
+.border {
+    background-color: #BDDFE4;
+  }
+
+p {
+  padding: 2rem;
+  letter-spacing: 0.1rem;
+  line-height: 1.75;
+  &:last-of-type {
+    padding-top: 0;
+  }
+}
+
+.video {
+  padding-top: 2rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+.image {
+  padding-top: 2.5rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+div, p {
+  font-family: Sentinel;
+  text-rendering: optimizeLegibility;
+}
