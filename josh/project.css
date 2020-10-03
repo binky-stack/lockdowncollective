@@ -119,7 +119,7 @@ video
 
 @media screen and (min-width: 50rem) {
   .border{
- 		border: .3rem solid #FF6B00;
+ 		border: .3rem solid #BE4144;
 	  margin: 5rem auto ; 
 		padding: 5rem;
     max-width: 38rem; // min-width - 2(padding + border)
