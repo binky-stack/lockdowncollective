@@ -162,14 +162,19 @@ div, p {
 nav{
     flex-direction: column;
     justify-content: center;
-    margin-left: 0;
+    margin-left: 0 auto;
+    margin-top: -10%;
   }
+  
+.navbar li {
+  font-size: 3vw;
+ }
 
   #hero, span {
    font-size: 4vw;
   }
 
-h2,h3 {
+h2, h3 {
     margin-left:0;
     }
 
