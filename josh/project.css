@@ -104,11 +104,13 @@ h3{
 }
 
 h2 a{
-  color: #FF6B00;
+  color:#BE4144;
   text-decoration: none;
 }
+
 h3 a{
-color:#BE4144;;}
+color:#BE4144;
+}
 
 video 
 {
@@ -119,11 +121,12 @@ video
 
 @media screen and (min-width: 50rem) {
   .border{
- 		border: .3rem solid #BE4144;
+ 	   border: .3rem solid #BE4144;
 	  margin: 5rem auto ; 
-		padding: 5rem;
+	padding: 5rem;
     max-width: 38rem; // min-width - 2(padding + border)
   }
+	
   body {
     background-color: #FBEDB9;
   }
@@ -140,8 +143,6 @@ p {
     padding-top: 0;
   }
 }
-
-
 
 .video {
   padding-top: 2rem;
