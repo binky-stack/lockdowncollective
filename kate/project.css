@@ -69,7 +69,7 @@ color:#29346F;
 
 span{
   text-decoration: none;
-  color: :#DE4E50;
+  color: #DE4E50;
   font-family: Sentinel;
   font-weight: 600;
   font-size: 25px;
@@ -123,7 +123,7 @@ video
 
 @media screen and (min-width: 50rem) {
   .border{
- 	   border: .3rem solid :#DE4E50;
+ 	   border: .3rem solid #DE4E50;
 	  margin: 5rem auto ; 
 	padding: 5rem;
     max-width: 38rem; // min-width - 2(padding + border)
