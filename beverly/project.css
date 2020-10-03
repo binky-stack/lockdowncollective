@@ -92,6 +92,8 @@ h2{
   font-weight: 500;
   color:#29346F;
   letter-spacing:0.03em;
+
+  text-transform:uppercase;
 }
 
 h3{
