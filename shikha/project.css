@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;900&display=swap');
+@font-face { font-family: Sentinel; src: url('Sentinel-Light.otf'); } 
+@font-face { font-family: Sentinel; font-style: italic; src: url('Sentinel-LightItalic.otf');}
+@font-face { font-family: Sentinel; font-style: Semibold; src: url('Sentinel-Semibold.otf');}
+@font-face { font-family: Sentinel; font-style: BookItalic; src: url('Sentinel-BookItalic.otf');}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: #29346F;
+    background-color:  #ECEEDA;
+}
+
+/* NAV */
+
+nav {
+   display: flex; 
+   justify-content: space-between;
+   align-items: center;
+   text-transform: uppercase;
+   padding: 50px 5% 0 2.5%; /* top right bottom left */
+}
+
+.navbar {
+    list-style: none;
+    display: flex;
+    flex-wrap: nowrap;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+}
+
+
+.navbar li {
+    margin-left: 34px;
+    padding: 3%;
+    font-size: 22px;
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: #29346F;  
+}
+
+.nav-title {
+  font-family: "Montserrat", sans-serif;
+  font-size: 31.5px;
+  font-weight: 900;
+  letter-spacing: 0.1em;
+  line-height: 109%; 
+}
+
+.nav-title a{
+text-decoration:none;
+color:#29346F;
+}
+
+
+/* BACK */
+
+#hero{
+  margin-top: 7%;
+  padding-left: 6.5%;
+}
+
+span{
+  text-decoration: none;
+  color:#ED5559;
+  font-family: Sentinel;
+  font-weight: 600;
+  font-size: 25px;
+  letter-spacing: 0.09em;
+}
+
+/* TITLES / WORK SECTION */
+
+.titles
+{
+display: inline-block;
+margin-left: 6.5%;
+
+margin-top: 4%;
+}
+
+h2{
+  font-family: "Montserrat", sans-serif;
+  font-size: 60px;
+  font-weight: 500;
+  color:#29346F;
+  letter-spacing:0.03em;
+}
+
+h3{
+  font-family: Sentinel;
+  font-style: italic;
+  font-weight: lighter;
+  font-size: 42px;
+  letter-spacing: 0.05em;
+  line-height: 100%;
+}
+
+h2 a{
+  color: #ED5559;
+  text-decoration: none;
+}
+
+h3 a{
+color: #ED5559;
+ 
+}
+
+video 
+{
+  width: 100% !important;
+  height: auto !important;
+}
+
+@media screen and (min-width: 50rem) {
+  .border{
+ 		border: .3rem solid #ED5559;
+	  margin: 5rem auto ; 
+		padding: 5rem;
+    max-width: 38rem; // min-width - 2(padding + border)
+  }
+  body {
+    background-color:  #ECEEDA;
+  }
+}
+.border {
+    background-color:  ##ECEEDA;
+  }
+
+p {
+  padding: 2rem;
+  letter-spacing: 0.1rem;
+  line-height: 1.75;
+ }
+
+ p:last-of-type {
+    padding-top: 0;
+  }
+
+.video {
+  padding-top: 2rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+.image {
+  padding-top: 2.5rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+
+div, p {
+  font-family: Sentinel;
+  text-rendering: optimizeLegibility;
+}
+
+
+/* MEDIA */
+@media screen and (max-width:550px)and (min-width:300px){
+
+nav{
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 0 auto;
+    margin-top: -6%;
+  }
+
+.nav-title {
+margin-left: -35%;
+position: relative;
+font-size: 7vw;
+}
+
+.navbar li {
+  font-size: 3vw;
+ }
+
+ #hero, span {
+   font-size: 4vw;
+   padding-top: 5%;
+   padding-bottom: 10%;
+  }
+
+h2,h3 {
+ text-align: left;
+    }
+
+h2 {
+
+  font-size: 9vw;
+}
+
+h3 {
+  font-size: 30px;
+}
+}
