@@ -119,7 +119,6 @@ video
   height: auto !important;
 }
 
-
 @media screen and (min-width: 50rem) {
   .border{
  		border: .3rem solid #FF6B00;
@@ -139,10 +138,11 @@ p {
   padding: 2rem;
   letter-spacing: 0.1rem;
   line-height: 1.75;
-  &:last-of-type {
+ }
+
+ p:last-of-type {
     padding-top: 0;
   }
-}
 
 .video {
   padding-top: 2rem;
@@ -155,4 +155,22 @@ p {
 div, p {
   font-family: Sentinel;
   text-rendering: optimizeLegibility;
+}
+
+@media screen and (max-width:550px) and (min-width:300px){
+  
+nav{
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 0;
+  }
+
+  #hero, span {
+   font-size: 20px;
+  }
+
+h2,h3 {
+    font-size: 40px;
+    }
+
 }
