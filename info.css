@@ -94,7 +94,7 @@ p img{
   width: 100%;
 }
 
-@media screen and (max-width:800px)and (min-width:300px){
+@media screen and (max-width:1024px)and (min-width:300px){
 
 nav{
     flex-direction: column;
