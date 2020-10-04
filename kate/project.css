@@ -166,3 +166,42 @@ div, p {
   font-family: Sentinel;
   text-rendering: optimizeLegibility;
 }
+/* MEDIA */
+@media screen and (max-width:550px)and (min-width:300px){
+
+nav{
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 0 auto;
+    margin-top: -6%;
+  }
+
+.nav-title {
+margin-left: -35%;
+position: relative;
+font-size: 7vw;
+}
+
+.navbar li {
+  font-size: 3vw;
+ }
+
+ #hero, span {
+   font-size: 4vw;
+   padding-top: 5%;
+   padding-bottom: 10%;
+  }
+
+h2,h3 {
+ text-align: left;
+    }
+
+h2 {
+
+  font-size: 9vw;
+}
+
+h3 {
+  font-size: 30px;
+}
+}
