@@ -121,28 +121,28 @@ video
 
 @media screen and (min-width: 50rem) {
   .border{
- 		border: .3rem solid #ED5559;
+ 	   border: .3rem solid #ED5559;
 	  margin: 5rem auto ; 
-		padding: 5rem;
+	padding: 5rem;
     max-width: 38rem; // min-width - 2(padding + border)
   }
+	
   body {
     background-color:  #ECEEDA;
   }
 }
 .border {
-    background-color:  ##ECEEDA;
+    background-color: #ECEEDA;
   }
 
 p {
   padding: 2rem;
   letter-spacing: 0.1rem;
   line-height: 1.75;
- }
-
- p:last-of-type {
+  &:last-of-type {
     padding-top: 0;
   }
+}
 
 .video {
   padding-top: 2rem;
