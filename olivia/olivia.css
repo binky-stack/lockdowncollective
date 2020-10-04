@@ -64,7 +64,7 @@ color: #29346F;
 }
 .artist-title {
     font-family: "Montserrat", sans-serif;
-    color: #cba0aa;
+    color: #FF6B00;
     font-size: 3rem;
     font-weight: 325;
     margin-top: 3rem;
@@ -95,14 +95,14 @@ color: #29346F;
 
 .entry-info {
     width: 50%;
-    border-top: 2px solid #cba0aa;
+    border-top: 2px solid #FF6B00;
     padding-left: 1rem;
 }
 
 .entry-img img {
     height: auto;
     width: 100%;
-    border: 2px solid #cba0aa;
+    border: 2px solid #FF6B00;
 }
 
 .entry-date {
