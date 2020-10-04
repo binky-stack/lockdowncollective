@@ -12,7 +12,10 @@ body {
     font-family: 'Montserrat', sans-serif;
     color: #29346F;
     background-image:url("/images/aboutpic.svg");
-     background-repeat: no-repeat;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
 }
 
 nav {
