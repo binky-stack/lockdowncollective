@@ -1,6 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;800&display=swap');
 @font-face { font-family: Sentinel; src: url('Sentinel-Light.otf'); } 
 @font-face { font-family: Sentinel; font-style: italic; src: url('Sentinel-LightItalic.otf');}
+@font-face {font-family: Sentinel Book; src: url(fonts/SentinelBook.otf) format('opentype');}
+@font-face {font-family: Sentinel Book Italic; src: url(fonts/SentinelBookItalic.otf) format('opentype');}
+@font-face {font-family: Sentinel Light Italic; src: url(fonts/SentinelLightItalic.otf) format('opentype');}
+@font-face {font-family: Sentinel Light; src: url(fonts/SentinelSSm-Light.otf) format('opentype');}
+@font-face {font-family: Sentinel Medium; src: url(fonts/SentinelMedium.otf) format('opentype');}
 
 * {
     padding: 0;
@@ -16,99 +21,56 @@ body {
 nav {
    display: flex; 
    justify-content: space-between;
-   align-items: flex-start;
-   padding: 50px 8% 0 5%; /* top right bottom left */
-}
-
-.navbar {
-list-style: none;
-display: flex;
-margin-left: 15px;
-text-transform:uppercase;
-}
-
-
-.navbar li {
-padding: 3%;
-font-size: 20px;
-font-weight:normal;
-font-family: "Montserrat", sans-serif;
-}
-
-
-.navbar li a {
-    text-decoration: none;
-    color: #29346F;
-    padding: 3%;
-}
-
-.nav-title {
-    font-family: "Montserrat", sans-serif;
-    font-size: 32px;
-    font-weight: 800;
-    letter-spacing: 0.1em;
-    line-height: 109%; 
-text-transform:uppercase;
-    
-}
-
-a{
-text-decoration: none; 
-color: #29346F; 
-}
-
-.navbar li a:hover{
-color:#FF48F8;
-}
-
-/* NAV 
-
-nav {
-   display: flex; 
-   justify-content: space-between;
    align-items: center;
    text-transform: uppercase;
-   padding: 50px 5% 0 5%; /* top right bottom left
-} 
+   padding: 50px 5% 0 2.5%; /* top right bottom left */
+}
 
 .navbar {
     list-style: none;
     display: flex;
+    flex-wrap: nowrap;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
 }
 
 
 .navbar li {
     margin-left: 34px;
-    padding: 5%;
+    padding: 3%;
+    font-size: 22px;
 }
 
 .navbar li a {
     text-decoration: none;
     color: #29346F;  
-    font-size: 25px;
-    padding: 5%;
 }
 
 .nav-title {
-    font-size: 32px;
-    font-weight: 800;
-    letter-spacing: 0.1em;
-    line-height: 109%; 
+  font-family: "Montserrat", sans-serif;
+  font-size: 31.5px;
+  font-weight: 900;
+  letter-spacing: 0.1em;
+  line-height: 109%; 
 }
 
 .nav-title a{
 text-decoration:none;
 color:#29346F;
-}*/
+}
 
  
-.info-title{
+h1 {
     font-family: "Montserrat";
     padding: 7% 7%;
   margin-top: 2%;
   font-size: 25px;
 color: #29346F; 
 
+}
+#info{
+  width:100%;
+  height:400px;
 }
 
 h2{
@@ -131,134 +93,48 @@ h2 a:hover{
 color:black;
 text-decoration:underline;}
 
-.text{
+p {
+  
   font-family: Sentinel;
   font-style: normal;
   font-weight: 325;
   padding: 0 7%;
   font-size: 25px;
+  width:100%;
 
 }
 
-.text a {
+.p a {
   text-decoration: none;
   color: #FF48F8;
   font-size: 27px;
 }
 
-.text a:hover {
+p a:hover {
 color:#29346F;
 text-decoration:line-through;
 
 }
-.text img{
+p img{
   width: 100%;
 }
 
-.imgy img{
-   width:90% ;
-   padding:5%;
-   
-}
-.imgy{
-    height:400px;
-}
+@media screen and (max-width:700px)and (min-width:300px){
 
-
-@media screen and (max-width: 750px) {
-    nav{
+nav{
     flex-direction: column;
-        justify-content: center;
-        margin-left: 0;
-
+    justify-content: center;
+    margin-left: 0 auto;
+    margin-top: -6%;
   }
 
-    .imgy img{
-    width:100%}
-    
-    h2 a{
-    border:none;
-    }
+.nav-title {
+margin-left: -35%;
+position: relative;
+font-size: 7vw;
 }
 
-@media screen and (max-width: 500px) {
-  nav{
-  flex-direction: column;
-        justify-content: center;
-        margin-left: 0;
-
-  }
-
-  .navbar li a{
-     font-size: 10pt;
-  }
-
-    .text{
-      font-size: 20px;
-    }
-
-    body{ 
-    overflow-x: hidden; }
-
-.text img{
-  width: 100%;
-}
-
-    .imgy img{
-    width:100%}
-      h2 a{
-    border:none;
-    }
-}
-
-@media screen and (max-width: 400px) {
-
-  nav{
-  flex-direction: column;
-        justify-content: center;
-        margin-left: 0;
-  }
-
-  .navbar li a{
-    font-size: 10pt;
-  }
-
-  .text{
-      font-size: 20px;
-    }
-  
-
-    .text img{
-  width: 100%;
-}
-
-
-    .imgy img{
-    width:100%}
-      h2 a{
-    border:none;
-    }
-}
-
-@media screen and (max-width: 600px) {
-
-  nav{
-  flex-direction: column;
-   justify-content: center;
-    margin-left: 0;
-  }
-
-  .text{
-      font-size: 20px;
-    }
-   
-    .text img{
-  width: 100%;
-}
-    .imgy img{
-    width:100%}
-      h2 a{
-    border:none;
-    }
-
+.navbar li {
+  font-size: 3vw;
+ }
 }
