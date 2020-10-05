@@ -13,9 +13,7 @@ body {
     color: #29346F;
     background-image:url("/images/aboutpic.svg");
   background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
+  background-repeat: repeat;
 }
 
 nav {
