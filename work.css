@@ -11,9 +11,8 @@
 body {
     font-family: 'Montserrat', sans-serif;
     color: #29346F;
-    background-image:url("/images/aboutpic.svg");
-  background-position: center;
-  background-repeat: repeat;
+    background-color: #FFE3DD;
+
 }
 
 nav {
@@ -60,9 +59,14 @@ text-decoration: none;
 color: #29346F; 
 }
 
+
 .navbar li a:hover{
 color:#FF48F8;
 }
+.row{
+background-image:url("/images/aboutpic.svg");
+  background-position: center;
+  background-repeat: repeat;}
 
 h2{
    
