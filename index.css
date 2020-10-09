@@ -11,7 +11,7 @@ html{
  scroll-behavior: smooth;
 }
 body {
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Montserrat", sans-serif;
     color: #29346F;
     background-color: #FFE3DD;
 }
@@ -79,14 +79,16 @@ color:#FF48F8;
 }
 
 .hero-description {
+	font-family: 'Sentinel';
     font-size: 25px;
     line-height: 40px;
     font-weight: 325;
     letter-spacing: 0.05em;
-    font-family: 'Sentinel';
+   
 }
 
 .hero-description a{
+	font-family: 'Sentinel';
 text-decoration:none;
 color:#29346F;}
 
