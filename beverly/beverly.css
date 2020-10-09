@@ -71,6 +71,8 @@ color: #29346F;
 }
 .artist-subtitle {
     margin: 1rem 0 2rem;
+font-family: 'Sentinel';
+    font-style: italic;
 }
 .artist-subtitle a {
    font-family: 'Sentinel';
