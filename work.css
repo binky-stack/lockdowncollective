@@ -81,6 +81,7 @@ color:#FF48F8;
 
 .box-row{
 flex-basis: 17%;
+flex:3;
 }
 
 .container div, .container-2 div{
