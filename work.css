@@ -35,6 +35,9 @@ font-weight:normal;
 font-family: "Montserrat", sans-serif;
 }
 
+.navbar ul{
+justify-content:space-between;}
+
 
 .navbar li a {
     text-decoration: none;
