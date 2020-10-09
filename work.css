@@ -65,7 +65,7 @@ color:#FF48F8;
   font-family: "Montserrat",sans-serif;
   font-weight: 100;
   font-size: 5em;
-  padding: 7%;
+   padding:7% 2% 5.5% 7%;/* top right bottom left */
 }
 
 @media(min-width:1024px){
