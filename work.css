@@ -111,9 +111,22 @@ p {
   font-weight: 325;
   font-size: 100%;
 }
+
 h2 img{
   width: 10%;
 }
+
+.arrow{
+  display: inline-flex;
+  width: 25%;
+  vertical-align: middle;
+}
+
+img {
+  display: flex;
+  width: 100%;
+}
+
 @media screen and (max-width:750px)and (min-width:300px){
 
   nav{
@@ -134,4 +147,8 @@ h2 img{
    .header{
      font-size: 4em;
    }
+  
+  img{
+  width:90%;
+  }
   }
