@@ -235,6 +235,10 @@ opacity:50%;}
 	footer{
 	margin-left:35%;
 	margin-bottom:5%;}
+	
+	iframe{
+	width:100%;
+	}
 
 }
 @media screen and (max-width: 700px) {
@@ -246,6 +250,10 @@ opacity:50%;}
 	footer{
 	margin-left:35%;
 	margin-bottom:5%;}
+	
+	iframe{
+	width:100%;
+	}
 	
 }
 
@@ -276,6 +284,10 @@ opacity:50%;}
 	footer{
 	margin-left:30%;
 	margin-bottom:5%;}
+	
+	iframe{
+	width:100%;
+	}
 }
 @media screen and (max-width: 500px){
 nav{
@@ -291,6 +303,10 @@ nav{
 	footer{
 	margin-left:30%;
 	margin-bottom:5%;}
+	
+	iframe{
+	width:100%;
+	}
 }
 @media screen and (max-width: 400px){
 	nav{
@@ -305,6 +321,10 @@ nav{
 	footer{
 	margin-left:30%;
 	margin-bottom:5%;}
+	
+	iframe{
+	width:100%;
+	}
 }
 @media screen and (max-width: 300px) {
 	
