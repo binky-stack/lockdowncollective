@@ -174,7 +174,7 @@ opacity:50%;}
 }
 
 .oli-artist {
-    background-image: url("/olivia/giphy.gif");
+    background-image: url(https://i.imgur.com/BKCQZad.gifv);
     background-position: 50% 20%; 
 }
 
@@ -188,31 +188,31 @@ opacity:50%;}
 }
 
 .bev-work {
-    background-image: url('/beverly/colorone.jpg');
+    background-image: url(https://i.imgur.com/568xaav.jpg);
 }
 
 .dan-work {
-    background-image: url('/dan/danlaptop.png');
+    background-image: url(https://i.imgur.com/ynnxDg3.png);
 }
 
 .josh-work {
-    background-image: url('josh/scanj.jpg');
+    background-image: url(https://i.imgur.com/KklbMOy.png);
 }
 
 .kate-work {
-    background-image: url('kate/katew.jpg');
+    background-image: url(https://i.imgur.com/rHaWpKg.png);
 }
 
 .mike-work {
-    background-image: url('michael/mikeee.jpg');
+    background-image: url(https://i.imgur.com/fRwhOoR.png);
 }
 
 .shikha-work {
-    background-image: url('shikha/p4.png');
+    background-image: url(https://i.imgur.com/Qx9P2lT.png);
 }
 
 .oli-work {
-    background-image: url('olivia/oliboli.jpg');
+    background-image: url(https://i.imgur.com/0YRnExA.jpg);
 }
 
 @media screen and (max-width: 1300px) {
