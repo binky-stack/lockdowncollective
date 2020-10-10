@@ -225,6 +225,9 @@ opacity:50%;}
     .gallery-img {
         height: 300px;
     }
+	iframe{
+	width:100%;
+	}
 }
 
 @media screen and (max-width: 800px) {
@@ -354,7 +357,9 @@ nav{
  .hero-description{
 	  font-size:15pt;
 	}
-
+iframe{
+	width:100%;
+	}
 	
 .gallery-link{
 		font-size:15px;
