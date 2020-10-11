@@ -146,30 +146,30 @@ opacity:50%;}
     height: 100%;
 }
 .bev-artist {
-    background-image: url("/beverly/bevface.png");
+    background-image: url(https://i.imgur.com/Dc4mcer.png);
 }
 
 .dan-artist {
-    background-image: url("/dan/danface.png");
+    background-image: url(https://i.imgur.com/ZlZdLBg.png);
     background-position: 50% 20%;
 }
 
 .josh-artist {
-    background-image: url("/josh/joshface.png");
+    background-image: url(https://i.imgur.com/Iy1b7cu.png);
     background-position: 50% 20%; 
 }
 .kate-artist {
-    background-image: url("/kate/kateface.png");
+    background-image: url(https://i.imgur.com/JviAOzV.png);
     background-position: 50% 20%; 
 }
 
 .mike-artist {
-    background-image: url("/michael/mikeface.png");
+    background-image: url(https://i.imgur.com/aNrBJLl.png);
     background-position: 50% 20%; 
 }
 
 .shikha-artist {
-    background-image: url("/shikha/shikhaface.png");
+    background-image: url(https://i.imgur.com/atgBY0z.png);
     background-position: 50% 20%; 
 }
 
