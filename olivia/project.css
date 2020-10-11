@@ -138,11 +138,11 @@ p {
   padding: 2rem;
   letter-spacing: 0.1rem;
   line-height: 1.75;
- }
-
- p:last-of-type {
+  &:last-of-type {
     padding-top: 0;
   }
+}
+
 
 .video {
   padding-top: 2rem;
@@ -150,6 +150,14 @@ p {
   margin-left: auto;
   margin-right: auto;
   width: 80%;
+}
+
+.image {
+  padding-top: 2.5rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
 }
 
 div, p {
