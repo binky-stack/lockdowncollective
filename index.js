@@ -2,14 +2,14 @@ var today = new Date();
 var hourNow = today.getHours();
 var greeting;
 
-if (hourNow > 18) {
-  greeting = 'Bienvenue!';
+if (hourNow > 17) {
+  greeting = 'Good evening!';
 } else if (hourNow > 12) {
-  greeting = 'Velkommen!';
+  greeting = 'Good Afternoon!';
 } else if (hourNow > 0) {
-  greeting = 'Welcome!'; 
+  greeting = 'Good morning!'; 
 } else {
-  greeting = 'Hi there!';
+  greeting = 'Welcome!';
 }
 
 document.write('<h1 class="hero-title">' + greeting + '</h1>');
