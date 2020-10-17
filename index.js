@@ -1,27 +1,15 @@
-const menuBtn = document.querySelector('.menu-btn');
-const hamburger = document.querySelector('.menu-btn__burger');
-const nav = document.querySelector('.nav');
-const menuNav = document.querySelector('.menu-nav');
-const navItems = document.querySelectorAll('.menu-nav__item');
+var today = new Date();
+var hourNow = today.getHours();
+var greeting;
 
-let showMenu = false;
-
-menuBtn.addEventListener('click', toggleMenu);
-
-function toggleMenu() {
-  if(!showMenu){
-    hamburger.classList.add('open');
-    nav.classList.add('open');
-    menuNav.classList.add('open');
-    navItems.forEach(item => item.classList.add('open'));
-
-    showMenu = true;
-  } else {
-    hamburger.classList.remove('open');
-    nav.classList.remove('open');
-    menuNav.classList.remove('open');
-    navItems.forEach(item => item.classList.remove('open'));
-
-    showMenu = false;
-  }
+if (hourNow > 18) {
+  greeting = 'Bienvenue!';
+} else if (hourNow > 12) {
+  greeting = 'Velkommen!';
+} else if (hourNow > 0) {
+  greeting = 'Welcome!'; 
+} else {
+  greeting = 'Hi there!';
 }
+
+document.write('<h1 class="hero-title">' + greeting + '</h1>');
