@@ -95,6 +95,10 @@ font-family: 'Sentinel';
     width: 50%;
 }
 
+img:hover{
+	opacity:0.7;
+}
+
 .entry-info {
     width: 50%;
     border-top: 2px solid #9B1E13;
