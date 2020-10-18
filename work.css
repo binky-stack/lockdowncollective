@@ -111,7 +111,7 @@ h3,p{
 p{
   font-family:'Sentinel';
   font-weight: 325;
-  font-size: 23px;
+  font-size: 100%;
   text-align: center;
 }
 p a:hover{
