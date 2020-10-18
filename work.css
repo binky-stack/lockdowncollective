@@ -98,11 +98,9 @@ span{
   grid-template-columns:4fr 2fr;
   gap: 3em;
   grid-auto-rows: minmax(100px, auto);
+   margin-left: 3%;
 }
 
-.box{
-  margin-left: 2%;
-}
 .nested{
   line-height:170%;
 }
