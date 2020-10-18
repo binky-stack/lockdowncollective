@@ -111,10 +111,10 @@ h3,p{
   line-height:200%;
 }
 p{
-  font-family: 'Sentinel-Light';
+  font-family:'Sentinel';
+  font-weight: 325;
   font-size: 23px;
   text-align: center;
-  text-rendering: optimizeLegibility;
 }
 p a:hover{
   opacity: 0.5;
@@ -125,6 +125,7 @@ p a:hover{
   border-top: 5px dotted #29346F;
   width: 60%
 }
+
 @media screen and (max-width:1024px)and (min-width:300px){
 
   nav{
@@ -150,6 +151,7 @@ p a:hover{
     font-size:15vw;
   }
   .container-one{
+    margin:0 auto;
     grid-template-columns: auto;
   }
   #line{
@@ -159,6 +161,6 @@ p a:hover{
     text-align: left;
   }
   .nested, .nested h3, .nested div{
-    margin-left: .5%;
+    margin-left: 3%;
   }
   }
