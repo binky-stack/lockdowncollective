@@ -157,7 +157,5 @@ p a:hover{
   p{
     text-align: left;
   }
-  .nested, .nested h3, .nested div{
-    margin-left: 3%;
-  }
+  
   }
