@@ -149,7 +149,6 @@ p a:hover{
     font-size:15vw;
   }
   .container-one{
-    margin:0 auto;
     grid-template-columns: auto;
   }
   #line{
