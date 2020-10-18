@@ -93,6 +93,10 @@ color: #29346F;
     width: 50%;
 }
 
+img:hover{
+	opacity:0.7;
+}
+
 .entry-info {
     width: 50%;
     border-top: 2px solid #DE4E50;
