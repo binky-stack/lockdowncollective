@@ -381,8 +381,6 @@ opacity:50%;}
 
 @media screen and (max-width: 600px) {
 
-
-	
   .hero-title{
 	  font-size:30px;
 	}
@@ -407,6 +405,7 @@ opacity:50%;}
 	width:100%;
 	}
 }
+
 @media screen and (max-width: 500px){
 
 	footer{
@@ -458,7 +457,7 @@ footer{
 
 }
 
-@media (min-width: 800px) {
+@media screen and (max-width: 900px) and (min-width: 800px) {
   
     .menu-toggle {
       display: none;
