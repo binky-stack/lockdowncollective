@@ -15,12 +15,12 @@ body {
     color: #29346F;
     background-color: #FFE3DD;
 }
-
+/*
 nav {
    display: flex; 
    justify-content: space-between;
    align-items: flex-start;
-   padding: 50px 8% 0 5%; /* top right bottom left */
+   padding: 50px 8% 0 5%;
 }
 
 .navbar {
@@ -64,7 +64,127 @@ color: #29346F;
 color:#FF48F8;
 }
 
-/* HERO */
+ */
+
+/*begin nav*/
+.nav-title {
+ font-family: "Montserrat", sans-serif;
+    font-size: 32px;
+    font-weight: 800;
+    letter-spacing: 0.1em;
+    line-height: 109%; 
+     text-transform:uppercase;
+  margin:50px 0 0 5%;    
+}
+
+a{
+text-decoration: none; 
+color: #29346F; 
+}
+
+.navbar li a:hover{
+opacity: 0.7;
+}
+.container {
+  width: 95%;
+  max-width: 1000px;
+}
+
+header {
+  display: flex; 
+  justify-content: space-between;
+  align-items: flex-start;
+  position: relative;
+}
+
+header::after {
+  content: '';
+  clear: both;
+  display: block;
+}
+
+.site-nav {
+  position: absolute;
+  float:right;
+  padding: 70px 4% 0 0;
+  text-transform:uppercase;
+  clip-path: circle(0px at top right);
+  transition: clip-path ease-in-out 700ms;
+/*   display: none; */
+}
+
+.site-nav--open {
+  clip-path: circle(250% at top right);
+/*   display: block; */
+}
+
+.site-nav ul {
+  list-style: none;
+  font-size: 23px;
+}
+
+
+.site-nav li:last-child {
+  border-bottom: none;
+}
+.site-nav a {
+  color:  #29346F;
+  display: block;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.site-nav a:hover,
+.site-nav a:focus {
+  background: #fae3dd;
+  color: #9ba4b4;
+}
+
+.menu-toggle {
+  padding: 0.5em;
+  position: absolute;
+  top: 1.5em;
+  right: 2em;
+  cursor: pointer;
+}
+
+.hamburger,
+.hamburger::before,
+.hamburger::after {
+  content: '';
+  display: block;
+  background: #29346F;
+  height: 3px;
+  width:1.75em;
+  border-radius: 3px;
+  transition: all ease-in-out 500ms;
+}
+
+.hamburger::before {
+  transform: translateY(-6px);
+}
+
+.hamburger::after {
+  transform: translateY(3px);
+}
+
+.open .hamburger {
+  transform: rotate(45deg);
+}
+
+.open .hamburger::before {
+  opacity: 0;
+}
+
+.open .hamburger::after {
+  transform: translateY(-3px) rotate(-90deg);
+}
+
+.navbar li a:hover{
+opacity: 0.7;
+}
+
+
 
 #hero {
     padding: 10% 5%;
@@ -244,6 +364,41 @@ opacity:50%;}
 	}
 
 }
+
+@media (min-width: 800px) {
+  
+    .menu-toggle {
+      display: none;
+    }
+    
+    .site-nav {
+      height: auto;
+      position: relative;
+      background: transparent;
+      float: right;
+      clip-path: initial;
+    }
+    
+    .site-nav li {
+      display: inline-block;
+      border: none;
+    }
+    
+    .site-nav a {
+      padding: 0;
+      margin-left: 3em;
+    }
+    
+    .site-nav a:hover,
+    .site-nav a:focus {
+      background: transparent;
+    }
+    
+    .site-nav--icon {
+      display: none;
+    }
+    
+  }
 @media screen and (max-width: 700px) {
 	  nav{
   flex-direction: column;
