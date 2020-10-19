@@ -380,7 +380,7 @@ opacity:50%;}
     }
     
     .site-nav li {
-      display: block;
+      display: inline-block;
       border: none;
     }
     
@@ -397,10 +397,7 @@ opacity:50%;}
     .site-nav--icon {
       display: none;
     }
-	
-.site-nav ul{
-	font-size:10pt;
-	}
+
     
   }
 @media screen and (max-width: 700px) {
