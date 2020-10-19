@@ -457,7 +457,7 @@ footer{
 
 }
 
-@media screen and (max-width: 900px) and (min-width: 800px) {
+@media screen (min-width: 700px) {
   
     .menu-toggle {
       display: none;
@@ -490,9 +490,6 @@ footer{
       display: none;
     }
 	
- .nav-title {
-  position: relative;
-  font-size: 7vw;
-
+ 
     
   }
