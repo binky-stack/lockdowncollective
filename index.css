@@ -349,11 +349,7 @@ opacity:50%;}
 	width:100%;
 	}
 }
-@media screen and (max-width:1024px)and (min-width:300px){
-  .nav-title {
-  position: relative;
-  font-size: 7vw;
-  }
+
 
 @media screen and (max-width: 800px) {
     .gallery-img {
@@ -494,6 +490,10 @@ footer{
     .site-nav--icon {
       display: none;
     }
+	
+ .nav-title {
+  position: relative;
+  font-size: 7vw;
 
     
   }
