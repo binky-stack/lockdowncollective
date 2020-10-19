@@ -229,7 +229,7 @@ p a:hover{
   
   }
 
-@media (min-width: 700px) {
+@media (min-width: 800px) {
   
     .menu-toggle {
       display: none;
