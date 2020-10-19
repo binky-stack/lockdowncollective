@@ -382,6 +382,7 @@ opacity:50%;}
     .site-nav li {
       display: inline-block;
       border: none;
+	font-size:13px;
     }
     
     .site-nav a {
