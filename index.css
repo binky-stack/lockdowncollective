@@ -386,7 +386,7 @@ opacity:50%;}
     
     .site-nav a {
       padding: 0;
-      margin-left: 3em;
+      margin-left: 2em;
     }
     
     .site-nav a:hover,
@@ -400,11 +400,7 @@ opacity:50%;}
     
   }
 @media screen and (max-width: 700px) {
-	  nav{
-  flex-direction: column;
-        justify-content: center;
-        margin-left: 0;
-  }
+
 	footer{
 	margin-left:35%;
 	margin-bottom:5%;}
@@ -416,11 +412,7 @@ opacity:50%;}
 }
 
 @media screen and (max-width: 600px) {
-    nav{
-  flex-direction: column;
-        justify-content: center;
-        margin-left: 0;
-  }
+
 
 	
   .hero-title{
@@ -448,16 +440,7 @@ opacity:50%;}
 	}
 }
 @media screen and (max-width: 500px){
-nav{
-  flex-direction: column;
-        justify-content: center;
-        margin-left: 0;
-  }
 
-  .navbar li a{
-    font-size: 10pt;
-  }
-	
 	footer{
 	margin-left:30%;
 	margin-bottom:5%;}
@@ -467,15 +450,7 @@ nav{
 	}
 }
 @media screen and (max-width: 400px){
-	nav{
-  flex-direction: column;
-        justify-content: center;
-        margin-left: 0;
-  }
-
-  .navbar li a{
-    font-size: 10pt;
-  }
+	
 	footer{
 	margin-left:30%;
 	margin-bottom:5%;}
@@ -485,16 +460,7 @@ nav{
 	}
 }
 @media screen and (max-width: 300px) {
-	
-nav{
-  flex-direction: column;
-        justify-content: center;
-        margin-left: 0;
-  }
 
-  .navbar li a{
-    font-size: 10pt;
-  }
     .gallery-img {
         height: 250px;
 	 width:70%;
@@ -503,9 +469,6 @@ nav{
     width:100%;
 	overflow-x:hidden;}
 	
-    .navbar li a{
-		font-size: 10pt;
-	}
 	 .hero-title{
 	  font-size:19pt;
 	}
