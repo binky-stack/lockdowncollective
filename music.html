@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>music</title>
+  <link href="https://fonts.googleapis.com/css2?family=Fugaz+One&family=Montserrat:wght@100;400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/music.css">
+</head>
+<body>
+<header>
+  <nav class="navbar">
+    <header>
+      <nav class="navbar" style="text-align:left;">
+        <ul class="list">
+          <h1 class="title" style="float:right;">
+            <!--on hover-->
+          <span class="plays"><a href="/plays">PLAYS</a></span>
+          <!--hover element end-->
+           <span class="music-title">MUSIC</span>
+          </h1>
+
+          <li><a class="jf" href="index">Josh Frydman<br>Boy in London<br />Playwright and Musician<br /> in New York</a></li>
+          <li><a href="contact.html"><span class="contact-fix">Contact</span></a></li>
+        </ul>
+        <h1 class="hello">&#8679; all songs performed by me <br />unless  otherwise stated &#8679;</h1>
+     </nav>
+  </header>
+
+<div class="container">
+ 
+
+<div class="box one">  <!--MOBILE DISPLAY ONLY-->
+  <audio controls style="border: 4px solid #e54b4b; border-radius: 30px 30px;">
+    <source src="kikidee.mp3" type="audio/mpeg">
+    <p>Your browser doesn't support HTML5 audio. Here is a <a href="bubbibook.com/kikidee">link to the audio</a> instead.</p>
+  </audio>
+  
+  <h3 class="mobile-only"> &#8679; KiKi Dee /
+    Lyrics by <a href="bubbibook.com/kikidee">Joe Kelly</a> &#8679;
+  </h3>
+
+  <audio controls style="border: 4px solid #e54b4b; border-radius: 30px 30px;">
+    <source src="viper.mp3" type="audio/mp3">
+    <source src="viper.ogg" type="audio/ogg">
+    <p>Your browser doesn't support HTML5 audio. Here is a <a href="viper.mp3">link to the audio</a> instead.</p>
+  </audio>
+
+  <h3 class="mobile-only">
+    &#8679; Small Song /
+    Lyrics by <a href="https://www.thelockdowncollective.com/small-song">Olivia Mev</a> &#8679;
+  </h3>
+  
+  <audio controls style="border: 4px solid #e54b4b; border-radius: 30px 30px;">
+    <source src="viper.mp3" type="audio/mp3">
+    <source src="viper.ogg" type="audio/ogg">
+    <p>Your browser doesn't support HTML5 audio. Here is a <a href="viper.mp3">link to the audio</a> instead.</p>
+  </audio>
+
+  <h3 class="mobile-only">Song title / song credit</h3>
+
+  <audio controls style="border: 4px solid #e54b4b; border-radius: 30px 30px;">
+    <source src="viper.mp3" type="audio/mp3">
+    <source src="viper.ogg" type="audio/ogg">
+    <p>Your browser doesn't support HTML5 audio. Here is a <a href="viper.mp3">link to the audio</a> instead.</p>
+  </audio>
+
+  <h3 class="mobile-only">Song title / song credit</h3>
+
+</div><!--end box one end mobile display-->
+
+<div class="box two">
+
+  <div class="shape">
+    <div class="text">
+      <h2><a href="https://www.bubbibook.com/kikidee/" target="_blank">KiKi Dee</a></h2>
+      <img class="star" src="star2.png" style="display:inline-block; width:10%; height: auto;" />
+      <p>Lyrics by <a href="https://www.bubbihaus.com">Joe Kelly</a>,
+        Melody by Josh
+      </p>
+    </div>
+    </div><!--shape end-->
+
+    <div class="shape">
+      <div class="text">
+        <h2><a href="https://www.thelockdowncollective.com/olivia/small-song" target="_blank">Small Song</a></h2>
+        <img class="star" src="star2.png" style="display:inline-block; width:10%; height: auto;" />
+        <p>Lyrics & Melody
+        by <a href="https://www.olivialoeb.com">Olivia</a></p>
+      </div>
+      </div><!--shape end-->
+
+      <div class="shape">
+        <div class="text">
+          <h2>Small Song</h2>
+          <img class="star" src="star2.png" style="display:inline-block; width:10%; height: auto;" />
+          <p>Lyrics & Melody
+          by Olivia</p>
+        </div>
+        </div><!--shape end-->
+
+        <div class="shape">
+          <div class="text">
+            <h2>Small Song</h2>
+            <img class="star" src="star2.png" style="display:inline-block; width:10%; height: auto;" />
+            <p>Lyrics & Melody
+            by Olivia</p>
+          </div>
+          </div><!--shape end-->
+
+
+
+</div><!--end box two-->
+
+
+</div><!--end container-->
+
+
+  <!--button js and label-->	
+		
+ <button onclick="topFunction()" id="myBtn" title="Back to top"><img src="top.svg" width="100%"></button>
+ <script>
+
+                 window.onscroll = function() {scrollFunction()};
+
+                     function scrollFunction() {
+                         if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                      document.getElementById("myBtn").style.display = "block";
+                          } else {
+                 document.getElementById("myBtn").style.display = "none";
+                      }
+                 }
+
+
+             function topFunction() {
+              document.body.scrollTop = 0;
+                 document.documentElement.scrollTop = 0;
+                     }
+ </script>
+ 
+<!--button js end-->	
+<footer>
+
+  &copy; Josh Frydman 2020 &nbsp; &nbsp; hand coded with &#128150; by <a href="https://www.olivialoeb.com">Olivia LM</a>
+
+</footer>
+</body>
+</html>
