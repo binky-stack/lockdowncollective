@@ -196,19 +196,7 @@ p a:hover{
    .header{
      font-size: 4em;
    }
-   h2{
-    text-align: left;
-    font-size:15vw;
-  }
-  .container-one{
-    grid-template-columns: auto;
-  }
-  #line{
-    visibility: hidden;
-  }
-  p{
-    text-align: left;
-  }
+ 
   
   }
 
