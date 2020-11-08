@@ -281,28 +281,4 @@ opacity:50%;}
   }
 }
 
-@media screen and (max-width:7680px)and (min-width:1700px){
-  .gallery-entry{
-    width:100%;
-  }
-  .gallery-img{
-    width:100%;
-    height:650px;
-  }
-    iframe{
-    width: 100%;
-  }
-  .gallery-artist{
-    width:15%;
-  
-  }
-  .gallery-work{
-    width:100%
-      
-  }
- 
-  body{
-    overflow-x: hidden;
-  }
- 
-}
+
