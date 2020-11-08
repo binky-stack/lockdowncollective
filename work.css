@@ -141,27 +141,10 @@ font-family: "Montserrat", sans-serif;
 font-weight: 300;
 font-size: 10em;
 text-align: center;
+width:100%;
 }
 
-span{
-  animation: color-change 10s infinite;
-}
-
-@keyframes color-change{
-  0% {color:#9ba4b4;}
-  50% {color:#394867;}
-  100% {color:#29346F;}
-}
 /*
-.container-one > div{
-  background: wheat;
-  padding: 1em;
-}
-
-.container-one > div:nth-child(odd){
-  background-color: tomato;
-}
-*/
 .container-one{
   display: grid;
   grid-template-columns:4fr 2fr;
@@ -192,7 +175,7 @@ p a:hover{
   border-top: 5px dotted #29346F;
   width: 60%
 }
-
+*/
 @media screen and (max-width:1024px)and (min-width:300px){
 
   nav{
