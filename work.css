@@ -13,6 +13,11 @@ body{
     background-color:#fae3dd;
 }
 
+a{
+  color: #29346F;
+  text-decoration: none; 
+}
+
 nav {
    display: flex; 
    justify-content: space-between;
@@ -21,7 +26,6 @@ nav {
 }
 
 .navbar {
- 
 list-style: none;
 display: flex;
 margin-left: 15px;
@@ -57,46 +61,190 @@ text-transform:uppercase;
     
 }
 
-a{
-text-decoration: none; 
-color: #29346F; 
+
+.container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
 }
 
-.navbar li a:hover{
-color:#FF48F8;
-}
-
-h2{
-display:flex;
-flex-wrap:wrap;
-font-family:inherit;
-font-size:200%;
-margin:20% 0 5% 0;
-justify-content:center;
-  text-align:center;
+img{
+  max-width: 100%;
+  max-height: auto;
+  height: 58vh;
 }
 
 
-@media screen and (max-width:750px)and (min-width:300px){
+footer{
+  margin-top: 20%;
+  text-align: center;
+  color: black;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 100;
+  letter-spacing: 0.1em;
+  text-transform: lowercase;
 
-  nav{
-      flex-direction: column;
-      justify-content: center;
-      margin-left: 0 auto;
-      margin-top: -6%;
-    }
+}
+
+
+h3{
+  margin-top: 2%;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  font-size: 2.5vw;
+  float: left;
+  border-top: 2px solid  rgb(100,100,200);
+  padding-top: 2%;
+  z-index: 9999;
+}
+.arrow{
+  color: rgb(100,100,200);
+  border-bottom:2.5px solid plum;
+  float: left;
+}
+
+h3 a{
+color: #29346F;
+text-decoration: none;
+z-index: 9999;
+}
+
+h3 a:hover{
+  opacity: 0.3;
+}
+/* Style the tab */
+.tab {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 30%;
+  height: auto;
+  z-index: 9999;
+} 
+
+#another-line{
+  position: absolute;
+  padding-right: 86%;
+  display: flex;
+  flex: wrap;
+}
+
+.projects-title{
+  font-size: 3vw!important;
+  font-weight:200; color:rgb(100,100,200); 
+  border-bottom: 2px solid #29346F;
+  text-align: center;
+  align-items: center;
+  width: 65%;
+  margin-left: 15%;
+  opacity: 87%;
+}
+
+#p-line{
+border: 1px solid plum;
+width: 10%;
+}
+
+#work{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  letter-spacing: 0.2em;
+  font-weight: 500;
+}
+/* Style the buttons inside the tab */
+.tab button,h2 {
+  margin-top: 7%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  color: black;
+  width: 100%;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  transition: 0.2s;
+  font-size: 2vw;
+  background-color: inherit;
+}
+
+
+.tab button.active{
+  color: plum;
+  text-decoration: line-through;
+
+}
+
+.tabcontent {
+  margin-top: 5%;
+  height: auto;
+  z-index: 9999;
   
-  .nav-title {
-  position: relative;
-  font-size: 7vw;
+}
+
+
+
+@media screen and (max-width:1024px) and (min-width:200px){
+
+  .container{
+    margin-top: 3%;
   }
-  
-  .navbar li {
-    font-size: 3vw;
-   }
-  
+  img{
+    height: auto;
+  }
+  .tab button,.container{
+    justify-content: center;
   }
 
+ .tab button{
+   font-size: 4.1vw;
+  line-height: 150%;
+  padding: 10%;
+  margin-top: 2%;
 
+ }
 
-  
+ h2{
+   display: none;
+ }
+
+ h3{
+  font-size: 5vw;
+}
+
+ nav,#top{
+   display: flex;
+   flex-direction: column!important;
+   margin: 1% 0 0 0!important;
+ }
+
+.navbar ul{
+   display: flex;
+   position: absolute!important;
+   font-size: 2.5vw;
+   flex-direction: column;
+   justify-content: flex-start;
+ }
+
+ .navbar ul li{
+  flex-direction: column;
+   margin-left: 36%;
+ }
+
+ .fade-in{
+   font-size: 5vw;
+   margin-top: 5%!important;
+ }
+ .hide-mobile{
+   display: none;
+ }
+
+ hr{
+   display: none;
+ }
+
+} 
