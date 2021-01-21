@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>work we <3</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="work.css"> 
+</head>
+<body>
+  <nav id="top">
+    <h1 class="nav-title"><a href="https://www.thelockdowncollective.com/index">Lockdown<br />Collective</a></h1>
+    <ul class="navbar">
+        
+        <li><a href="https://www.thelockdowncollective.com/info">About</a></li>
+        <li><a href="https://www.thelockdowncollective.com/contact">contact</a></li>
+    </ul>
+</nav>
+
+<div class="container">
+
+<div id="another-line" style="visibility:hidden;">
+<hr width="1" size="930">
+</div>
+
+<div id="London" class="tabcontent">
+  
+  <p><img src="https://i.imgur.com/4Tjs1HU.jpg">
+  <h3><span class="arrow">&#8680;</span> <a href="https://www.thelockdowncollective.com/beverly/bits"> &nbsp;&nbsp;view 'Bits'</a> </h3>
+  </p>
+
+</div>
+
+<div id="Paris" class="tabcontent">
+  <p><img src="https://i.imgur.com/kkk44sP.png"></p>
+  <h3><span class="arrow">&#8680;</span> <a href="https://www.thelockdowncollective.com/dan/caption-this"> &nbsp;&nbsp;view 'New Yorker'</a> </h3>
+</div>
+
+<div id="Alaska" class="tabcontent">
+<p><img src="https://i.imgur.com/9vMlVzf.png"></p>
+  <h3><span class="arrow">&#8680;</span> <a href="https://www.thelockdowncollective.com/josh/lessons-in-apathy"> &nbsp;&nbsp;view 'Lessons in Apathy'</a> </h3>
+</div>
+
+<div id="Prima" class="tabcontent">
+<p><img src="https://i.imgur.com/pt0zfv5.jpg"></p>
+  <h3><span class="arrow">&#8680;</span> <a href="https://www.thelockdowncollective.com/kate/cheers"> &nbsp;&nbsp;view 'Cheers: But To What Though'</a> </h3>
+</div>
+
+<div id="Trap" class="tabcontent">
+<p><img src="https://i.imgur.com/zAHdKuA.png"></p>
+  <h3><span class="arrow">&#8680;</span> <a href="https://www.thelockdowncollective.com/michael/corrupt-intent"> &nbsp;&nbsp;view 'Corrupt Intent'</a> </h3>
+</div>
+
+<div id="finale" class="tabcontent">
+<p><img src="https://i.imgur.com/M15QkFD.png"></p>
+  <h3><span class="arrow">&#8680;</span> <a href="https://www.thelockdowncollective.com/shikha/postcards-to-robbie"> &nbsp;&nbsp;view 'Dear Data'</a> </h3>
+</div>
+
+
+<div class="tab">
+
+<h2 class="projects-title">
+ Work &nbsp; <hr id="p-line"> &nbsp; <span class="arrow-2" style="color:white;"> &#8681; </span>
+ </h2>
+
+  <button class="tablinks" onclick="openCity(event, 'London')" id="defaultOpen">Bits by Beverly</button>
+  <button class="tablinks" onclick="openCity(event, 'Paris')">New Yorker by Dan</button>
+  <button class="tablinks" onclick="openCity(event, 'Alaska')">Lessons in Apathy by Josh</button>
+  <button class="tablinks" onclick="openCity(event, 'Prima')">Cheers by Kate</button>
+  <button class="tablinks" onclick="openCity(event, 'Trap')">Corrupt Intent by Michael</button>
+  <button class="tablinks" onclick="openCity(event, 'finale')">Dear Data by Shikha</button>
+</div>
+
+</div><!--container end-->
+
+<script>
+function openCity(evt, cityName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(cityName).style.display = "inline-block";
+  evt.currentTarget.className += " active";
+}
+
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+</script>
+
+
+<footer>
+&copy; The Lockdown Collective, 2021
+</footer>
+
+ <!-- Code injected by live-server -->
+<script type="text/javascript">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+
+
+</body>
+</html>
