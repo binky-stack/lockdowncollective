@@ -1,45 +1,33 @@
 <?php
+    $error = false;
+    $sent = false;
 
-#Receive user input
-$email_address = $_POST['email_address'];
-$feedback = $_POST['feedback'];
+    if(isset($_POST['submit'])) {
+        if(empty($_POST['name']) || empty($_POST['email']) || empty($_POST['comments'])) {
+            $error = true;
+        }
+        else {
+            $to = "olivia.mevorach@gmail.com";
 
-#Filter user input
-function filter_email_header($form_field) {  
-return preg_replace('/[nr|!/<>^$%*&]+/','',$form_field);
-}
+            $name = trim($_POST['name']);
+            $email = trim($_POST['email']);
+            $comments = trim($_POST['comments']);
 
-$email_address  = filter_email_header($email_address);
+            $subject = "Contact Form";
 
-#Send email
-$headers = "From: $email_addressn";
-$sent = mail('olivia.mevorach@gmail.com', 'the lockdown collective', $feedback, $headers);
+            $message =  "Name: $name \r\n Email: $email \r\n Comments: $comments";
+            $headers = "From:" . $name;
+            $mailsent = mail($to, $subject, $message, $headers);
 
-#Thank user or notify them of a problem
-if ($sent) {
-
-?><html>
-<head>
-<title>Thank You</title>
-</head>
-<body>
-<h1>Thank You</h1>
-<p>Thank you for your message!</p>
-</body>
-</html>
-<?php
-
-} else {
-
-?><html>
-<head>
-<title>Something went wrong</title>
-</head>
-<body>
-<h1>Something went wrong</h1>
-<p>We could not send your message. Please try again.</p>
-</body>
-</html>
-<?php
-}
+            if($mailsent) {
+                $sent = true;
+            }
+        }
+    }
 ?>
+
+<?php if($error == true){ ?>
+<p class="error">Text</p>
+<?php } if($sent == true) { ?>
+<p class="sent">Text</p>
+<?php } ?>
