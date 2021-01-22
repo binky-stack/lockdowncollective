@@ -18,17 +18,22 @@
 </nav>
 
 
-
-<form action="/contact-us.php" method="post">
-
-<label>Email Address</label>
-<input type="text" name="email_address" size="40">
-
-<label>Your Message</label>
-<textarea name="feedback" cols="50" rows="10"></textarea>
-
-<input type="submit" name="send" value="Submit">
-
-</form>
+<div id="form">
+    <form name="contact" action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post">
+        <fieldset>
+            <h4>Contact Us!</h4>
+            <label for="name">Name:</label>
+                <input type="text" name="name" id="name"/>
+                <label for="email"/>Email:</label>
+                <input type="text" name="email" id="email"/>
+                <label for="comments" id="comments">Message:</label>
+                <textarea name="comments" id=""></textarea>
+                <fieldset>
+                <input class="btn" type="submit" name="submit"  class="submit" value="Send email"/>
+                <input class="btn" type="reset" value="Reset"/>
+                </fieldset>
+        </fieldset>
+    </form>
+</div>
 </body>
 </html>
