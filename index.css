@@ -16,6 +16,14 @@ body {
     background-color: #FFE3DD;
 }
 
+input{
+  background-color:transparent;
+  border: none;
+  font-size: medium;
+  font-family: 'Sentinel';
+  color: #29346F;
+}
+
 nav {
    display: flex; 
    justify-content: space-between;
