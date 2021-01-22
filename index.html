@@ -28,8 +28,18 @@
     <section id="hero">
         <h1 class="hero-title"></h1>
         <script src="index.js"></script>
-        <div id="date-div"></div>
-        <br /> <br />
+        <div id="date-div">
+            <script>
+            const dateDiv = document.getElementById('date-div');
+
+function myDateFunction() {
+  const now = new Date();
+  const nowStr = now.toLocaleString('en-US');
+  dateDiv.innerHTML = nowStr;
+}
+                setInterval(myDateFunction, 1000);</script>
+        </div>
+        <br /> 
         <p class="hero-description">
              <i><u><a href="https://tinyletter.com/thelockdowncollective" target="_blank">This is official website for The Lockdown Collective.</a></u></i>
             <br />Thank you for being here! Scroll down to view our members. Click on the arrow &#8627; or the instructions "Visit Page" to view our work! <br /> 
