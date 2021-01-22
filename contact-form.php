@@ -1,6 +1,9 @@
 <?php
-
-if (isset($_POST['submit'])) {
+if(!isset($_POST['submit']))
+{
+    //This page should not be accessed directly. Need to submit the form.
+    echo "error; you need to submit the form!";
+};
   $name = $_POST['name'];
   $subject = $_POST['subject'];
   $mailFrom = $_POST['mail'];
@@ -12,7 +15,7 @@ if (isset($_POST['submit'])) {
 
   mail($mailTo, $subject, $txt, $headers);
   
-  header("Location: contact.html");
+  header('Location: contact.html');
 
 }
 
