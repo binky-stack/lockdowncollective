@@ -1,33 +1,27 @@
-<?php
-    $error = false;
-    $sent = false;
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>contact form</title>
+</head>
 
-    if(isset($_POST['submit'])) {
-        if(empty($_POST['name']) || empty($_POST['email']) || empty($_POST['comments'])) {
-            $error = true;
-        }
-        else {
-            $to = "olivia.mevorach@gmail.com";
+<body>
 
-            $name = trim($_POST['name']);
-            $email = trim($_POST['email']);
-            $comments = trim($_POST['comments']);
+<main>
 
-            $subject = "Contact Form";
+  <p>email us</p>
+  <form class="contact-form" action="contact-form.php" method="post">
+  
+  <input type="text" name="name" placeholder="Full name">
 
-            $message =  "Name: $name \r\n Email: $email \r\n Comments: $comments";
-            $headers = "From:" . $name;
-            $mailsent = mail($to, $subject, $message, $headers);
+    <input type="text" name="mail" placeholder="Your email">
 
-            if($mailsent) {
-                $sent = true;
-            }
-        }
-    }
-?>
+      <input type="text" name="subject" placeholder="subject">
 
-<?php if($error == true){ ?>
-<p class="error">Text</p>
-<?php } if($sent == true) { ?>
-<p class="sent">Text</p>
-<?php } ?>
+      <textarea name="message" placeholder="Message"></textarea>
+
+      <button type="submit" name="button">Send Message</button>
+  </form> 
+</main>
+</body>
+</html>
