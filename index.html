@@ -28,6 +28,13 @@
     <section id="hero">
         <h1 class="hero-title"></h1>
         <script src="index.js"></script>
+        Today is:
+<input type="text" id="currentDate">
+<script>
+  var today = new Date();
+  var date = today.getFullYear()+'-'+(today.getMonth()+1)+'-'+today.getDate();
+  document.getElementById("currentDate").value = date;
+</script>
         <br /> <br />
         <p class="hero-description">
              <i><u><a href="https://tinyletter.com/thelockdowncollective" target="_blank">This is official website for The Lockdown Collective.</a></u></i>
