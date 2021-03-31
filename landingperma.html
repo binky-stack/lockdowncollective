@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="perma.css" /> 
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  </head>
+
+  <body>
+
+
+
+    <header>
+    <h1 class="logo">Words Matter Cafe</h1>
+    </header>
+
+    <h2 class="left-icon"> Welcome ! Please select your preferred language below.</h2>
+
+     <div class="wee"><a id="dice" href="#top"><span class="dice"></span></a></div>
+
+<!--google translate-->
+
+    <div id="google_translate_element"></div>
+ 
+            <script type="text/javascript">
+            function googleTranslateElementInit() {
+              new google.translate.TranslateElement({pageLanguage: 'en', includedLanguages: 'zh-CN,zh-TW,es,en,ar,fr,ht,iw'}, 'google_translate_element');
+            }
+
+            </script>
+
+            <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+<!--google translate end, nav begin-->
+
+<!--logo and some txt-->
+<div class="container">
+ <div class="fringe">
+  <h2 class="fringe_title">Fringe/Centered (Words Matter Café)</h2>
+    <h3 class="italics">noun</h3>
+      <p class="define">1. the border or outer edges of an area or group.</p>
+    <h3 class="italics">adjective</h3>
+      <p class="define">2. not part of the mainstream; unconventional, peripheral, or extreme.</p>
+</div>
+<div class="logo here"></div>
+</div><!--container end-->
+
+
+<div class="legend">
+<ul>
+  <li>
+    <input type="checkbox" checked>
+    <i></i>
+    <h2 class="s-title">Our Statement</h2>
+    <p class="statement">
+      Our digital platform will address and frame analytically discussions in the field of gender/feminist studies. We start with examining the theoretical approaches in gender/feminist studies by using “intersectionality theory,” as a guiding framework. Inclusion of ideas and experiences allow us to look beyond the class “reading” and apply them to everyday life.  By combining our class readings, exploring our own work and life experiences at home and in our communities at large, we will further our collective understanding and engagement in promoting equity, equality, and empowerment for all.</p>
+  </li>
+</ul>
+<h2 class="explain">click anywhere to open, hover body text</h2>
+</div><!--end legend-->
+
+
+
+
+<!--credit-->
+
+<div id="myID" class="bottomMenu hide"><p class="slide"><a href="/credit">Website Design and Creation: Alexandra Massillon & Olivia Loeb-Mevorach</a></p></div>
+
+<script>
+myID = document.getElementById("myID");
+
+var myScrollFunc = function() {
+  var y = window.scrollY;
+  if (y >= 1900) {
+    myID.className = "bottomMenu show"
+  } else {
+    myID.className = "bottomMenu hide"
+  }
+};
+
+window.addEventListener("scroll", myScrollFunc);  
+</script>
+
+
+<!-- SIDE NAV AND BODY CONTENT -->
+
+
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="/">Return To Top</a>
+  <hr>
+  <a href="#">What is feminism?</a>
+  <a href="#">How do you define intersectionality?</a>
+  <a href="#">Topic 3</a>
+  <a href="#">Topic 3</a>
+  <a href="#">Topic 3</a>
+  <a href="#">Topic 3</a>
+</div>
+
+<div id="topicGuide" class="top-guide hide">
+<span class="topic-nav" onclick="openNav()">Open Me</span>
+</div>
+
+<!-- SIDE NAV APPEARS ON SCROLL -->
+<script>
+topicGuide = document.getElementById("topicGuide");
+
+var myScrollFunc = function() {
+  var y = window.scrollY;
+  if (y >= 900) {
+    topicGuide.className = "top-guide shown"
+  } else {
+    topicGuide.className = "top-guide hidden"
+  }
+};
+
+window.addEventListener("scroll", myScrollFunc);  
+</script>
+
+
+<!--oki end-->
+<script>/* Set the width of the side navigation to 250px and the left margin of the page content to 250px */
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+}
+
+/* Set the width of the side navigation to 0 and the left margin of the page content to 0 */
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+  document.getElementById("main").style.marginLeft = "0";
+}</script>
+
+<!--some funky lines maybe-->
+<div id="lines">
+<hr id="l-one"><hr id="l-two">
+</div>
+
+<div id="main"><!--open me moves content to the right-->
+          
+<div class="parent">
+
+<div class="photo" id="slop">
+   <a href="topic"> <img src="https://i.imgur.com/CBh2YUz.png" alt="graphic with text asking what is feminism?"> </a> <h4>what is feminism?</h4>
+  </div>
+
+  <div class="photo" id="slop">
+   <a href="topic"> <img src="https://i.imgur.com/CBh2YUz.png" alt="graphic with text asking what is feminism?"> </a> <h4>what is feminism?</h4>
+  </div>
+
+
+   <div class="photo" id="slop">
+   <a href="topic"> <img id="feminism" src="https://i.imgur.com/cyIbukJ.png" alt="graphic with text asking how do you define intersectionality?"> </a>
+   <h4>how do you define intersectionality?</h4>
+  </div>
+
+  <!--aos fades-->
+
+  <div data-aos="fade-up-right" class="photo">
+   <a href="topic"> <img src="mesh.png" alt="m"> </a>
+  </div>
+
+  <div data-aos="fade-down" class="photo">
+   <a href="topic"> <img src="mesh.png" alt="m"> </a>
+  </div>
+
+  <div data-aos="fade-right" class="photo">
+   <a href="topic"> <img src="mesh.png" alt="m"> </a>
+  </div>
+
+  <!--aos fades-->
+  <div data-aos="fade-right" class="photo">
+   <a href="topic"> <img src="mesh.png" alt="m"> </a>
+  </div>
+
+  <div data-aos="fade-up" class="photo">
+   <a href="topic"> <img src="mesh.png" alt="m"> </a>
+  </div>
+
+  <div data-aos="fade-left" class="photo">
+   <a href="topic"> <img src="mesh.png" alt="m"> </a>
+  </div>
+
+</div><!--parent cont. end-->
+
+
+
+
+
+
+</div><!--end main-->
+  
+   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+   AOS.init({disable: 'mobile'});
+</script>
+
+  </body>
+  </html>
