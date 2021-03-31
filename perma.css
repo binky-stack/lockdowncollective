@@ -37,6 +37,10 @@ header{
   padding: 4% 0 2% 0;
 }
 
+a{
+  z-index: 999;
+}
+
 
 /* title tags =====================*/
 
@@ -168,7 +172,7 @@ a:hover, a:active{ color: #9CAF88;cursor: url(https://cur.cursors-4u.net/nature/
   margin-left: 7%;
   font-style: bold;
   letter-spacing: 0.3em;
-  background-image: url(https://i.imgur.com/Ztsg5Zj.gifv);
+  background-image: url(glue2.gif);
   background-clip:content-box;
   background-size:cover;
   background-repeat: repeat-y;
@@ -229,7 +233,8 @@ h2 {
 }
 
 .statement:hover{
-  background-color: #9CAF88;
+  background-color: thistle;
+  opacity:90% ;
 }
 
 ul {
@@ -398,7 +403,7 @@ span.topic-nav{
   letter-spacing: 0.3em;
   border:2px dashed #e48cc7;
   padding: 1%;
-  background-image: url(mo.png);
+  background-image: url(https://i.imgur.com/XOP0nXc.png);
   background-size: cover;
   background-position-x: left;
 }
@@ -424,10 +429,12 @@ span.topic-nav{
   color: #9CAF88;
   display: block;
   transition: 0.3s;
+  z-index: 99999 !important;
 }
 
 .sidenav a:hover {
   color: #f1f1f1;
+  z-index: 99999 !important;
 }
 
 /* Position and style the close button (top right corner) */
@@ -451,7 +458,7 @@ span.topic-nav{
   width: 100%;
   height: 60px;
   border-top: 1px solid rgb(181,143,132);
-  background: #9CAF88;
+  background: rgb(181,143,132,0.4);
   z-index: 1;
   transition: all 1s;
 }
