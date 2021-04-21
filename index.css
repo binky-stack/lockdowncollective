@@ -287,7 +287,9 @@ opacity:50%;}
     }
     
  .nav-title{
+       margin-top: 2%;
       text-align: center;
+      font-size: 7.3vw;
     }
 	
     .hero-title{
