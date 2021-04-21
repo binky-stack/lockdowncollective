@@ -1,0 +1,313 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;800&display=swap');
+@font-face { font-family: Sentinel; src: url('Sentinel-Light.otf'); } 
+@font-face { font-family: Sentinel; font-style: italic; src: url('Sentinel-LightItalic.otf');}
+@font-face { font-family: Coconat; font-style: bold; src: url('Coconat-BoldExt.otf'); } 
+@font-face { font-family: Coconat; src: url('Coconat-Regular.otf');}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+ scroll-behavior: smooth;
+}
+body {
+  font-family: Coconat;
+    color: #29346F;
+    overflow-x: hidden;
+    background-color: #f33207a2;
+}
+
+#date-div{
+  background-color:transparent;
+  border: none;
+  font-size: medium;
+  font-family: 'Sentinel';
+  color: #29346F;
+text-align:right;
+display: flex;
+align-items: center;
+}
+
+nav {
+   display: flex; 
+   justify-content: space-between;
+   margin: 2% 2% 0 2%;
+   /*padding: 50px 8% 0 5%;*/
+}
+
+.navbar {
+list-style: none;
+display: flex;
+align-items: center;
+text-transform:uppercase;
+}
+
+
+ul li {
+padding-left: 20%;
+font-size: 20px;
+font-weight:normal;
+font-family: "Montserrat", sans-serif;
+}
+
+
+.navbar li a {
+    text-decoration: none;
+    color: #29346F;
+}
+
+.nav-title {
+    font-family:'Coconat';
+    font-style:	bold;
+    font-size: 32px;
+    letter-spacing: 0.1em;
+    line-height: 109%; 
+  text-transform:uppercase;
+    
+}
+
+a{
+text-decoration: none; 
+color: #29346F; 
+}
+
+.navbar li a:hover{
+color:#FF48F8;
+}
+
+ 
+#hero {
+    padding: 10% 5%;
+}
+
+.hero-title {
+    font-size: 60px;
+    font-weight: normal;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+}
+
+.hero-description {
+  line-height: 2.5rem;
+	font-family: 'Sentinel';
+    font-size: 25px;
+    font-weight: 325;
+    letter-spacing: 0.05em;
+    border:9px double #f3010185;
+    padding: 8%;
+   
+}
+
+.hero-description a{
+font-family: 'Sentinel';
+text-decoration:none;
+color:#29346F;}
+
+.stand-out-text{
+	color:#FF48F8;
+}
+
+span.official{
+  text-decoration: underline;
+}
+
+
+footer
+{
+margin-left:43%;
+margin-bottom:3%;
+scroll-behavior: smooth;
+}
+
+footer a:hover{
+opacity:50%;}
+
+/*  GALLERY */
+.gallery-entry {
+    margin-bottom: 14%;
+}
+.gallery-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5%;
+}
+.gallery-title {
+    font-weight: 800;
+    font-size: 48px;
+    margin: 20px 0;
+    text-transform: uppercase;
+}
+.gallery-link {
+    text-decoration: none;
+    color:  #29346F;
+   font-size: 25px;
+   font-family: 'Sentinel';
+}
+
+
+.gallery-link a:hover {
+   opacity:50%;
+}
+.gallery-link:hover {
+   opacity:50%;
+}
+
+.gallery-img {
+  height: 490px;
+  display: flex;
+}
+
+.gallery-artist {
+    width: 25%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+}
+.bev-artist {
+    background-image: url(https://i.imgur.com/Dc4mcer.png);
+}
+
+.dan-artist {
+    background-image: url(https://i.imgur.com/ZlZdLBg.png);
+    background-position: 50% 20%;
+}
+
+.josh-artist {
+    background-image: url(https://i.imgur.com/Iy1b7cu.png);
+    background-position: 50% 20%; 
+}
+.kate-artist {
+    background-image: url(https://i.imgur.com/JviAOzV.png);
+    background-position: 50% 20%; 
+}
+
+.mike-artist {
+    background-image: url(https://i.imgur.com/1xS77QD.png);
+    background-position: 50% 20%; 
+}
+
+.shikha-artist {
+    background-image: url(https://i.imgur.com/atgBY0z.png);
+    background-position: 50% 20%; 
+}
+
+.oli-artist {
+    background-image: url(https://i.imgur.com/BKCQZad.gif);
+    background-position: 50% 20%; 
+}
+
+.gallery-work {
+    width: 75%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border: 2px solid #29346F;
+    height: 100%;
+}
+
+.bev-work {
+    background-image: url(https://i.imgur.com/568xaav.jpg);
+}
+
+.dan-work {
+    background-image: url(https://i.imgur.com/ynnxDg3.png);
+}
+
+.josh-work {
+    background-image: url(https://i.imgur.com/KklbMOy.png);
+}
+
+.kate-work {
+    background-image: url(https://i.imgur.com/rHaWpKg.png);
+}
+
+.mike-work {
+    background-image: url(https://i.imgur.com/WS1JKTm.png);
+}
+
+.shikha-work {
+    background-image: url(https://i.imgur.com/Qx9P2lT.png);
+}
+
+.oli-work {
+    background-image: url(https://i.imgur.com/0YRnExA.jpg);
+}
+@media screen and (max-width:1300px)and (min-width:900px){
+
+  body{
+    overflow-x: hidden;
+  }
+ 
+ .gallery-img {
+    width:100%;
+    height:400px;
+  }
+
+  iframe{
+    width: 100%;
+  }
+
+
+  footer{
+    margin-left:45%;
+    margin-bottom:5%;}
+}
+
+@media screen and (max-width:870px)and (min-width:300px){
+
+  body{
+    overflow-x: hidden;
+  }
+
+  #date-div{
+    display: none;
+  }
+  .gallery-img {
+    height: 250px;
+    width: 100%;
+  }
+
+  nav{
+    flex-direction: column;
+    }
+
+    .navbar{
+      display: flex;
+      margin-top: 7%;
+      text-decoration: underline;
+      
+    }
+
+    .navbar li a{
+      font-size: 10pt;
+    }
+    
+    .hero-title{
+      font-size:15pt;
+    }
+   .hero-description{
+      font-size:15pt;
+    }
+   
+    footer{
+    margin-left:30%;
+    margin-bottom:5%;
+	}
+  
+
+  .gallery-title{
+    font-size: 3.5vw;
+  }
+
+  .gallery-link{
+    font-size: 3vw;
+  }
+
+  iframe{
+    width: 100%;
+  }
+}
