@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TLC</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="info.css"> 
+</head>
+<body>
+  <nav id="top">
+        <h1 class="nav-title"><a href="https://www.thelockdowncollective.com/index">Lockdown<br />Collective</a></h1>
+        <ul class="navbar">
+            <li><a href="https://www.thelockdowncollective.com/info">about</a></li>
+            <li><a href="https://www.thelockdowncollective.com/contact">contact</a></li>
+        </ul>
+         <div id="date-div">
+            <script>
+            const dateDiv = document.getElementById('date-div');
+
+function myDateFunction() {
+  const now = new Date();
+  const nowStr = now.toLocaleString('en-US');
+  dateDiv.innerHTML = nowStr;
+}
+                setInterval(myDateFunction, 1000);</script>
+        </div>
+    </nav>
+
+
+  <div class="container">
+
+        <p>
+         olivia.mevorach @ gmail .  com
+         
+           <br/>
+          <span class="ok">&copy; tlc 2021</span>
+        </p>
+     
+ 
+  </div><!--close container-->
+</body>
+</html>
