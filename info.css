@@ -1,40 +1,52 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;800&display=swap');
 @font-face { font-family: Sentinel; src: url('Sentinel-Light.otf'); } 
 @font-face { font-family: Sentinel; font-style: italic; src: url('Sentinel-LightItalic.otf');}
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+@font-face { font-family: Coconat-BoldExt; font-style: bold; src: url('Coconat-BoldExt.otf'); } 
+@font-face { font-family: Coconat-Regular; src: url('Coconat-Regular.otf');}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+ scroll-behavior: smooth;
+}
+body {
+  font-family: 'Coconat-Regular';
+    color: #29346F;
+    overflow-x: hidden;
+    background-color: #f33207a2;
 }
 
-body {
-    font-family: 'Montserrat', sans-serif;
-    color: #29346F;
-    background-color: #FFE3DD;
+#date-div{
+  background-color:transparent;
+  border: none;
+  font-size: medium;
+  font-family: 'Sentinel';
+  color: #29346F;
+text-align:right;
+display: flex;
+align-items: center;
 }
 
 nav {
    display: flex; 
    justify-content: space-between;
-   align-items: flex-start;
-   padding: 50px 8% 0 5%; /* top right bottom left */
+   margin: 2% 2% 0 2%;
+   /*padding: 50px 8% 0 5%;*/
 }
 
 .navbar {
- 
 list-style: none;
 display: flex;
-margin-left: 15px;
+align-items: center;
 text-transform:uppercase;
 }
 
-.navbar ul {
-  justify-content: space-between;
-}
 
-
-.navbar li {
-padding: 10%;
+ul li {
+padding-left: 20%;
 font-size: 20px;
 font-weight:normal;
 font-family: "Montserrat", sans-serif;
@@ -44,16 +56,15 @@ font-family: "Montserrat", sans-serif;
 .navbar li a {
     text-decoration: none;
     color: #29346F;
-    padding: 3%;
 }
 
 .nav-title {
-    font-family: "Montserrat", sans-serif;
+    font-family:'Coconat-BoldExt';
+    font-style:	bold;
     font-size: 32px;
-    font-weight: 800;
     letter-spacing: 0.1em;
     line-height: 109%; 
-text-transform:uppercase;
+  text-transform:uppercase;
     
 }
 
@@ -66,102 +77,60 @@ color: #29346F;
 color:#FF48F8;
 }
 
-.header{
-  font-family: "Montserrat",sans-serif;
-  font-weight: 100;
-  font-size: 5em;
-  padding:7% 2% 5% 7%;/* top right bottom left */
+.container{
+  margin-top: 15%;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
 }
 
-@media(min-width:900px){
-  .container{
-    display: flex;
+p{
+line-height: 40px!important;
+width: 100%;
+}
+
+.cred, .ok{
+  color: rgb(219, 50, 50);
+}
+
+@media screen and (max-width:870px)and (min-width:300px){
+
+  body{
+    overflow-x: hidden;
   }
-  
-  .container-2{
-    display: flex;
-    justify-content: space-between;
+
+  #date-div{
+    display: none;
   }
-}
-
-.box-row{
-flex-basis: 17%;
-flex: 1;
-}
-
-.container div, .container-2 div{
-padding: 3%;
-}
-
-.box-1{
-  flex: 3;
-}
-
-.box-2{
-  flex: 5;
-}
-
-.box-3{
-  flex: 3;
-}
-
-p {
-  font-family:'Sentinel';
-  font-weight: 325;
-  font-size: 120%;
-  padding-left: 7%;
-  line-height: 139%;
-}
-
-p a:hover{
-text-decoration: underline;
-}
-
-.line {
-  transform: skewY(50deg) ;
-}
-
-.box-row img{
-  transform: none;
-}
-
-@media screen and (max-width:750px)and (min-width:300px){
+ 
 
   nav{
-      flex-direction: column;
-      justify-content: center;
-      margin-left: 0 auto;
-      margin-top: -6%;
+    flex-direction: column;
     }
-  
-  .nav-title {
-  position: relative;
-  font-size: 7vw;
-  }
-  
-  .navbar li {
-    font-size: 3vw;
-   }
-   .header{
-     font-size: 4em;
-   }
-   .arrow{
-    visibility:hidden;
-  }
-  .line {
-    transform: skewY(0deg) ;
-  }
-  
-  .box-row img{
-    transform: none;
-  }
 
-  p{
+    .navbar{
+      display: flex;
+      margin-top: 7%;
+      text-decoration: underline;
+      
+    }
+
+    .navbar li a{
+      font-size: 10pt;
+    }
+    
+ .nav-title{
+       margin-top: 2%;
+      text-align: center;
+      font-size: 7.3vw;
+    }
+	.container{
+    flex-wrap: wrap!important;
     text-align: center;
-    padding-right: 2rem;
   }
-
-  img{
-    width: 100%;
+  p{
+    padding-bottom: 10%;
   }
-  }
+}
