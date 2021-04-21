@@ -3,53 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ABOUT US</title>
+    <title>TLC</title>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="info.css"> 
+    <link rel="stylesheet" href=info.css"> 
 </head>
 <body>
   <nav id="top">
-    <h1 class="nav-title"><a href="https://www.thelockdowncollective.com/index">Lockdown<br />Collective</a></h1>
-    <ul class="navbar">
-        
-        <li><a href="https://www.thelockdowncollective.com/new-work">New&nbsp;&nbsp;Work</a></li>
-        <li><a href="https://www.thelockdowncollective.com/contact">contact</a></li>
-    </ul>
-</nav>
-<h1 class="header">about us:</h1>
+        <h1 class="nav-title"><a href="https://www.thelockdowncollective.com/index">Lockdown<br />Collective</a></h1>
+        <ul class="navbar">
+            <li><a href="https://www.thelockdowncollective.com">home</a></li>
+            <li><a href="https://www.thelockdowncollective.com/contact">contact</a></li>
+        </ul>
+         <div id="date-div">
+            <script>
+            const dateDiv = document.getElementById('date-div');
+
+function myDateFunction() {
+  const now = new Date();
+  const nowStr = now.toLocaleString('en-US');
+  dateDiv.innerHTML = nowStr;
+}
+                setInterval(myDateFunction, 1000);</script>
+        </div>
+    </nav>
+
+
   <div class="container">
 
-      <div class="box-1">
-      
-        <img src="pinkline.svg" alt="pink horizontal line" width="100%"/>
-        <br />
-       
-      </div><!-- one closed -->
-
-      <div class="box-2">
         <p>
-          The Lockdown Collective was formed by <a href="">Beverly</a> and features work from the artists found <a href=""> here </a>. The Lockdown Collective's website was created for the purpose of organizing and showcasing the art made by the collective during this period.
+          The Lockdown Collective was formed by poet Beverly Frydman. The Lockdown Collective's website is an archive dedicated to digitally preserving the work presented during the collective's weekly group meetings.
+           <br/>
+          <span class="ok">&copy; tlc 2021</span>
         </p>
-      </div><!-- two closed -->
+     
+ 
+    <p>-site co-designers: shikha subramaniam & olivia loeb-mevorach<br/>
+    -site handcoded by olivia loeb-mevorach
+     <br/><br/> <span class="cred">shikhasubramaniam.com & olivialoeb.com</span></p>
 
-      <div class="box-3">
-       
-        <img src="pinkline.svg" alt="pink horizontal line" width="100%" class="line"/>
-      
-      </div><!-- three closed-->
-
-  </div><!--container closed-->
-  <h1 class="header">site credit:</h1>
-  <div class="container-2">
-    <div class="box-row">
-      <p>
-        Site designed by <a href="www.shikhasubramaniam.com" target="_blank">Shikha Subramaniam</a> and <a href="https://olivialoeb.com" target="_blank">Olivia Loeb-Mevorach</a><br />
-      Coded by <a href="https://olivialoeb.com" target="_blank">Olivia Loeb-Mevorach</a>
-      </p>
-    </div>
-    <div class="box-row">
-      <img src="https://i.imgur.com/4bc5Yfn.png" width="93%"/>
-    </div>
   </div><!--close container-->
 </body>
 </html>
