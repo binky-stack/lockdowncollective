@@ -1,0 +1,276 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;800&display=swap');
+@font-face { font-family: Sentinel; src: url('Sentinel-Light.otf'); } 
+@font-face { font-family: Sentinel; font-style: italic; src: url('Sentinel-LightItalic.otf');}
+@font-face { font-family: Coconat-BoldExt; font-style: bold; src: url('Coconat-BoldExt.otf'); } 
+@font-face { font-family: Coconat-Regular; src: url('Coconat-Regular.otf');}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+ scroll-behavior: smooth;
+}
+body {
+  font-family: 'Coconat-Regular';
+    color: #29346F;
+    overflow-x: hidden;
+    background-color: #EDCDBA;
+}
+/*
+nav {
+   display: flex; 
+   justify-content: space-between;
+   margin: 2% 2% 0 2%;
+}
+
+.navbar {
+list-style: none;
+display: flex;
+align-items: center;
+justify-content: space-between;
+text-transform:uppercase;
+}
+
+.navbar ul li{
+
+display: flex;
+justify-content: space-between!important;
+}
+
+
+.navbar li a {
+    text-decoration: none;
+    color: #29346F;
+    
+}*/
+
+.month{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-family: "Montserrat",sans-serif;
+  margin-top: 15%;
+  padding:2% 0 15% 0;
+  border-top: 3px double #9B1E13;
+}
+
+.month a:hover{
+  color: black;
+}
+
+nav{
+  margin: 2% 5% 0 2%;
+  display: flex;
+  flex: wrap;
+ justify-content: space-between;
+}
+
+.navbar, li{
+  display: flex;
+  flex-wrap: nowrap;
+  list-style-type: none;
+  align-items: center;
+}
+
+li{
+  padding: 9%!important;
+}
+.nav-title {
+    font-family:'Coconat-BoldExt';
+    font-style:	bold;
+    font-size: 32px;
+    letter-spacing: 0.1em;
+    line-height: 109%; 
+    text-transform:uppercase;   
+}
+
+a{
+text-decoration: none; 
+color: #29346F; 
+}
+
+.navbar li a:hover{
+color:#FF48F8;
+}
+
+.star {
+  visibility: hidden;
+}
+
+.fadeIn {
+  -webkit-animation: animat_show 0.8s;
+  animation: animat_show 0.8s;
+  visibility: visible !important;
+}
+
+@-webkit-keyframes animat_show{
+  0%{opacity:0}
+  100%{opacity:1}
+}
+
+
+/** ARTIST PAGE 
+#artist {
+  padding: 0 5%;
+}**/
+.artist-title {
+  font-family: "Montserrat", sans-serif;
+  color: #9B1E13;
+  font-size: 3rem;
+  font-weight: 325;
+ text-align: center;
+ margin-top: 5rem;
+}
+.artist-subtitle {
+  text-align: center;
+  margin: 1rem 0 2rem;
+font-family: 'Sentinel';
+  font-style: italic;
+}
+
+.artist-subtitle a {
+ font-family: 'Sentinel';
+  font-style: italic;
+  font-weight: 325;
+  font-size: 30px;
+}
+
+.works-index {
+  display: flex;
+  flex-wrap: wrap;
+}
+.entry {
+  display: flex;
+  max-height: 400px;
+  width: 25%;
+  padding-bottom: 45%;
+}
+
+.entry-img {
+  width: 50%;
+  filter: saturate(40);
+}
+
+img:hover{
+opacity:0.7;
+}
+
+.entry-info {
+  width: 50%;
+  border-top: 2px solid #9B1E13;
+  line-height: 46px;
+}
+
+.entry-img img {
+  height: auto;
+  max-width: 100%;
+  border: 2px solid #9B1E13;
+}
+
+.entry-date {
+  text-align: left;
+  border-bottom: 2px solid #9B1E13;
+font-family: "Montserrat", sans-serif;
+text-transform: lowercase;
+  font-weight: 300;
+  margin-top: 0.5rem;
+  letter-spacing: 0.04em;
+}
+
+.entry-title {
+  display: flex;
+  align-items: center;
+  font-family: 'Sentinel';
+  letter-spacing: 0.05em;
+  font-style: italic;
+  font-size: smaller;
+  text-align: center;
+
+}
+
+.entry-description {
+  font-family: 'Sentinel';
+  font-style: italic;
+}
+@media screen and (max-width:1024px) and (min-width:300px){
+
+  body{
+    overflow-x: hidden;
+  }
+
+  nav{
+    margin: 5% 0 9% 0;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center!important;
+    border-bottom: 2px solid #9B1E13;
+    }
+    
+    .navbar{
+      margin-left: 35%;
+    }
+
+
+    .artist-title,.artist-subtitle{
+      margin-top: 0 ;
+    }
+
+    .month{
+      display: none;
+  
+    }
+
+    .works-index{
+      justify-content: center;
+  }
+	
+    .entry {
+      width: 90%;
+  }
+  .entry-date {
+      font-size: 15px;
+  }
+  .entry-title {
+      margin: 0.5rem 0;
+      font-size: 20px;
+  }
+  .entry-description {
+      font-size: 15px;
+  }
+	
+
+#myBtn{
+display:none !important;
+}
+}
+
+
+footer{
+width: 100%;
+color: #29346F;
+text-align: center;
+margin-top: -10%;
+font-family: 'Sentinel';
+}
+
+
+
+#myBtn {
+text-align: center;
+display: none;
+position: fixed;
+bottom: 5%;
+right: 3%;
+z-index: 99;
+font-size: 18px;
+border: none;
+outline: none;
+background-color: transparent;
+color: #29346F;
+cursor: pointer;
+padding: 1%;
+font-family: 'Montserrat', sans-serif;
+}
